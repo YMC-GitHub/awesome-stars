@@ -59,4 +59,6 @@ git add docs/repo.feat*; git commit -m "docs(core): add readme feat"; git log --
 git add README.md; git commit -m "docs(core): use markdown list style"; git log --oneline -n 1
 
 git pull github main --rebase && git push github main
+
+git rebase -i --root
 ```
