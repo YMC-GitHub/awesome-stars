@@ -1,0 +1,24 @@
+{
+  "name": "awesome-stars",
+  "version": "1.0.0",
+  "private": true,
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test done!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YMC-GitHub/awesome-stars.git"
+  },
+  "author": {
+    "name": "yemiancheng",
+    "email": "ymc.github@gmail.com",
+    "url": "https://github.com/YMC-GitHub"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YMC-GitHub/awesome-stars/issues"
+  },
+  "homepage": "https://github.com/YMC-GitHub/awesome-stars#readme"
+}
