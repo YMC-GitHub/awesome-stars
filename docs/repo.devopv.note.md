@@ -40,8 +40,23 @@ git add stars*.json ; git commit -m "chore(core): add data files"; git log --one
 
 git add README.md; git commit -m "docs(core): ini readme"; git log --oneline -n 1
 
+
 git add docs/repo.devopv*; git commit -m "docs(core): add devopv note"; git log --oneline -n 1
+git add docs/repo.devopv*; git commit -m "docs(core): update devopv note"; git log --oneline -n 1
 
 
 # git push -u github main
+
+chmod +x bin/render-readme.js
+git update-index --chmod=+x bin/render-readme.js
+
+git add bin/render-readme.js template/readme.head.md ; git commit -m "chore(core): add bin script"; git log --oneline -n 1
+git add bin/render-readme.js ; git commit -m "chore(core): add exec right"; git log --oneline -n 1
+git add bin/render-readme.js ; git commit -m "chore(core): add markdown list style"; git log --oneline -n 1
+
+git add README.md; git commit -m "docs(core): update readme"; git log --oneline -n 1
+git add docs/repo.feat*; git commit -m "docs(core): add readme feat"; git log --oneline -n 1
+git add README.md; git commit -m "docs(core): use markdown list style"; git log --oneline -n 1
+
+git pull github main --rebase && git push github main
 ```
