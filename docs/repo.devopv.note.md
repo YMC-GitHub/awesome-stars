@@ -55,6 +55,7 @@ git add bin/render-readme.js ; git commit -m "chore(core): add exec right"; git 
 git add bin/render-readme.js ; git commit -m "chore(core): add markdown list style"; git log --oneline -n 1
 
 git add README.md; git commit -m "docs(core): update readme"; git log --oneline -n 1
+git add README.md; git commit -m "docs(core): update colorful line link"; git log --oneline -n 1
 git add docs/repo.feat*; git commit -m "docs(core): add readme feat"; git log --oneline -n 1
 git add README.md; git commit -m "docs(core): use markdown list style"; git log --oneline -n 1
 git add template/readme.head.md ; git commit -m "chore(core): update colorful line link"; git log --oneline -n 1
