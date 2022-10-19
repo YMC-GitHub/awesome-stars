@@ -1,0 +1,5 @@
+# ignore tmp files
+*tmp.md
+*tmp*
+# ignore node modules
+node_modules
