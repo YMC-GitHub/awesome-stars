@@ -9,7 +9,7 @@ async function main() {
 
     let fileopt = {
         dataLoc: `stars-list-shim.all.json`,
-        readmeLoc:`README.md`
+        readmeLoc: `README.md`,
     };
     let allstars;
     log(`[info] load data`);
@@ -33,6 +33,23 @@ ${body}
         return res;
     }
 
+    function getTabBody(item) {
+        let { full_name, description, languages } = item;
+
+        // if(language==language) language='unknow'
+        let res = `- [${full_name}](https://github.com/${full_name}) - ${description}\n`;
+        return res;
+    }
+    function tab(title, body) {
+        let res = `
+## ${title}
+${body}
+`;
+        return res;
+    }
+
+    let style;
+    style='tab'
     log(`[task] make readme table`);
     let allLanguages = allstars.map((item) => item.languages);
     log(`[info] delete dup language before to readme table`);
@@ -44,21 +61,36 @@ ${body}
                 .filter((v) => {
                     return v.languages == language;
                 })
-                .map((item) => getTableBody(item))
+                .map((item) => {
+                    switch (style) {
+                        case "tab":
+                            return getTabBody(item);
+                            break;
+
+                        default:
+                            return getTableBody(item);
+                            break;
+                    }
+                })
                 .join(`\n`);
 
-            return table(language, part);
+            switch (style) {
+                case "tab":
+                    return tab(language, part);
+                default:
+                    return table(language, part);
+            }
+            // return table(language, part);
         })
         .join("\n\n");
-        allstars= allstars.trim()
+    allstars = allstars.trim();
     // log(allstars)
 
     textstream.init(`template/readme.head.md`);
-    let front = await textstream.read('');
-    if(front){
-        allstars=`${front}\n\n${allstars}`
+    let front = await textstream.read("");
+    if (front) {
+        allstars = `${front}\n\n${allstars}`;
     }
-
 
     textstream.init(`README.md`);
     await textstream.write(allstars);
