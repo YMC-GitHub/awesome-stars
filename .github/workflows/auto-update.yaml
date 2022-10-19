@@ -1,0 +1,139 @@
+# desc: 
+# - [ ] fired on branch master,main push
+# - [x] run on os ubuntu
+# - [x] run with os architecture x64
+# - [x] require node.js 12.x
+# - [x] require github action actions/checkout@v3
+# - [x] install pnpm @6.34.0 with github action actions/checkout@v3
+# - [x] install each node.js in per os wiith caching pnpm
+# - [x] cache pnpm
+# - [x] set pnpm store
+# - [x] install node modules with pnpm (when using vendor modules)
+# - [x] update files with node script in repo
+# - [x] commit files
+# - [x] push to github
+name: auto-update
+on:
+#   push:
+#     branches: [master, main]
+  schedule:
+    # note: in github beijing time +8 h
+    # m h d M w y
+    # - cron: 30 * * * * # run per 30 min
+    # - cron: 0 8,12 * * * # run when 8:00 and 12:00 (utc)
+    # - cron: 0 4 * * * # run when 12:00 (beijing)
+    # - cron: 0 8 * * * # run when 0:00 (beijing)
+    # - cron: 0 0,4 * * * # run when 8:00 and 12:00 (beijing)
+    # - cron: 0 0,12 * * * # run when 8:00 and 20:00 (beijing)
+    # - cron: 0 0,4,12 * * * # run when 8:00,12:00,20:00 (beijing)
+    # - cron: 0 20 * * 0-5 #  runs at minute 0 of the 4th beijing hour from week 0 to 5
+    # - cron: 8 17,20 * * 1,3,5 #  runs at minute 8 of the 1th,20th beijing hour from week 1 ,week 3 , week 5
+    # - cron: 20/15 * * * * # runs every 15 minutes starting from minute 20 through 59 (minutes 20, 35, and 50)
+    - cron: 8 0 8 * * # runs at 8:08 the 8th day of per month
+  workflow_dispatch:
+jobs: 
+  # build job
+  build:
+    runs-on: ${{ matrix.os }} # run on spec os
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        # set nodejs matrix
+        node_version: [12.x]
+        # set os matrix
+        os: [ubuntu-latest]
+        # architecture: [x86, x64]
+        architecture: 
+         - x64
+      fail-fast: false
+
+    name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
+    steps:
+      - name: sync git repo
+        uses: actions/checkout@v3
+
+      - name: install pnpm
+        uses: pnpm/action-setup@v2 #https://github.com/pnpm/action-setup
+        with:
+          version: 6.34.0
+
+      - name: set node version to ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node_version }}
+          architecture: ${{ matrix.architecture }}
+          cache: pnpm
+
+      - name: set pnpm store directory
+        # run: pnpm config set store-dir ~/.pnpm-store
+        run: pnpm config set store-dir .pnpm-store
+      # https://github.com/pnpm/action-setup#use-cache-to-reduce-installation-time
+
+    #   - name: get pnpm store directory
+    #     id: pnpm-cache
+    #     run: |
+    #       echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+    #   - uses: actions/cache@v3
+    #     name: set pnpm cache directory
+    #     with:
+    #       path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+    #       key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+    #       restore-keys: |
+    #         ${{ runner.os }}-pnpm-store-
+
+      - name: install dependencies
+        run: pnpm i
+    #   - uses: szenius/set-timezone@v1.0
+    #     name: set timezone
+    #     with: 
+    #         timezoneLinux: "Asia/Shanghai"
+    #         timezoneMacos: "Asia/Shanghai"
+    #         timezoneWindows: "Shanghai Standard Time"
+    #   https://github.com/marketplace/actions/set-timezone
+    #   - name: update files
+    #     run: ./bin/render-readme.js
+    #   - name: commit files
+    #     run:  |
+    #       git config --local user.email "github-actions[bot]@users.noreply.github.com"
+    #       git config --local user.name "github-actions[bot]"
+    #       git add README.md updated-time.md
+    #       git commit -m "chore(core): update readme in github action" --date "$(date "+%Y-%m-%d %H:%M:%S" -d "+8 hour") +0800"
+    #   - name: push changes
+    #     uses: ad-m/github-push-action@master
+    #     with: 
+    #       force_with_lease: true
+    #       github_token: ${{ secrets.GITHUB_TOKEN }}
+    #       branch: ${{ github.ref }}
+    #   - name: build
+    #     run: pnpm run build
+
+    #   - name: lint
+    #     run: pnpm run lint
+
+    #   - name: run ci
+    #     run: pnpm ci
+    #   - name: run test
+    #     run: pnpm run test
+
+    #   - uses: actions/setup-node@v3
+    #     with:
+    #       node-version: '14.x'
+    #       registry-url: 'https://registry.npmjs.org'
+    #   - run: npm publish
+    #     name: push to npmjs with npm
+    #     env:
+    #       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+    #   - uses: actions/setup-node@v3
+    #     with:
+    #       registry-url: 'https://npm.pkg.github.com'
+    #   - run: npm publish
+    #     name: push to grp with npm
+    #     env:
+    #       NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    #   - uses: ymc-gitub/ymc-gitub@master
+    #     with:
+    #       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+    #       GH_TOKEN: ${{ secrets.GH_TOKEN }}
