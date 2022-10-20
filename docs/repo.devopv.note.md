@@ -66,6 +66,8 @@ git rebase -i --root
 rm -r *shim.*
 
 git add bin lib ; git commit -m "chore(core): update script"; git log --oneline -n 1
+git add bin lib ; git commit -m "chore(core): set unkown languages"; git log --oneline -n 1
+
 git add *shim.* ; git commit -m "chore(core): update data files"; git log --oneline -n 1
 git rm stars-list-shim.json stars-list.json ; git commit -m "chore(core): delete unused files"; git log --oneline -n 1
 git add README.md; git commit --file .git/COMMIT_EDITMSG; git log --oneline -n 1
