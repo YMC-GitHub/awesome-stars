@@ -111,9 +111,8 @@ function render(allstars, option = {}) {
             // log(new Date(b)- new Date(a))
             return new Date(b) - new Date(a);
         });
-        // log(allLanguages)
     }
-
+    log(allLanguages);
     res = allLanguages
         .map((language) => {
             let part;
@@ -134,7 +133,7 @@ function render(allstars, option = {}) {
                 })
                 .join(`\n`);
 
-            if (!language) language = "unknow";
+            // if (!language) language = "unknow";
             switch (option.style) {
                 case "tab":
                     return tab(language, part);
@@ -167,6 +166,12 @@ async function main() {
             return new Date(b.starred_at) - new Date(a.starred_at);
         });
     }
+
+    allstars = allstars.map((item) => {
+        let { languages } = item;
+        if (!languages)  item.languages="Unknow"
+        return item;
+    });
 
     log(`[info] format starrd time`);
     // "yyyy-MM-dd HH:mm:ss"
