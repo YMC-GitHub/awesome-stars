@@ -95,6 +95,24 @@ ${body}
     return res;
 }
 
+function setTableStyle(content, option) {
+    let tablestyle = `
+<style>
+table{
+    display:table;
+    width:100%;
+}
+table th:nth-of-type(1),table th:nth-of-type(3) {
+    width:10%;
+}
+</style>
+`;
+
+    // if (!option.style) content = `${tablestyle}\n\n${content}`;
+    content = `${tablestyle}\n\n${content}`;
+    return content;
+}
+
 function render(allstars, option = {}) {
     let res;
     //
@@ -112,7 +130,8 @@ function render(allstars, option = {}) {
             return new Date(b) - new Date(a);
         });
     }
-    log(allLanguages);
+    // log(allLanguages);
+
     res = allLanguages
         .map((language) => {
             let part;
@@ -143,6 +162,20 @@ function render(allstars, option = {}) {
             // return table(language, part);
         })
         .join("\n\n");
+
+    let tableOfContent = "";
+    if (option.useTableOfContent) {
+        // get tableofcontent
+        tableOfContent = allLanguages.map((v) => `*  [${v}](#${v})`).join("\n");
+        if (tableOfContent) {
+            tableOfContent = `## table of content\n\n${tableOfContent}`;
+        }
+    }
+    if (tableOfContent) {
+        // wrap tableofcontent
+        res = `${tableOfContent}\n\n${res}`;
+    }
+
     return res;
 }
 
@@ -169,7 +202,7 @@ async function main() {
 
     allstars = allstars.map((item) => {
         let { languages } = item;
-        if (!languages)  item.languages="Unknow"
+        if (!languages) item.languages = "Unknow";
         return item;
     });
 
@@ -195,34 +228,27 @@ async function main() {
         style: "tab", //tab
         useStarredTime: true,
         topicBy: "", //yearmonth
+        useTableOfContent:true
     };
-    allstars = render(allstars, renderOption);
-    allstars = allstars.trim();
-    let tablestyle = `
-<style>
-table{
-    display:table;
-    width:100%;
-}
-table th:nth-of-type(1),table th:nth-of-type(3) {
-    width:10%;
-}
-</style>
-`;
 
-    if (!renderOption.style) allstars = `${tablestyle}\n\n${allstars}`;
+    let content = render(allstars, renderOption);
+    content = content.trim();
 
-    // log(allstars)
+    if (!renderOption.style) {
+        content = setTableStyle(content);
+    }
+
+    // log(content)
 
     log(`[task] add front content`);
     textstream.init(`template/readme.head.md`);
     let front = await textstream.read("");
     if (front) {
-        allstars = `${front}\n\n${allstars}`;
+        content = `${front}\n\n${content}`;
     }
 
     textstream.init(`README.md`);
-    await textstream.write(allstars);
+    await textstream.write(content);
     log(`[info] out: README.md`);
 }
 
