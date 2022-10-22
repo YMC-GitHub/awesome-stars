@@ -93,7 +93,7 @@ jobs:
             timezoneWindows: "Shanghai Standard Time"
     #   https://github.com/marketplace/actions/set-timezone
       - name: fetch stars
-        run: node ./bin/render-readme.js  --help
+        run: node ./bin/fetch-stars.clify.js  --help
     #   - name: update files
     #     run: ./bin/render-readme.js
     #   - name: commit files
