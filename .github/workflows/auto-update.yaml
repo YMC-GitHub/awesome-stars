@@ -94,13 +94,21 @@ jobs:
     # #   https://github.com/marketplace/actions/set-timezone
       - name: fetch stars
         # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{github.GH_TOKEN}} --dbg-info-fetch-option
+        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token="${{github.token}}" --dbg-info-fetch-option
+
         run: |
-         echo '${{ toJSON(github) }}'
-        #  env
-        #  echo "${{github.GH_TOKEN}}"
-        #  echo "${{env.myname}}"
+         env
+         echo "${{github.GH_TOKEN}}"
+         echo "${{env.myname}}" "${{env.ghtoken}}" "${{secrets.ghtoken2}}"
+         echo '${{ toJSON(env) }}'
+        #  echo '${{ toJSON(github) }}'
+        
         env: 
          myname: ymc
+         ghtoken: "${{secrets.GH_TOKEN}}"
+        with: 
+         ghtoken2: ${{secrets.GH_TOKEN}}
+
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
     #   - name: update files
