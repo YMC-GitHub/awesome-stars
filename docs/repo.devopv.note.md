@@ -53,9 +53,11 @@ git update-index --chmod=+x bin/render-readme.js
 git add bin/render-readme.js template/readme.head.md ; git commit -m "chore(core): add bin script"; git log --oneline -n 1
 git add bin/render-readme.js ; git commit -m "chore(core): add exec right"; git log --oneline -n 1
 git add bin/render-readme.js ; git commit -m "chore(core): add markdown list style"; git log --oneline -n 1
+git add bin/render-readme.js ; git commit -m "chore(core): add table of content"; git log --oneline -n 1
 
 git add README.md; git commit -m "docs(core): update readme"; git log --oneline -n 1
 git add README.md; git commit -m "docs(core): update colorful line link"; git log --oneline -n 1
+git add README.md; git commit -m "docs(core): add table of content"; git log --oneline -n 1
 git add docs/repo.feat*; git commit -m "docs(core): add readme feat"; git log --oneline -n 1
 git add README.md; git commit -m "docs(core): use markdown list style"; git log --oneline -n 1
 git add template/readme.head.md ; git commit -m "chore(core): update colorful line link"; git log --oneline -n 1
@@ -71,4 +73,31 @@ git add bin lib ; git commit -m "chore(core): set unkown languages"; git log --o
 git add *shim.* ; git commit -m "chore(core): update data files"; git log --oneline -n 1
 git rm stars-list-shim.json stars-list.json ; git commit -m "chore(core): delete unused files"; git log --oneline -n 1
 git add README.md; git commit --file .git/COMMIT_EDITMSG; git log --oneline -n 1
+git add  README.md ; git commit -m "docs(core): set unkown languages"; git log --oneline -n 1
+git restore README.md
+
+git add  secrets/.gitignore ; git commit -m "chore(core): ignore secrets dir"; git log --oneline -n 1
+git add lib bin/download.js bin/fetch-stars.clify.js
+
+# add-bin: add exec right 
+git add bin/add-exec-right.js lib/run-bash.js ; git commit -m "chore(core): add bin to add exec right"; git log --oneline -n 1
+bin/add-exec-right.js
+
+# add-bin: add bin to download file
+git add lib/download-file.js lib/common-type.js bin/download.js; git commit -m "chore(core): add bin to download file"; git log --oneline -n 1
+
+# add-bin: add bin fetch stars
+git add bin/fetch-stars.clify.js lib; git commit -m "chore(core): add bin to fetch stars"; git log --oneline -n 1
+git add bin/fetch-stars.clify.js lib; git commit -m "chore(core): add exec right"; git log --oneline -n 1
+
+
+git add .github/workflows/auto-update.yaml ; git commit -m "chore(core): run action when push"; git log --oneline -n 1
+# ls -l bin
+bin/add-exec-right.js
+
+chmod +x -R bin
+
+chmod +x bin/add-exec-right.js
+ls bin -l
+git update-index --chmod=+x bin/add-exec-right.js
 ```
