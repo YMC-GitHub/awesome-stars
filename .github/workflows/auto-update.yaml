@@ -40,7 +40,7 @@ jobs:
     strategy:
       matrix:
         # set nodejs matrix
-        node_version: [12.x]
+        node_version: [16.x]
         # set os matrix
         os: [ubuntu-latest]
         # architecture: [x86, x64]
