@@ -93,7 +93,12 @@ jobs:
     #         timezoneWindows: "Shanghai Standard Time"
     # #   https://github.com/marketplace/actions/set-timezone
       - name: fetch stars
-        run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=$github.GH_TOKEN --dbg-info-fetch-option
+        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=$github.GH_TOKEN --dbg-info-fetch-option
+        run: |
+         echo "$github.GH_TOKEN"
+         echo "$env.myname"
+        env: 
+         myname: ymc
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
       - name: update files
