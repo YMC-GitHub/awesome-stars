@@ -12,7 +12,7 @@ async function main(){
     let prs = list.map(async f=>{
         let cmd=`chmod +x ${f}`
         log(`[info] run: ${cmd}`)
-        // await exec(`chmod +x ${f}`,execOpts)
+        await exec(`chmod +x ${f}`,execOpts)
         await exec(`git update-index --chmod=+x ${f}`,execOpts)
         
     })
