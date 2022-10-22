@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createWriteStream, mkdirSync, rmSync, existsSync } from "fs";
 import { request } from "https";
 import { textstream } from "../lib/text-stream-io.js";

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { ycs } from "../lib/cli-help.js";
 import main from "./fetch-stars.js";
 const { log } = console;
