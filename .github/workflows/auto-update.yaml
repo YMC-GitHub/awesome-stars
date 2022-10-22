@@ -93,19 +93,20 @@ jobs:
     #         timezoneWindows: "Shanghai Standard Time"
     # #   https://github.com/marketplace/actions/set-timezone
       - name: fetch stars
-        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{github.GH_TOKEN}} --dbg-info-fetch-option
-        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token="${{github.token}}" --dbg-info-fetch-option
-
         run: |
-         env
-         echo "${{github.GH_TOKEN}}"
-         echo "${{env.myname}}" "${{env.ghtoken}}" "${{secrets.ghtoken2}}"
-         echo '${{ toJSON(env) }}'
+         echo "${{env.MY_NAMES}}" "${{env.GH_TOKEN}}" "${{secrets.GH_TOKEN}}"
+         ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{secrets.GH_TOKEN}} --dbg-info-fetch-option
+        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token="${{github.token}}" --dbg-info-fetch-option
+        # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{env.GH_TOKEN}} --dbg-info-fetch-option
+        # run: |
+        #  env
+        #  echo "${{github.GH_TOKEN}}"
+        #  echo "${{env.MY_NAMES}}" "${{env.GH_TOKEN}}" "${{secrets.GH_TOKEN}}"
+        #  echo '${{ toJSON(env) }}'
         #  echo '${{ toJSON(github) }}'
-        
         env: 
-         myname: ymc
-         ghtoken: "${{secrets.GH_TOKEN}}"
+         MY_NAMES: ymc
+         GH_TOKEN: "${{secrets.GH_TOKEN}}"
         # with: 
         #  ghtoken2: ${{secrets.GH_TOKEN}}
 
