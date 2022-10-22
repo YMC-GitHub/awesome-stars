@@ -17,7 +17,7 @@ async function main(){
         
     })
     await Promise.all(prs)
-    let res = await exec(`ls bin -al`,execOpts)
+    let res = await exec(`ls bin -l`,execOpts)
     log(res)
 }
 main()
