@@ -85,28 +85,30 @@ jobs:
 
       - name: install dependencies
         run: pnpm i
-      - uses: szenius/set-timezone@v1.0
-        name: set timezone
-        with: 
-            timezoneLinux: "Asia/Shanghai"
-            timezoneMacos: "Asia/Shanghai"
-            timezoneWindows: "Shanghai Standard Time"
-    #   https://github.com/marketplace/actions/set-timezone
+    #   - uses: szenius/set-timezone@v1.0
+    #     name: set timezone
+    #     with: 
+    #         timezoneLinux: "Asia/Shanghai"
+    #         timezoneMacos: "Asia/Shanghai"
+    #         timezoneWindows: "Shanghai Standard Time"
+    # #   https://github.com/marketplace/actions/set-timezone
       - name: fetch stars
-        run: ./bin/fetch-stars.clify.js --help
-    #   - name: update files
-    #     run: ./bin/render-readme.js
-    #   - name: commit files
-    #     run:  |
-    #       git config --local user.email "github-actions[bot]@users.noreply.github.com"
-    #       git config --local user.name "github-actions[bot]"
-    #       git add README.md updated-time.md
-    #       git commit -m "chore(core): update readme in github action" --date "$(date "+%Y-%m-%d %H:%M:%S" -d "+8 hour") +0800"
+        run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=$secrets.GH_TOKEN
+        
+      - name: update files
+        run: ./bin/render-readme.js
+
+      - name: commit files
+        run:  |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md updated-time.md
+          git commit -m "chore(core): update readme in github action" --date "$(date "+%Y-%m-%d %H:%M:%S" -d "+8 hour") +0800"
     #   - name: push changes
     #     uses: ad-m/github-push-action@master
     #     with: 
     #       force_with_lease: true
-    #       github_token: ${{ secrets.GITHUB_TOKEN }}
+    #       github_token: ${{ secrets.GH_TOKEN }}
     #       branch: ${{ github.ref }}
     #   - name: build
     #     run: pnpm run build
