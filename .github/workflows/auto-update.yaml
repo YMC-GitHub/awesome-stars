@@ -106,8 +106,8 @@ jobs:
         env: 
          myname: ymc
          ghtoken: "${{secrets.GH_TOKEN}}"
-        with: 
-         ghtoken2: ${{secrets.GH_TOKEN}}
+        # with: 
+        #  ghtoken2: ${{secrets.GH_TOKEN}}
 
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
