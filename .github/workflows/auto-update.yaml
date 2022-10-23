@@ -14,8 +14,8 @@
 # - [x] push to github
 name: auto-update
 on:
-  push:
-    branches: [master, main]
+#   push:
+#     branches: [master, main]
   schedule:
     # note: in github beijing time +8 h
     # m h d M w y
