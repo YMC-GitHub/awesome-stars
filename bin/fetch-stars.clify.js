@@ -81,7 +81,7 @@ ycs.usage()
             // log(cliFlag);
             // log(`[info] get current flags`);
             let nowFlag = ycs.getCurrentFlags(args)
-            // log(nowFlag);
+            log(nowFlag);
             main(nowFlag)
             // log(ycs.getBuiltinFlags({slim:true,mode:"string",modeStyle:"swithoption"}))
         },
