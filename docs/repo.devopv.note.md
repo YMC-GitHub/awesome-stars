@@ -87,7 +87,7 @@ bin/add-exec-right.js
 git add lib/download-file.js lib/common-type.js bin/download.js; git commit -m "chore(core): add bin to download file"; git log --oneline -n 1
 
 # add-bin: add bin fetch stars
-git add bin/fetch-stars.clify.js lib; git commit -m "chore(core): add bin to fetch stars"; git log --oneline -n 1
+git add bin/fetch-stars* lib; git commit -m "chore(core): add bin to fetch stars"; git log --oneline -n 1
 git add bin/fetch-stars.clify.js lib; git commit -m "chore(core): add exec right"; git log --oneline -n 1
 
 
@@ -100,4 +100,35 @@ chmod +x -R bin
 chmod +x bin/add-exec-right.js
 ls bin -l
 git update-index --chmod=+x bin/add-exec-right.js
+
+
+git diff --name-only -- ".js"
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep ".js") ; git add $changed ; git commit -m "chore(core): run without prefix node"; git log --oneline -n 1
+
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): dbg bin"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): update node to 16.x"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): run bin without prefix node"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): dbg fetch stars"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): use github repo secret"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): dbg env in github action "; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): auto update"; git log --oneline -n 1
+
+401 Unauthorized
+[warn] need github token
+```
+
+```
+const code = response.statusCode ?? 0;                                     
+SyntaxError: Unexpected token '?'
+
+https://docs.github.com/en/actions/learn-github-actions/contexts#secrets-context
+https://docs.github.com/cn/actions/learn-github-actions/environment-variables
+[github-action-sam: write github action in docker](http://www.ty2y.com/study/bxzjdgithubactiontyzdhbs.html)
+[github-action-sam: write github action with js](https://github.com/szenius/set-timezone/blob/master/index.js)
+[github-action-sam: export access secrets.xx to env var](https://www.jianshu.com/p/adf755f2ebf9)
+
+[auto record wake time]https://www.zhihu.com/question/472267975
+https://chenzaichun.github.io/post/2021-09-21-github-action-trigger-by-curl-tasker/
+https://github.com/chenzaichun/chenzaichun.github.io
+[github workflow -  with vs env ]
 ```
