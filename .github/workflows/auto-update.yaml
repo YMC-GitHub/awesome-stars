@@ -16,7 +16,7 @@ name: auto-update
 on:
   push:
     branches: [master, main]
-#   schedule:
+  schedule:
 #     # note: in github beijing time +8 h
 #     # m h d M w y
 #     # - cron: 30 * * * * # run per 30 min
@@ -31,7 +31,7 @@ on:
 #     # - cron: 20/15 * * * * # runs every 15 minutes starting from minute 20 through 59 (minutes 20, 35, and 50)
 #     # - cron: 8 0 8 * * # runs at 8:08 the 8th day of per month
 #     - cron: 8 0 25 * * # runs at 8:08 the 25th day of per month
-    # - cron: 8 0 */15 * * # runs every 15 day at 8:08 starting from the day?
+    - cron: 8 0 */15 * * # runs every 15 day at 8:08 starting from the day?
   workflow_dispatch:
 jobs: 
   # build job
