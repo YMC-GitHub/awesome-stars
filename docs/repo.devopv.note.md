@@ -114,11 +114,12 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflo
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): auto update"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): only push when updated"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
+
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
-changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|workflows") ; git add $changed ; git commit -m "chore(core): keep language to js 100%"; git log --oneline -n 1
-
-
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on schedule"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): ebable run on push"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): enable run on schedule"; git log --oneline -n 1
 
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 # changed=$(git status --porcelain | grep -E "\?\?" | sed "s/?? //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): add chord issue draft"; git log --oneline -n 1
