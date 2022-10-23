@@ -49,7 +49,7 @@ git add docs/repo.devopv*; git commit -m "docs(core): update devopv note"; git l
 
 chmod +x bin/render-readme.js
 git update-index --chmod=+x bin/render-readme.js
-
+git update-index --chmod=+x bin/cmt-changed.sh
 git add bin/render-readme.js template/readme.head.md ; git commit -m "chore(core): add bin script"; git log --oneline -n 1
 git add bin/render-readme.js ; git commit -m "chore(core): add exec right"; git log --oneline -n 1
 git add bin/render-readme.js ; git commit -m "chore(core): add markdown list style"; git log --oneline -n 1
@@ -113,6 +113,12 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflo
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): dbg env in github action "; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): auto update"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): only push when updated"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
+
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
+# changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): update devopv note"; git log --oneline -n 1
 401 Unauthorized
 [warn] need github token
 ```
@@ -131,4 +137,7 @@ https://docs.github.com/cn/actions/learn-github-actions/environment-variables
 https://chenzaichun.github.io/post/2021-09-21-github-action-trigger-by-curl-tasker/
 https://github.com/chenzaichun/chenzaichun.github.io
 [github workflow -  with vs env ]
+
+https://github.com/dlavrenuek/test-workflow-if-condition/blob/master/.github/workflows/test.yml
+[gh a: corn per 6 day](https://github.com/liununu/liununu/blob/master/.github/workflows/main.yml)
 ```
