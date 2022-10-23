@@ -115,10 +115,14 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflo
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): only push when updated"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|workflows") ; git add $changed ; git commit -m "chore(core): fix permission denied "; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|workflows") ; git add $changed ; git commit -m "chore(core): keep language to js 100%"; git log --oneline -n 1
+
+
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
-# changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): update devopv note"; git log --oneline -n 1
+# changed=$(git status --porcelain | grep -E "\?\?" | sed "s/?? //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): add chord issue draft"; git log --oneline -n 1
+
 401 Unauthorized
 [warn] need github token
 ```
@@ -140,4 +144,6 @@ https://github.com/chenzaichun/chenzaichun.github.io
 
 https://github.com/dlavrenuek/test-workflow-if-condition/blob/master/.github/workflows/test.yml
 [gh a: corn per 6 day](https://github.com/liununu/liununu/blob/master/.github/workflows/main.yml)
+
+# Changes to be committed: vs Changes not staged for commit: vs Untracked files: vs Your branch is ahead of
 ```
