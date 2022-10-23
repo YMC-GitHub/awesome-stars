@@ -14,6 +14,7 @@
 
 ## table of content
 
+*  [HTML](#HTML)
 *  [JavaScript](#JavaScript)
 *  [SVG](#SVG)
 *  [TypeScript](#TypeScript)
@@ -36,7 +37,6 @@
 *  [Ruby](#Ruby)
 *  [PHP](#PHP)
 *  [Batchfile](#Batchfile)
-*  [HTML](#HTML)
 *  [SCSS](#SCSS)
 *  [OCaml](#OCaml)
 *  [Dockerfile](#Dockerfile)
@@ -46,6 +46,60 @@
 *  [Dart](#Dart)
 *  [Makefile](#Makefile)
 *  [Nginx](#Nginx)
+
+
+## HTML
+- 2022-10-21 [Azure/actions](https://github.com/Azure/actions) - Author and use Azure Actions to automate your GitHub workflows
+
+- 2020-03-20 [kangax/compat-table](https://github.com/kangax/compat-table) - ECMAScript 5/6/7 compatibility tables
+
+- 2020-03-20 [williamkapke/node-compat-table](https://github.com/williamkapke/node-compat-table) - node.green - Node.js ECMAScript compatibility tables
+
+- 2019-08-07 [ciar4n/imagehover.css](https://github.com/ciar4n/imagehover.css) - Pure CSS Image Hover Effect Library
+
+- 2019-08-07 [jgthms/css-reference](https://github.com/jgthms/css-reference) - CSS Reference: a free visual guide to the most popular CSS properties
+
+- 2019-08-07 [google/material-design-lite](https://github.com/google/material-design-lite) - Material Design Components in HTML/CSS/JS
+
+- 2019-08-07 [sofish/typo.css](https://github.com/sofish/typo.css) - 中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版
+
+- 2019-08-07 [webpack-contrib/awesome-webpack](https://github.com/webpack-contrib/awesome-webpack) - A curated list of awesome Webpack resources, libraries and tools
+
+- 2019-08-01 [azu/promises-book](https://github.com/azu/promises-book) - JavaScript Promiseの本
+
+- 2019-07-30 [jglovier/resume-template](https://github.com/jglovier/resume-template) - :page_facing_up::briefcase::tophat: A simple Jekyll + GitHub Pages powered resume template.
+
+- 2019-05-12 [viljamis/feature.js](https://github.com/viljamis/feature.js) - Feature.js is a fast, simple and lightweight browser feature detection library in 1kb.
+
+- 2019-01-15 [javascript-tutorial/en.javascript.info](https://github.com/javascript-tutorial/en.javascript.info) - Modern JavaScript Tutorial 
+
+- 2019-01-08 [juliangruber/stream](https://github.com/juliangruber/stream) - Node.js streams in the browser
+
+- 2018-10-23 [suitcss/suit](https://github.com/suitcss/suit) - Style tools for UI components
+
+- 2018-10-10 [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) - JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages.
+
+- 2018-08-17 [fluent-ffmpeg/node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG (http://www.ffmpeg.org)
+
+- 2018-08-11 [panyifei/panyifei.github.io](https://github.com/panyifei/panyifei.github.io) - :octocat::octocat:请访问 http://panyifei.github.io  一个前端工程狮的打怪日常，欢迎star
+
+- 2018-07-29 [docker/docs](https://github.com/docker/docs) - Source repo for Docker's Documentation
+
+- 2018-07-24 [mdn/learning-area](https://github.com/mdn/learning-area) - Github repo for the MDN Learning Area. 
+
+- 2018-07-20 [lincenying/Front-End-Style-Guide](https://github.com/lincenying/Front-End-Style-Guide) - 一份全面的前端开发规范手册
+
+- 2018-07-13 [padolsey/sonic.js](https://github.com/padolsey/sonic.js) - :loop: Create loopy loading animations
+
+- 2018-06-06 [DesignDrastic/text-hover-effects-in-css](https://github.com/DesignDrastic/text-hover-effects-in-css) - Text Hover Effect in CSS
+
+- 2018-06-06 [SaraSoueidan/textured-text-techniques](https://github.com/SaraSoueidan/textured-text-techniques) - Techniques for Creating Textured Text. 
+
+- 2018-06-06 [codrops/GridLoadingEffects](https://github.com/codrops/GridLoadingEffects) - Some inspiration for loading effects of grid items using CSS animations.
+
+- 2018-05-23 [anbang/javascript-notes](https://github.com/anbang/javascript-notes) - 朱安邦的 JavaScript 学习笔记；JavaScript学习总结；前端变化太快，只有把JS基础打扎实了，才能游刃有余；为了让我的JavaScript基础异常牢固，思路更加清晰，我会把以前总结过的知识和平时看到的资料放在这里，把以前零零散散的知识点全部串起来！这个项目也许写到最后会是一个非常不错的JavaScript教程，希望可以帮到更多的人；收藏请点star；如果发现我有写错误的，欢迎随时帮我改正，或者增加新的观点，谢谢！
+
+
 
 
 ## JavaScript
@@ -2146,58 +2200,6 @@
 - 2021-04-27 [slorelee/wimbuilder](https://github.com/slorelee/wimbuilder) - a tiny framework which for editing the wim file(mostly for making Windows PE)
 
 - 2021-04-27 [slorelee/wimbuilder2](https://github.com/slorelee/wimbuilder2) - wimbuilder with new UI & new syntax (hta+bat+vbs+js)
-
-
-
-
-## HTML
-- 2020-03-20 [kangax/compat-table](https://github.com/kangax/compat-table) - ECMAScript 5/6/7 compatibility tables
-
-- 2020-03-20 [williamkapke/node-compat-table](https://github.com/williamkapke/node-compat-table) - node.green - Node.js ECMAScript compatibility tables
-
-- 2019-08-07 [ciar4n/imagehover.css](https://github.com/ciar4n/imagehover.css) - Pure CSS Image Hover Effect Library
-
-- 2019-08-07 [jgthms/css-reference](https://github.com/jgthms/css-reference) - CSS Reference: a free visual guide to the most popular CSS properties
-
-- 2019-08-07 [google/material-design-lite](https://github.com/google/material-design-lite) - Material Design Components in HTML/CSS/JS
-
-- 2019-08-07 [sofish/typo.css](https://github.com/sofish/typo.css) - 中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版
-
-- 2019-08-07 [webpack-contrib/awesome-webpack](https://github.com/webpack-contrib/awesome-webpack) - A curated list of awesome Webpack resources, libraries and tools
-
-- 2019-08-01 [azu/promises-book](https://github.com/azu/promises-book) - JavaScript Promiseの本
-
-- 2019-07-30 [jglovier/resume-template](https://github.com/jglovier/resume-template) - :page_facing_up::briefcase::tophat: A simple Jekyll + GitHub Pages powered resume template.
-
-- 2019-05-12 [viljamis/feature.js](https://github.com/viljamis/feature.js) - Feature.js is a fast, simple and lightweight browser feature detection library in 1kb.
-
-- 2019-01-15 [javascript-tutorial/en.javascript.info](https://github.com/javascript-tutorial/en.javascript.info) - Modern JavaScript Tutorial 
-
-- 2019-01-08 [juliangruber/stream](https://github.com/juliangruber/stream) - Node.js streams in the browser
-
-- 2018-10-23 [suitcss/suit](https://github.com/suitcss/suit) - Style tools for UI components
-
-- 2018-10-10 [NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS) - JavaScript diagramming library for interactive flowcharts, org charts, design tools, planning tools, visual languages.
-
-- 2018-08-17 [fluent-ffmpeg/node-fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG (http://www.ffmpeg.org)
-
-- 2018-08-11 [panyifei/panyifei.github.io](https://github.com/panyifei/panyifei.github.io) - :octocat::octocat:请访问 http://panyifei.github.io  一个前端工程狮的打怪日常，欢迎star
-
-- 2018-07-29 [docker/docs](https://github.com/docker/docs) - Source repo for Docker's Documentation
-
-- 2018-07-24 [mdn/learning-area](https://github.com/mdn/learning-area) - Github repo for the MDN Learning Area. 
-
-- 2018-07-20 [lincenying/Front-End-Style-Guide](https://github.com/lincenying/Front-End-Style-Guide) - 一份全面的前端开发规范手册
-
-- 2018-07-13 [padolsey/sonic.js](https://github.com/padolsey/sonic.js) - :loop: Create loopy loading animations
-
-- 2018-06-06 [DesignDrastic/text-hover-effects-in-css](https://github.com/DesignDrastic/text-hover-effects-in-css) - Text Hover Effect in CSS
-
-- 2018-06-06 [SaraSoueidan/textured-text-techniques](https://github.com/SaraSoueidan/textured-text-techniques) - Techniques for Creating Textured Text. 
-
-- 2018-06-06 [codrops/GridLoadingEffects](https://github.com/codrops/GridLoadingEffects) - Some inspiration for loading effects of grid items using CSS animations.
-
-- 2018-05-23 [anbang/javascript-notes](https://github.com/anbang/javascript-notes) - 朱安邦的 JavaScript 学习笔记；JavaScript学习总结；前端变化太快，只有把JS基础打扎实了，才能游刃有余；为了让我的JavaScript基础异常牢固，思路更加清晰，我会把以前总结过的知识和平时看到的资料放在这里，把以前零零散散的知识点全部串起来！这个项目也许写到最后会是一个非常不错的JavaScript教程，希望可以帮到更多的人；收藏请点star；如果发现我有写错误的，欢迎随时帮我改正，或者增加新的观点，谢谢！
 
 
 

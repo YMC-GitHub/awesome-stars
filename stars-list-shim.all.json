@@ -6358,5 +6358,11 @@
     "description": null,
     "starred_at": "2018-07-25T02:07:04Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "Azure/actions",
+    "description": "Author and use Azure Actions to automate your GitHub workflows",
+    "starred_at": "2022-10-21T07:35:16Z",
+    "languages": "HTML"
   }
 ]
