@@ -112,7 +112,7 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflo
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): use github repo secret"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): dbg env in github action "; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): auto update"; git log --oneline -n 1
-
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep "workflows") ; git add $changed ; git commit -m "chore(core): only push when updated"; git log --oneline -n 1
 401 Unauthorized
 [warn] need github token
 ```
