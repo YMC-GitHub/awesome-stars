@@ -119,7 +119,10 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "bin|
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on schedule"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): ebable run on push"; git log --oneline -n 1
-changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): enable run on schedule"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): enable run on schedule every 15 day at 8:08"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): fix run on schedule every 15 day at 8:08"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): put schedule to every 7 day at 8:08"; git log --oneline -n 1
+
 
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 # changed=$(git status --porcelain | grep -E "\?\?" | sed "s/?? //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): add chord issue draft"; git log --oneline -n 1
