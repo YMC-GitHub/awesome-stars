@@ -31,7 +31,7 @@ on:
 #     # - cron: 20/15 * * * * # runs every 15 minutes starting from minute 20 through 59 (minutes 20, 35, and 50)
 #     # - cron: 8 0 8 * * # runs at 8:08 the 8th day of per month
 #     - cron: 8 0 25 * * # runs at 8:08 the 25th day of per month
-    - cron: 8 0 1/15 * * # runs every 15 day at 8:08 starting from the day?
+      - cron: 8 0 1/7 * * # runs every 7 day at 8:08 starting from the day?
   workflow_dispatch:
 jobs: 
   # build job
