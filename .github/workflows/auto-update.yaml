@@ -51,6 +51,10 @@ jobs:
          - x64
       fail-fast: false
 
+    # https://github.com/marketplace/actions/set-output
+    # outputs:
+    #   nextstep: ${{ steps.output-step.outputs.nextstep }}
+
     name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
     steps:
       - name: sync git repo
@@ -96,10 +100,18 @@ jobs:
     #         timezoneWindows: "Shanghai Standard Time"
     # #   https://github.com/marketplace/actions/set-timezone
 
-      - name: check continue
-        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && ${{ env.nextstep = 'fetch-data' }}
+    #   - uses: spenserblack/actions-set-output@<commit-ish>
+    #     id: output-step
+    #     with:
+    #       variables: |
+    #         FOO=BAR
+    #         nextstep=$(git describe --tags)
 
-    #https://docs.github.com/en/actions/learn-github-actions/environment-variables
+      - name: check continue
+        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "nextstep=fetch-data" >> $GITHUB_ENV ${{ env.nextstep = 'fetch-data' }}
+
+    # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
+    # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
       - name: fetch data
         run: |
@@ -118,8 +130,7 @@ jobs:
          GH_TOKEN: "${{secrets.GH_TOKEN}}"
         # with: 
         #  ghtoken2: ${{secrets.GH_TOKEN}}
-        if: ${{ env.nextstep == 'fetch-data' }}
-
+        if: ${{ env.action_state }} == 'fetch-data'
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
       - name: update files
