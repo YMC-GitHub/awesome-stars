@@ -152,3 +152,4 @@ main({useRobots:false})
 
 
 //  bin/cmt-changed.js
+//  bin/cmt-changed.js --use-robots
