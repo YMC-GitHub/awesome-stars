@@ -1,134 +1,195 @@
 #!/usr/bin/env node
 
-import {readdirSync,statSync} from "fs"
-import {exec,execOpts} from "../lib/run-bash.js"
+import { readdirSync, statSync } from "fs";
+import { exec, execOpts } from "../lib/run-bash.js";
 import formatDate from "../lib/format-date.js";
 import parseArgs from "../lib/parse-args.js";
-const {log} = console
+import {
+    getBuiltinConfig,
+    getCliFlags,
+    getObjOnlyDefinedKeys,
+} from "../lib/cli-param.js";
 
+const { log } = console;
 
-async function main(options={}){
-    let res 
-    log(`[info] set git user.name and user.email`)
+function param() {
+    return [
+        {
+            name: "-h,--help",
+            type: "boolean",
+            value: false,
+            desc: "info help",
+        },
+        {
+            name: "-v,--version",
+            type: "string",
+            value: "1.0.0",
+            desc: "info version",
+        },
+        {
+            name: "--use-robots",
+            type: "boolean",
+            value: false,
+            desc: "",
+        },
+        {
+            name: "--msg-head",
+            type: "string",
+            value: "",
+            desc: "the head of msg , commit msg type scope and subject",
+        },
+        {
+            name: "--debug",
+            type: "boolean",
+            value: false,
+            desc: "debug cli option",
+        },
+        //chore(core): update bin
+    ];
+}
+async function main(options = {}) {
+    let res;
+    log(`[info] set git user.name and user.email`);
 
     let robots = {
-        email:"github-actions[bot]@users.noreply.github.com",
+        email: "github-actions[bot]@users.noreply.github.com",
         name: "github-actions[bot]",
-    }
-    let author 
+    };
+    let author;
     author = {
-        email:"ymc.github@gmail.com",
+        email: "ymc.github@gmail.com",
         name: "yemiancheng",
-    }
+    };
 
     // author = {...robots,...author}
-    let robotReg = [/\[bot\]/i]
+    let robotReg = [/\[bot\]/i];
     let msglabel = {
-        human:'by human',
-        robot:'in github action',
-    }
-    if(options.useRobots){
-        author=robots
-        msglabel = msglabel.robot
-    }else{
+        human: "by human",
+        robot: "in github action",
+    };
+    if (options.useRobots) {
+        author = robots;
+        msglabel = msglabel.robot;
+    } else {
         let currentAuthor = {
-            email: await runcmd(`git config --local user.email`,execOpts),
-            name: await runcmd(`git config --local user.name`,execOpts),
+            email: await runcmd(`git config --local user.email`, execOpts),
+            name: await runcmd(`git config --local user.name`, execOpts),
+        };
+        if (!isRobot(currentAuthor, robotReg)) {
+            author = { ...author, ...currentAuthor };
         }
-        if(!isRobot(currentAuthor,robotReg)){
-            author={...author,...currentAuthor}
-        }
-        msglabel = msglabel.human
+        msglabel = msglabel.human;
     }
-    log(author)
-    log(isRobot(author,robotReg))
+    log(author);
+    log(isRobot(author, robotReg));
 
     // return
-    await runcmd(`git config --local user.email "${author.email}"`,execOpts),
-    await runcmd(`git config --local user.name "${author.name}"`,execOpts),
-    // await runcmd(`git config --local user.email "github-actions[bot]@users.noreply.github.com"`,execOpts)
-    // await runcmd(`git config --local user.name "github-actions[bot]"`,execOpts)
-    // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
-    //'D' vs ' M' vs '??'
+    await runcmd(`git config --local user.email "${author.email}"`, execOpts),
+        await runcmd(`git config --local user.name "${author.name}"`, execOpts),
+        // await runcmd(`git config --local user.email "github-actions[bot]@users.noreply.github.com"`,execOpts)
+        // await runcmd(`git config --local user.name "github-actions[bot]"`,execOpts)
+        // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
+        //'D' vs ' M' vs '??'
 
-    log(`[info] get modified files`)
-    let files = await runcmd(`git status --porcelain | grep -E "^ *M" | sed "s/ M //g"`,execOpts)
-    files=toArray(files)
+        log(`[info] get modified files`);
+    let files = await runcmd(
+        `git status --porcelain | grep -E "^ *M" | sed "s/ M //g"`,
+        execOpts
+    );
+    files = toArray(files);
 
-    log(`[info] get time now`)
-    let now = formatDate("yyyy-MM-dd HH:mm:ss",getTimeOfTimeZone(new Date(), "Asia/Shanghai"))
+    log(`[info] get time now`);
+    let now = formatDate(
+        "yyyy-MM-dd HH:mm:ss",
+        getTimeOfTimeZone(new Date(), "Asia/Shanghai")
+    );
     // now = await exec(`date "+%Y-%m-%d %H:%M:%S" -d "+8 hour"`,execOpts)
-    log(`[info] it is beijing time ${now}`)
+    log(`[info] it is beijing time ${now}`);
 
-    log(`[info] check changed file`)
-    let toCmtFiles=['README.md','stars-list-shim.all.json']
-    if(isExpectedChangedFile({input:files,expectedChaned:toCmtFiles})){
-        log(`[info] commit target files`)
-        res = await runcmd(`git add ${toCmtFiles.join(" ")}`,execOpts)
-        res = await runcmd(`git commit -m "chore(core): update readme ${msglabel}" --date "${now}"`,execOpts)
+    log(`[info] check changed file`);
+    let toCmtFiles = ["README.md", "stars-list-shim.all.json"];
+    if (isExpectedChangedFile({ input: files, expectedChaned: toCmtFiles })) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): update readme ${msglabel}" --date "${now}"`,
+            execOpts
+        );
     }
-    if(isExpectedChangedFile({input:files,expectedChanedReg:/^bin\/.*.js/ig})){
-        log(`[info] commit target files`)
-        res = await runcmd(`git add bin`,execOpts)
-        res = await runcmd(`git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,execOpts)
-        log(`[info] info commit output`)
-        log(res)
-        res = await runcmd(`git log --oneline -n 1"`,execOpts)
-        log(res)
+    if (
+        isExpectedChangedFile({
+            input: files,
+            expectedChanedReg: /^bin\/.*.js/gi,
+        })
+    ) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add bin`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
     }
 
     // git rm bin/cmt-changed.sh
-    
 }
-function isExpectedChangedFile(options={}){
+function isExpectedChangedFile(options = {}) {
     let option = {
-        input:[],
-        expectedChaned:[],
-        expectedChanedReg:undefined,
-        ...options
-    }
-    let {input,expectedChaned,expectedChanedReg} = option
+        input: [],
+        expectedChaned: [],
+        expectedChanedReg: undefined,
+        ...options,
+    };
+    let { input, expectedChaned, expectedChanedReg } = option;
     // check reg if exsits
-    if(expectedChanedReg){
-        expectedChanedReg = Array.isArray(expectedChanedReg)?expectedChanedReg:[expectedChanedReg]
-        if(input.some(v=>expectedChanedReg.some(reg=>reg.test(v)))){
-            return true
+    if (expectedChanedReg) {
+        expectedChanedReg = Array.isArray(expectedChanedReg)
+            ? expectedChanedReg
+            : [expectedChanedReg];
+        if (input.some((v) => expectedChanedReg.some((reg) => reg.test(v)))) {
+            return true;
         }
     }
     // check file if exsits
-    if(expectedChaned){
-        if(input.some(v=>expectedChaned.includes(v))){
-            return true
+    if (expectedChaned) {
+        if (input.some((v) => expectedChaned.includes(v))) {
+            return true;
         }
     }
-    return false
+    return false;
 }
-function isRobot(author,robotReg){
-    let {name,email} = author
+function isRobot(author, robotReg) {
+    let { name, email } = author;
 
-    return inputMatchSome([name,email],robotReg)
-
+    return inputMatchSome([name, email], robotReg);
 }
-function inputMatchSome(input,some){
-    return input.some(v=>some.some(reg=>reg.test(v)))
+function inputMatchSome(input, some) {
+    return input.some((v) => some.some((reg) => reg.test(v)));
 }
 
-async function runcmd(cmd,execOpts){
-    let {stdout,stderr} = await exec(cmd,execOpts)
-    if(stderr){
-        log(stderr)
+async function runcmd(cmd, execOpts) {
+    let { stdout, stderr } = await exec(cmd, execOpts);
+    if (stderr) {
+        log(stderr);
     }
     // if(stdout){
     //     log(stdout)
     // }
-    return stdout
+    return stdout;
 }
-function toArray(s,options={}){
-    let option={
-        span:/\r?\n/,
-        ...options
-    }
-    return Array.isArray(s)?s:typeof s =="string"?s.split(option.span):[s]
+function toArray(s, options = {}) {
+    let option = {
+        span: /\r?\n/,
+        ...options,
+    };
+    return Array.isArray(s)
+        ? s
+        : typeof s == "string"
+        ? s.split(option.span)
+        : [s];
 }
 function getTimeOfTimeZone(date, timeZone) {
     let lang = "chinese";
@@ -147,9 +208,27 @@ function getTimeOfTimeZone(date, timeZone) {
         })
     );
 }
-log(parseArgs(process.argv))
-main({useRobots:false})
 
+function entry(input) {
+    let cliOptions = parseArgs(input);
+
+    let option = { ...getBuiltinConfig(param()), ...getCliFlags(cliOptions) };
+    option = getObjOnlyDefinedKeys(option);
+    cliOptions.flags = option
+    option = {...cliOptions}
+    if(option.debug){
+
+        log(option);
+        // process.exit(0)
+
+        return 
+    }
+    main(option)
+}
+entry(process.argv);
 
 //  bin/cmt-changed.js
 //  bin/cmt-changed.js --use-robots
+//  bin/cmt-changed.js --msg-head="chore(core): add lib"
+//  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param"
+//  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param" --debug
