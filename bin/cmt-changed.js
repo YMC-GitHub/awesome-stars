@@ -106,9 +106,9 @@ async function main(options = {}) {
     // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
     //'D' vs ' M' vs '??'
 
-    log(`[info] get all,tracked,modified,untacked files`);
+    log(`[info] get all,tracked,modified,untracked files`);
     let files = await getVcFileLoc();
-    let { all, tracked, modified, untacked } = files;
+    let { all, tracked, modified, untracked } = files;
     // log(files);
     // log(`[info] get modified files`);
 
@@ -153,7 +153,7 @@ async function main(options = {}) {
         log(res);
     }
 
-    toCmtFiles = onlyMatchSome(untacked, [/^lib\/.*.js/gi]);
+    toCmtFiles = onlyMatchSome(untracked, [/^lib\/.*.js/gi]);
     if (toCmtFiles.length > 0) {
         log(`[info] commit target files`);
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
