@@ -117,7 +117,7 @@ jobs:
 
       - name: fetch data
         run: |
-         echo "${{env.MY_NAMES}}" "${{env.GH_TOKEN}}" "${{secrets.GH_TOKEN}}" "${{env.action_state}}"
+         #echo "${{env.MY_NAMES}}" "${{env.GH_TOKEN}}" "${{secrets.GH_TOKEN}}" "${{env.nextstep}}"
         #  ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{secrets.GH_TOKEN}}
         # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token="${{github.token}}" --dbg-info-fetch-option
         # run: ./bin/fetch-stars.clify.js --data-file-loc=stars-list-shim.all.json --startPage=1 --lastPage=1 --sort=updated --token=${{env.GH_TOKEN}} --dbg-info-fetch-option
@@ -132,14 +132,16 @@ jobs:
          GH_TOKEN: "${{secrets.GH_TOKEN}}"
         # with: 
         #  ghtoken2: ${{secrets.GH_TOKEN}}
-        if: "${{ env.action_state == 'etch-data'}}"
+        if: "${{ env.nextstep == 'fetch-data'}}"
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
       - name: update files
         run: ./bin/render-readme.js
-
+        if: "${{ env.nextstep == 'fetch-data'}}"
+        
       - name: commit files with beijing time
         run:  ./bin/cmt-changed.js --use-robots
+        if: "${{ env.nextstep == 'fetch-data'}}"    
         # git push https://${{secrets.GH_TOKEN}}@github.com/ym-github/awsome-stars.git
 
     #   - name: commit files
