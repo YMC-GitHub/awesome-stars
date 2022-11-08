@@ -167,7 +167,7 @@ async function main(options = {}) {
         log(res);
     }
 
-    toCmtFiles = onlyMatchSome(modified, [/^docs\/repo.devopv\/.*/gi]);
+    toCmtFiles = onlyMatchSome(modified, [/^docs\/repo.devopv.*/gi]);
     if (toCmtFiles.length > 0) {
         log(`[info] commit target files`);
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
