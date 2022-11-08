@@ -266,8 +266,179 @@ function parseNanoParserResultInEntry(options,param){
     return option
 }
 
-function entry(input) {
+
+function getCmdMod(mod) {
+    let res = ''
+    switch (mod) {
+        case 'untracked':
+        case 'u':
+            res = 'untracked'
+            break
+        case 'tracked':
+        case 't':
+            res = 'tracked'
+            break
+        case 'modified':
+        case 'm':
+            res = 'modified'
+            break
+        case 'all':
+            res = 'all'
+        case 'a':
+            break
+        case 'other':
+        case 'o':
+        default:
+            res = 'toadd'
+            break
+    }
+    return res
+}
+
+/**
+ * get pkg loc
+ * @param {{packageslocReg:regexp}} options
+ * @returns {{all:string[],untracked:string[],tracked:string[],modified:string[]}}
+ * @sample
+ * ```
+ * await getPkgLoc({packagesLoc:["packages/"],packageslocReg: /^packages\//})
+ * ```
+ */
+ async function getVcFileLoc(options = {}) {
+    let option = {
+        ...options
+    }
+    // all = getPkgLocInDiretory(option)
+    let files = await runcmd(`git status --porcelain`, execOpts)
+    files = await getVcFilesCatery({ ...option, files })
+    return files
+}
+/**
+ * get pkg loc of version control (vc) - mono repo
+ * @param {{packageslocReg:regexp,packagesLoc:string|string[]}} options
+ * @returns {{all:string[],untracked:string[],tracked:string[],modified:string[]}}
+ */
+ async function getVcFilesCatery(options = {}) {
+    let all, untracked, modified, tracked
+
+    let option = {
+        ...options
+    }
+    let { files } = option
+
+    // all = getPkgLocInDiretory(option)
+    let regs = [/^\?\? ?/, /^ ?M ?/]
+    all =files.split(/\r?\n/).map(v=>{
+        for (let index = 0; index < regs.length; index++) {
+            const reg = regs[index];
+            if(reg.test(v)){
+                v=v.replace(reg,'')
+            break
+            }
+        }
+        return v
+    })
+
+    // let files = await runcmd(`git status --porcelain`, execOpts)
+
+    // get untracked
+    untracked = await getVcPkgNameInLoc({
+        lable: /^\?\? ?/,
+        files,
+        packageslocReg: /^/,
+        for: 'file-loc'
+    })
+    // untracked = untracked.map(f => `${packagesLoc}/${f}`)
+
+    // get tracked
+    tracked = all.filter(v => !untracked.some(u => u === v))
+
+    // get modified
+    modified = await getVcPkgNameInLoc({
+        lable: /^ ?M ?/,
+        files,
+        packageslocReg: /^/,
+        for: 'file-loc'
+    })
+    // modified = modified.map(f => `${packagesLoc}/${f}`)
+    return { all, untracked, tracked, modified }
+}
+
+/**
+ * get pkg name of version control (vc) - mono repo
+ * @param {{lable:regexp,packageslocReg:regexp,delLabel:boolean,pathSplit:string}} options
+ * @returns {string[]}
+ */
+ async function getVcPkgNameInLoc(options = {}) {
+    let option = {
+        lable: /^\?\? ?/,
+        EOFReg: /\r?\n/,
+        pathSplit: '/',
+        packageslocReg: /^packages\//,
+        delLabel: true,
+        files: '',
+        for: 'pkg-name',
+        ...options
+    }
+
+    let { files } = option
+    //git status --porcelain | grep '^??' | cut -c4-| grep "packages/"
+    // out = await rungit(`git status --porcelain | grep '^??' | cut -c4-| grep "packages/"`, execOpts)//ok
+    // get all
+    // files = await runcmd(`git status --porcelain`, execOpts)
+    if (!files) return []
+    // if (!files) files = await runcmd(`git status --porcelain`, execOpts)
+
+    // get with prefix
+    files = files.split(option.EOFReg).filter(v => {
+        return option.lable.test(v)
+    })
+
+    // log(untracked)
+    // del prefix
+    if (option.delLabel) {
+        files = files.map(v => {
+            v = v.replace(option.lable, '')
+            return v
+        })
+    }
+
+    // log(untracked)
+
+    // only in package loc
+    files = files.filter(v => {
+        return option.packageslocReg.test(v)
+    })
+
+    let sep = option.pathSplit
+    // get name or loc
+    // eg. file=packages/noop/xx ; name=noop;loc=packages/noop;
+    switch (option.for.toLowerCase()) {
+        case 'file-loc':
+           
+            break
+        case 'pkg-loc':
+            files = files.map(v => v.split(sep).slice(0, 2).join(sep)).filter(v => v)
+            break
+        case 'pkg-name':
+        default:
+            files = files.map(v => v.split(sep)[1]).filter(v => v)
+            break
+    }
+
+    // del dup
+    files = [...new Set(files)]
+    return files
+}
+
+async function entry(input) {
     let cliOptions = parseArgs(input);
+    // slice _ for sciptt
+    if(cliOptions._ && cliOptions._.length>0){
+        cliOptions._ = cliOptions._.slice(2)
+    }
+
+
     // desc-x-s: extract parse-option from main
     // let option = { ...getBuiltinConfig(param()), ...getCliFlags(cliOptions) };
     // option = getObjOnlyDefinedKeys(option);
@@ -275,6 +446,8 @@ function entry(input) {
     // option = { ...cliOptions };
     // desc-x-e: extract parse-option from main
     let option = parseNanoParserResultInEntry(cliOptions,param)
+    let files = await getVcFileLoc()
+    log(files)
 
     // debug ycs cli option - debug NanoParserResult
     if (option.debug || option.flags.debug) {
@@ -291,3 +464,7 @@ entry(process.argv);
 //  bin/cmt-changed.js --msg-head="chore(core): add lib"
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param"
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param" --debug
+
+//  bin/cmt-changed.js o:add --debug
+//  bin/cmt-changed.js o:pkg --debug
+//  bin/cmt-changed.js o:lin --debug
