@@ -126,6 +126,8 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "work
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): set github action env val"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): fix exit 1"; git log --oneline -n 1
 bin/cmt-changed.js --msg-head="chore(core): dbg gh action"
+bin/cmt-changed.js --msg-head="chore(core): set fetch-data enable"
+
 
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 # changed=$(git status --porcelain | grep -E "\?\?" | sed "s/?? //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): add chord issue draft"; git log --oneline -n 1
