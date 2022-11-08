@@ -59,8 +59,8 @@ async function main(options = {}) {
     let option = parseNanoParserResultInMain(options);
 
     // get the first val in naonParserReseult._
-    let [mod, cmd] = options._[0].split(":");
-    if (!cmd) cmd = "pkg";
+    // let [mod, cmd] = options._[0].split(":");
+    // if (!cmd) cmd = "pkg";
     // log(getCmdMod(mod));
 
     let res;
