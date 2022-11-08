@@ -3,6 +3,7 @@
 import {readdirSync,statSync} from "fs"
 import {exec,execOpts} from "../lib/run-bash.js"
 import formatDate from "../lib/format-date.js";
+import parseArgs from "../lib/parse-args.js";
 const {log} = console
 
 
@@ -146,7 +147,7 @@ function getTimeOfTimeZone(date, timeZone) {
         })
     );
 }
-
+log(parseArgs(process.argv))
 main({useRobots:false})
 
 
