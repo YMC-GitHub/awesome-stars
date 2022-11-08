@@ -117,7 +117,7 @@ jobs:
         run: ./bin/render-readme.js
 
       - name: commit files with beijing time
-        run:  ./bin/cmt-changed.js
+        run:  ./bin/cmt-changed.js --use-robots
         # git push https://${{secrets.GH_TOKEN}}@github.com/ym-github/awsome-stars.git
 
     #   - name: commit files
