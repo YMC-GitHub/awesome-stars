@@ -6,8 +6,41 @@ import formatDate from "../lib/format-date.js";
 const {log} = console
 
 
-async function main(){
+async function main(options={}){
     let res 
+    log(`[info] set git user.name and user.email`)
+
+    let robots = {
+        email:"github-actions[bot]@users.noreply.github.com",
+        name: "github-actions[bot]",
+    }
+    let author 
+    author = {
+        email:"ymc.github@gmail.com",
+        name: "yemiancheng",
+    }
+    // author = {
+    //     email: await runcmd(`git config --local user.email`,execOpts),
+    //     name: await runcmd(`git config --local user.name`,execOpts),
+    // }
+    // author = {...robots,...author}
+    let robotReg = [/\[bot\]/i]
+    let msglabel = {
+        human:'by human',
+        robot:'in github action',
+    }
+    if(options.useRobots){
+        author=robots
+        msglabel = msglabel.robot
+    }else{
+        msglabel = msglabel.human
+    }
+    log(author)
+    log(isRobot(author,robotReg))
+
+    // return
+    await runcmd(`git config --local user.email "${author.email}"`,execOpts),
+    await runcmd(`git config --local user.name "${author.name}"`,execOpts),
     // await runcmd(`git config --local user.email "github-actions[bot]@users.noreply.github.com"`,execOpts)
     // await runcmd(`git config --local user.name "github-actions[bot]"`,execOpts)
     // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
@@ -22,18 +55,60 @@ async function main(){
     // now = await exec(`date "+%Y-%m-%d %H:%M:%S" -d "+8 hour"`,execOpts)
     log(`[info] it is beijing time ${now}`)
 
-    log(`[info] check targetfile changed`)
+    log(`[info] check changed file`)
     let toCmtFiles=['README.md','stars-list-shim.all.json']
-    if(files.some(v=>toCmtFiles.includes(v))){
+    if(isExpectedChangedFile({input:files,expectedChaned:toCmtFiles})){
         log(`[info] commit target files`)
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`,execOpts)
-        res = await runcmd(`git commit -m "chore(core): update readme in github action" --date "${now}"`,execOpts)
+        res = await runcmd(`git commit -m "chore(core): update readme ${msglabel}" --date "${now}"`,execOpts)
     }
+    if(isExpectedChangedFile({input:files,expectedChanedReg:/^bin\/.*.js/ig})){
+        log(`[info] commit target files`)
+        res = await runcmd(`git add bin`,execOpts)
+        res = await runcmd(`git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,execOpts)
+    }
+
     // git rm bin/cmt-changed.sh
     
 }
+function isExpectedChangedFile(options={}){
+    let option = {
+        input:[],
+        expectedChaned:[],
+        expectedChanedReg:undefined,
+        ...options
+    }
+    let {input,expectedChaned,expectedChanedReg} = option
+    // check reg if exsits
+    if(expectedChanedReg){
+        expectedChanedReg = Array.isArray(expectedChanedReg)?expectedChanedReg:[expectedChanedReg]
+        if(input.some(v=>expectedChanedReg.some(reg=>reg.test(v)))){
+            return true
+        }
+    }
+    // check file if exsits
+    if(expectedChaned){
+        if(input.some(v=>expectedChaned.includes(v))){
+            return true
+        }
+    }
+    return false
+}
+function isRobot(author,robotReg){
+    let {name,email} = author
+
+    return inputMatchSome([name,email],robotReg)
+
+}
+function inputMatchSome(input,some){
+    return input.some(v=>some.some(reg=>reg.test(v)))
+}
+
 async function runcmd(cmd,execOpts){
     let {stdout,stderr} = await exec(cmd,execOpts)
+    if(stderr){
+        log(stderr)
+    }
     return stdout
 }
 function toArray(s,options={}){
@@ -61,7 +136,7 @@ function getTimeOfTimeZone(date, timeZone) {
     );
 }
 
-main()
+main({useRobots:false})
 
 
 //  bin/cmt-changed.js
