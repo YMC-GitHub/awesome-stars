@@ -56,7 +56,12 @@ async function main(options = {}) {
     // option = getObjOnlyDefinedKeys(option);
     // desc-x-e: plan set new parse-option to main
 
-   let option = parseNanoParserResultInMain(options)
+    let option = parseNanoParserResultInMain(options);
+
+    // get the first val in naonParserReseult._
+    let [mod, cmd] = options._[0].split(":");
+    if (!cmd) cmd = "pkg";
+    // log(getCmdMod(mod));
 
     let res;
     log(`[info] set git user.name and user.email`);
@@ -90,23 +95,28 @@ async function main(options = {}) {
         }
         msglabel = msglabel.human;
     }
-    log(author);
-    log(isRobot(author, robotReg));
+    // log(author);
+    // log(isRobot(author, robotReg));
 
     // return
-    await runcmd(`git config --local user.email "${author.email}"`, execOpts),
-        await runcmd(`git config --local user.name "${author.name}"`, execOpts),
-        // await runcmd(`git config --local user.email "github-actions[bot]@users.noreply.github.com"`,execOpts)
-        // await runcmd(`git config --local user.name "github-actions[bot]"`,execOpts)
-        // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
-        //'D' vs ' M' vs '??'
+    await runcmd(`git config --local user.email "${author.email}"`, execOpts);
+    await runcmd(`git config --local user.name "${author.name}"`, execOpts);
+    // await runcmd(`git config --local user.email "github-actions[bot]@users.noreply.github.com"`,execOpts)
+    // await runcmd(`git config --local user.name "github-actions[bot]"`,execOpts)
+    // await runcmd(`git add README.md stars-list-shim.all.json`,execOpts)
+    //'D' vs ' M' vs '??'
 
-        log(`[info] get modified files`);
-    let files = await runcmd(
-        `git status --porcelain | grep -E "^ *M" | sed "s/ M //g"`,
-        execOpts
-    );
-    files = toArray(files);
+    log(`[info] get all,tracked,modified,untacked files`);
+    let files = await getVcFileLoc();
+    let { all, tracked, modified, untacked } = files;
+    // log(files);
+    // log(`[info] get modified files`);
+
+    // files = await runcmd(
+    //     `git status --porcelain | grep -E "^ *M" | sed "s/ M //g"`,
+    //     execOpts
+    // );
+    // files = toArray(files);
 
     log(`[info] get time now`);
     let now = formatDate(
@@ -118,7 +128,9 @@ async function main(options = {}) {
 
     log(`[info] check changed file`);
     let toCmtFiles = ["README.md", "stars-list-shim.all.json"];
-    if (isExpectedChangedFile({ input: files, expectedChaned: toCmtFiles })) {
+    if (
+        isExpectedChangedFile({ input: modified, expectedChaned: toCmtFiles })
+    ) {
         log(`[info] commit target files`);
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
         res = await runcmd(
@@ -126,9 +138,39 @@ async function main(options = {}) {
             execOpts
         );
     }
+
+    toCmtFiles = onlyMatchSome(modified, [/^bin\/.*.js/gi]);
+    if (toCmtFiles.length > 0) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
+    }
+
+    toCmtFiles = onlyMatchSome(untacked, [/^lib\/.*.js/gi]);
+    if (toCmtFiles.length > 0) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): add lib ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
+    }
+
+    return;
     if (
         isExpectedChangedFile({
-            input: files,
+            input: modified,
             expectedChanedReg: /^bin\/.*.js/gi,
         })
     ) {
@@ -136,6 +178,24 @@ async function main(options = {}) {
         res = await runcmd(`git add bin`, execOpts);
         res = await runcmd(
             `git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
+    }
+
+    if (
+        isExpectedChangedFile({
+            input: modified,
+            expectedChanedReg: /^lib\/.*.js/gi,
+        })
+    ) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add bin`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): update lib ${msglabel}" --date "${now}"`,
             execOpts
         );
         log(`[info] info commit output`);
@@ -179,6 +239,9 @@ function isRobot(author, robotReg) {
 function inputMatchSome(input, some) {
     return input.some((v) => some.some((reg) => reg.test(v)));
 }
+function onlyMatchSome(input, some) {
+    return input.filter((v) => some.some((reg) => reg.test(v)));
+}
 
 async function runcmd(cmd, execOpts) {
     let { stdout, stderr } = await exec(cmd, execOpts);
@@ -219,22 +282,20 @@ function getTimeOfTimeZone(date, timeZone) {
     );
 }
 
-
-
 //--------why: parseNanoParserResult-------------
 // keep lib-ernty and cli-entry to the same code
 // code anywhere , run anyway
 //--------why: parseNanoParserResult-------------
 /**
- * 
- * @param {*} options 
- * @returns 
+ *
+ * @param {*} options
+ * @returns
  * @sample
  * ```
  * let option = parseNanoParserResultInMain(options)
  * ```
  */
-function parseNanoParserResultInMain(options){
+function parseNanoParserResultInMain(options) {
     let option;
     // feat: parse nano-parse result in main handle
     // desc-x-s: plan set new parse-option to main
@@ -242,20 +303,20 @@ function parseNanoParserResultInMain(options){
     option = { ...getCliFlags(options) };
     option = getObjOnlyDefinedKeys(option);
     // desc-x-e: plan set new parse-option to main
-    return option
+    return option;
 }
 
 /**
- * 
- * @param {*} options 
- * @param {*} param 
- * @returns 
+ *
+ * @param {*} options
+ * @param {*} param
+ * @returns
  * @sample
  * ```
  * let option = parseNanoParserResultInEntry(cliOptions,param)
  * ```
  */
-function parseNanoParserResultInEntry(options,param){
+function parseNanoParserResultInEntry(options, param) {
     // feat: parse nano-parse result in entry handle
     // desc-x-s: extract parse-option from main
     let option = { ...getBuiltinConfig(param), ...getCliFlags(options) };
@@ -263,36 +324,35 @@ function parseNanoParserResultInEntry(options,param){
     options.flags = option;
     option = { ...options };
     // desc-x-e: extract parse-option from main
-    return option
+    return option;
 }
 
-
 function getCmdMod(mod) {
-    let res = ''
+    let res = "";
     switch (mod) {
-        case 'untracked':
-        case 'u':
-            res = 'untracked'
-            break
-        case 'tracked':
-        case 't':
-            res = 'tracked'
-            break
-        case 'modified':
-        case 'm':
-            res = 'modified'
-            break
-        case 'all':
-            res = 'all'
-        case 'a':
-            break
-        case 'other':
-        case 'o':
+        case "untracked":
+        case "u":
+            res = "untracked";
+            break;
+        case "tracked":
+        case "t":
+            res = "tracked";
+            break;
+        case "modified":
+        case "m":
+            res = "modified";
+            break;
+        case "all":
+            res = "all";
+        case "a":
+            break;
+        case "other":
+        case "o":
         default:
-            res = 'toadd'
-            break
+            res = "toadd";
+            break;
     }
-    return res
+    return res;
 }
 
 /**
@@ -304,40 +364,40 @@ function getCmdMod(mod) {
  * await getPkgLoc({packagesLoc:["packages/"],packageslocReg: /^packages\//})
  * ```
  */
- async function getVcFileLoc(options = {}) {
+async function getVcFileLoc(options = {}) {
     let option = {
-        ...options
-    }
+        ...options,
+    };
     // all = getPkgLocInDiretory(option)
-    let files = await runcmd(`git status --porcelain`, execOpts)
-    files = await getVcFilesCatery({ ...option, files })
-    return files
+    let files = await runcmd(`git status --porcelain`, execOpts);
+    files = await getVcFilesCatery({ ...option, files });
+    return files;
 }
 /**
  * get pkg loc of version control (vc) - mono repo
  * @param {{packageslocReg:regexp,packagesLoc:string|string[]}} options
  * @returns {{all:string[],untracked:string[],tracked:string[],modified:string[]}}
  */
- async function getVcFilesCatery(options = {}) {
-    let all, untracked, modified, tracked
+async function getVcFilesCatery(options = {}) {
+    let all, untracked, modified, tracked;
 
     let option = {
-        ...options
-    }
-    let { files } = option
+        ...options,
+    };
+    let { files } = option;
 
     // all = getPkgLocInDiretory(option)
-    let regs = [/^\?\? ?/, /^ ?M ?/]
-    all =files.split(/\r?\n/).map(v=>{
+    let regs = [/^\?\? ?/, /^ ?M ?/];
+    all = files.split(/\r?\n/).map((v) => {
         for (let index = 0; index < regs.length; index++) {
             const reg = regs[index];
-            if(reg.test(v)){
-                v=v.replace(reg,'')
-            break
+            if (reg.test(v)) {
+                v = v.replace(reg, "");
+                break;
             }
         }
-        return v
-    })
+        return v;
+    });
 
     // let files = await runcmd(`git status --porcelain`, execOpts)
 
@@ -346,22 +406,22 @@ function getCmdMod(mod) {
         lable: /^\?\? ?/,
         files,
         packageslocReg: /^/,
-        for: 'file-loc'
-    })
+        for: "file-loc",
+    });
     // untracked = untracked.map(f => `${packagesLoc}/${f}`)
 
     // get tracked
-    tracked = all.filter(v => !untracked.some(u => u === v))
+    tracked = all.filter((v) => !untracked.some((u) => u === v));
 
     // get modified
     modified = await getVcPkgNameInLoc({
         lable: /^ ?M ?/,
         files,
         packageslocReg: /^/,
-        for: 'file-loc'
-    })
+        for: "file-loc",
+    });
     // modified = modified.map(f => `${packagesLoc}/${f}`)
-    return { all, untracked, tracked, modified }
+    return { all, untracked, tracked, modified };
 }
 
 /**
@@ -369,75 +429,75 @@ function getCmdMod(mod) {
  * @param {{lable:regexp,packageslocReg:regexp,delLabel:boolean,pathSplit:string}} options
  * @returns {string[]}
  */
- async function getVcPkgNameInLoc(options = {}) {
+async function getVcPkgNameInLoc(options = {}) {
     let option = {
         lable: /^\?\? ?/,
         EOFReg: /\r?\n/,
-        pathSplit: '/',
+        pathSplit: "/",
         packageslocReg: /^packages\//,
         delLabel: true,
-        files: '',
-        for: 'pkg-name',
-        ...options
-    }
+        files: "",
+        for: "pkg-name",
+        ...options,
+    };
 
-    let { files } = option
+    let { files } = option;
     //git status --porcelain | grep '^??' | cut -c4-| grep "packages/"
     // out = await rungit(`git status --porcelain | grep '^??' | cut -c4-| grep "packages/"`, execOpts)//ok
     // get all
     // files = await runcmd(`git status --porcelain`, execOpts)
-    if (!files) return []
+    if (!files) return [];
     // if (!files) files = await runcmd(`git status --porcelain`, execOpts)
 
     // get with prefix
-    files = files.split(option.EOFReg).filter(v => {
-        return option.lable.test(v)
-    })
+    files = files.split(option.EOFReg).filter((v) => {
+        return option.lable.test(v);
+    });
 
     // log(untracked)
     // del prefix
     if (option.delLabel) {
-        files = files.map(v => {
-            v = v.replace(option.lable, '')
-            return v
-        })
+        files = files.map((v) => {
+            v = v.replace(option.lable, "");
+            return v;
+        });
     }
 
     // log(untracked)
 
     // only in package loc
-    files = files.filter(v => {
-        return option.packageslocReg.test(v)
-    })
+    files = files.filter((v) => {
+        return option.packageslocReg.test(v);
+    });
 
-    let sep = option.pathSplit
+    let sep = option.pathSplit;
     // get name or loc
     // eg. file=packages/noop/xx ; name=noop;loc=packages/noop;
     switch (option.for.toLowerCase()) {
-        case 'file-loc':
-           
-            break
-        case 'pkg-loc':
-            files = files.map(v => v.split(sep).slice(0, 2).join(sep)).filter(v => v)
-            break
-        case 'pkg-name':
+        case "file-loc":
+            break;
+        case "pkg-loc":
+            files = files
+                .map((v) => v.split(sep).slice(0, 2).join(sep))
+                .filter((v) => v);
+            break;
+        case "pkg-name":
         default:
-            files = files.map(v => v.split(sep)[1]).filter(v => v)
-            break
+            files = files.map((v) => v.split(sep)[1]).filter((v) => v);
+            break;
     }
 
     // del dup
-    files = [...new Set(files)]
-    return files
+    files = [...new Set(files)];
+    return files;
 }
 
 async function entry(input) {
     let cliOptions = parseArgs(input);
     // slice _ for sciptt
-    if(cliOptions._ && cliOptions._.length>0){
-        cliOptions._ = cliOptions._.slice(2)
+    if (cliOptions._ && cliOptions._.length > 0) {
+        cliOptions._ = cliOptions._.slice(2);
     }
-
 
     // desc-x-s: extract parse-option from main
     // let option = { ...getBuiltinConfig(param()), ...getCliFlags(cliOptions) };
@@ -445,9 +505,7 @@ async function entry(input) {
     // cliOptions.flags = option;
     // option = { ...cliOptions };
     // desc-x-e: extract parse-option from main
-    let option = parseNanoParserResultInEntry(cliOptions,param)
-    let files = await getVcFileLoc()
-    log(files)
+    let option = parseNanoParserResultInEntry(cliOptions, param);
 
     // debug ycs cli option - debug NanoParserResult
     if (option.debug || option.flags.debug) {
