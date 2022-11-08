@@ -48,6 +48,16 @@ function param() {
     ];
 }
 async function main(options = {}) {
+    // let option;
+    // feat: parse nano-parse result in main handle
+    // desc-x-s: plan set new parse-option to main
+    // option = {...getCliFlags(cliOptions)} //options
+    // option = { ...getCliFlags(options) };
+    // option = getObjOnlyDefinedKeys(option);
+    // desc-x-e: plan set new parse-option to main
+
+   let option = parseNanoParserResultInMain(options)
+
     let res;
     log(`[info] set git user.name and user.email`);
 
@@ -67,7 +77,7 @@ async function main(options = {}) {
         human: "by human",
         robot: "in github action",
     };
-    if (options.useRobots) {
+    if (option.useRobots) {
         author = robots;
         msglabel = msglabel.robot;
     } else {
@@ -209,21 +219,70 @@ function getTimeOfTimeZone(date, timeZone) {
     );
 }
 
+
+
+//--------why: parseNanoParserResult-------------
+// keep lib-ernty and cli-entry to the same code
+// code anywhere , run anyway
+//--------why: parseNanoParserResult-------------
+/**
+ * 
+ * @param {*} options 
+ * @returns 
+ * @sample
+ * ```
+ * let option = parseNanoParserResultInMain(options)
+ * ```
+ */
+function parseNanoParserResultInMain(options){
+    let option;
+    // feat: parse nano-parse result in main handle
+    // desc-x-s: plan set new parse-option to main
+    // option = {...getCliFlags(cliOptions)} //options
+    option = { ...getCliFlags(options) };
+    option = getObjOnlyDefinedKeys(option);
+    // desc-x-e: plan set new parse-option to main
+    return option
+}
+
+/**
+ * 
+ * @param {*} options 
+ * @param {*} param 
+ * @returns 
+ * @sample
+ * ```
+ * let option = parseNanoParserResultInEntry(cliOptions,param)
+ * ```
+ */
+function parseNanoParserResultInEntry(options,param){
+    // feat: parse nano-parse result in entry handle
+    // desc-x-s: extract parse-option from main
+    let option = { ...getBuiltinConfig(param), ...getCliFlags(options) };
+    option = getObjOnlyDefinedKeys(option);
+    options.flags = option;
+    option = { ...options };
+    // desc-x-e: extract parse-option from main
+    return option
+}
+
 function entry(input) {
     let cliOptions = parseArgs(input);
+    // desc-x-s: extract parse-option from main
+    // let option = { ...getBuiltinConfig(param()), ...getCliFlags(cliOptions) };
+    // option = getObjOnlyDefinedKeys(option);
+    // cliOptions.flags = option;
+    // option = { ...cliOptions };
+    // desc-x-e: extract parse-option from main
+    let option = parseNanoParserResultInEntry(cliOptions,param)
 
-    let option = { ...getBuiltinConfig(param()), ...getCliFlags(cliOptions) };
-    option = getObjOnlyDefinedKeys(option);
-    cliOptions.flags = option
-    option = {...cliOptions}
-    if(option.debug){
-
+    // debug ycs cli option - debug NanoParserResult
+    if (option.debug || option.flags.debug) {
         log(option);
         // process.exit(0)
-
-        return 
+        return;
     }
-    main(option)
+    main(option);
 }
 entry(process.argv);
 
