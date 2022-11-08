@@ -6,7 +6,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontSize": 12,
     "window.zoomLevel": 1,
-    "terminal.integrated.shell.windows": "E:\\Scoop\\apps\\git\\current\\bin\\bash.exe",
     "editor.tokenColorCustomizations": {
         "keywords": "#f80b8c"
     },
