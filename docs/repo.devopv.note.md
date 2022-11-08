@@ -128,6 +128,11 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "work
 bin/cmt-changed.js --msg-head="chore(core): dbg gh action"
 bin/cmt-changed.js --msg-head="chore(core): set fetch-data enable"
 
+git add .vscode/settings.json ; git commit --file .changeset/msg.tmp.md ; git log --oneline -n 1
+git add .vscode/settings.json ;git commit -m "chore(core): del git bash terminal setting"; git log --oneline -n 1
+
+git add jsconfig.json ;git commit -m "chore(core): set ymc alias"; git log --oneline -n 1
+
 
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): disable run on push"; git log --oneline -n 1
 # changed=$(git status --porcelain | grep -E "\?\?" | sed "s/?? //g" |grep -E "docs") ; git add $changed ; git commit -m "docs(core): add chord issue draft"; git log --oneline -n 1
