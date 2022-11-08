@@ -19,10 +19,7 @@ async function main(options={}){
         email:"ymc.github@gmail.com",
         name: "yemiancheng",
     }
-    // author = {
-    //     email: await runcmd(`git config --local user.email`,execOpts),
-    //     name: await runcmd(`git config --local user.name`,execOpts),
-    // }
+
     // author = {...robots,...author}
     let robotReg = [/\[bot\]/i]
     let msglabel = {
@@ -33,6 +30,13 @@ async function main(options={}){
         author=robots
         msglabel = msglabel.robot
     }else{
+        let currentAuthor = {
+            email: await runcmd(`git config --local user.email`,execOpts),
+            name: await runcmd(`git config --local user.name`,execOpts),
+        }
+        if(!isRobot(currentAuthor,robotReg)){
+            author={...author,...currentAuthor}
+        }
         msglabel = msglabel.human
     }
     log(author)
