@@ -1,0 +1,27 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontSize": 12,
+    "window.zoomLevel": 1,
+    "terminal.integrated.shell.windows": "E:\\Scoop\\apps\\git\\current\\bin\\bash.exe",
+    "editor.tokenColorCustomizations": {
+        "keywords": "#f80b8c"
+    },
+    "path-intellisense.mappings": {
+        "@ymc/": "${workspaceFolder}/lib"
+    },
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.useCorrectCasing": true,
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": false
+        }
+    }
+}
