@@ -65,12 +65,13 @@ async function main(options={}){
         log(`[info] commit target files`)
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`,execOpts)
         res = await runcmd(`git commit -m "chore(core): update readme ${msglabel}" --date "${now}"`,execOpts)
-        log(res)
     }
     if(isExpectedChangedFile({input:files,expectedChanedReg:/^bin\/.*.js/ig})){
         log(`[info] commit target files`)
         res = await runcmd(`git add bin`,execOpts)
         res = await runcmd(`git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,execOpts)
+        log(res)
+
         res = await runcmd(`git log --oneline -n 1"`,execOpts)
         log(res)
     }
