@@ -93,6 +93,13 @@ jobs:
     #         timezoneMacos: "Asia/Shanghai"
     #         timezoneWindows: "Shanghai Standard Time"
     # #   https://github.com/marketplace/actions/set-timezone
+
+      - name: check continue
+        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "cancontinue" | grep "cancontinue"
+
+    # a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "2 days ago" +%Y-%m-%d); [ "$a" -gt "$b" ] && echo "cancontinue" && grep "cancontinue"
+    #
+
       - name: fetch data
         run: |
          # echo "${{env.MY_NAMES}}" "${{env.GH_TOKEN}}" "${{secrets.GH_TOKEN}}"
@@ -110,6 +117,7 @@ jobs:
          GH_TOKEN: "${{secrets.GH_TOKEN}}"
         # with: 
         #  ghtoken2: ${{secrets.GH_TOKEN}}
+        if: true
 
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
