@@ -153,6 +153,35 @@ async function main(options = {}) {
         log(res);
     }
 
+    toCmtFiles = onlyMatchSome(modified, [/^.github\/workflows\/.*.js/gi]);
+    if (toCmtFiles.length > 0) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
+        res = await runcmd(
+            `git commit -m "chore(core): update workflows ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
+    }
+
+    toCmtFiles = onlyMatchSome(modified, [/^docs\/repo.devopv\/.*.js/gi]);
+    if (toCmtFiles.length > 0) {
+        log(`[info] commit target files`);
+        res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
+        res = await runcmd(
+            `git commit -m "docs(core): update devopv note ${msglabel}" --date "${now}"`,
+            execOpts
+        );
+        log(`[info] info commit output`);
+        log(res);
+        res = await runcmd(`git log --oneline -n 1"`, execOpts);
+        log(res);
+    }
+    
+
     toCmtFiles = onlyMatchSome(untracked, [/^lib\/.*.js/gi]);
     if (toCmtFiles.length > 0) {
         log(`[info] commit target files`);
