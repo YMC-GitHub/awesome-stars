@@ -70,6 +70,8 @@ async function main(options={}){
         log(`[info] commit target files`)
         res = await runcmd(`git add bin`,execOpts)
         res = await runcmd(`git commit -m "chore(core): update bin ${msglabel}" --date "${now}"`,execOpts)
+        res = await runcmd(`git log --oneline -n 1"`,execOpts)
+        log(res)
     }
 
     // git rm bin/cmt-changed.sh
@@ -113,6 +115,9 @@ async function runcmd(cmd,execOpts){
     if(stderr){
         log(stderr)
     }
+    // if(stdout){
+    //     log(stdout)
+    // }
     return stdout
 }
 function toArray(s,options={}){
