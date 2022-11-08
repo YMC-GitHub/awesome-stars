@@ -552,7 +552,9 @@ entry(process.argv);
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param"
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param" --debug
 //  bin/cmt-changed.js --msg-head="chore(core): del msg label" --debug
+//  bin/cmt-changed.js --msg-head="chore(core): dbg gh action"
 
 //  bin/cmt-changed.js o:add --debug
 //  bin/cmt-changed.js o:pkg --debug
 //  bin/cmt-changed.js o:lin --debug
+//  git pull github main --rebase && git push github main
