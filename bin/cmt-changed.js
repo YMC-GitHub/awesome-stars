@@ -79,7 +79,7 @@ async function main(options = {}) {
     // author = {...robots,...author}
     let robotReg = [/\[bot\]/i];
     let msglabel = {
-        human: "by human",
+        human: "",//"by human",
         robot: "in github action",
     };
     if (option.useRobots) {
@@ -550,6 +550,7 @@ entry(process.argv);
 //  bin/cmt-changed.js --use-robots
 //  bin/cmt-changed.js --msg-head="chore(core): add lib"
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param"
+//  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param" --debug
 //  bin/cmt-changed.js --msg-head="chore(core): add lib cli-param" --debug
 
 //  bin/cmt-changed.js o:add --debug
