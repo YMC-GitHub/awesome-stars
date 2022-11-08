@@ -153,7 +153,7 @@ async function main(options = {}) {
         log(res);
     }
 
-    toCmtFiles = onlyMatchSome(modified, [/^.github\/workflows\/.*.js/gi]);
+    toCmtFiles = onlyMatchSome(modified, [/^.github\/workflows\/.*.yaml/gi]);
     if (toCmtFiles.length > 0) {
         log(`[info] commit target files`);
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
@@ -167,7 +167,7 @@ async function main(options = {}) {
         log(res);
     }
 
-    toCmtFiles = onlyMatchSome(modified, [/^docs\/repo.devopv\/.*.js/gi]);
+    toCmtFiles = onlyMatchSome(modified, [/^docs\/repo.devopv\/.*/gi]);
     if (toCmtFiles.length > 0) {
         log(`[info] commit target files`);
         res = await runcmd(`git add ${toCmtFiles.join(" ")}`, execOpts);
