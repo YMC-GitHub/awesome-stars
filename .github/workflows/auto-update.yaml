@@ -33,6 +33,8 @@ on:
 #     - cron: 8 0 25 * * # runs at 8:08 the 25th day of per month
       - cron: 8 0 1/7 * * # runs every 7 day at 8:08 starting from the day?
   workflow_dispatch:
+env:
+  nextstep: ""
 jobs: 
   # build job
   build:
@@ -95,10 +97,9 @@ jobs:
     # #   https://github.com/marketplace/actions/set-timezone
 
       - name: check continue
-        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "cancontinue" | grep "cancontinue"
+        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && ${{ env.nextstep = 'fetch-data' }}
 
-    # a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "2 days ago" +%Y-%m-%d); [ "$a" -gt "$b" ] && echo "cancontinue" && grep "cancontinue"
-    #
+    #https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
       - name: fetch data
         run: |
@@ -117,7 +118,7 @@ jobs:
          GH_TOKEN: "${{secrets.GH_TOKEN}}"
         # with: 
         #  ghtoken2: ${{secrets.GH_TOKEN}}
-        if: true
+        if: ${{ env.nextstep == 'fetch-data' }}
 
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
