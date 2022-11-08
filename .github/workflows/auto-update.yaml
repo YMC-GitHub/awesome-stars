@@ -108,7 +108,7 @@ jobs:
     #         nextstep=$(git describe --tags)
 
       - name: check continue
-        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "nextstep=fetch-data" >> $GITHUB_ENV ${{ env.nextstep = 'fetch-data' }}
+        run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "nextstep=fetch-data" >> $GITHUB_ENV
 
     # set github action env and get
     # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
