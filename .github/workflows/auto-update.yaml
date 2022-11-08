@@ -110,6 +110,8 @@ jobs:
       - name: check continue
         run: a=$(git log --pretty=format:"%as" -n 1); b=$(date -d "3 days ago" +%Y-%m-%d); [ $a = $b ] && echo "nextstep=fetch-data" >> $GITHUB_ENV ${{ env.nextstep = 'fetch-data' }}
 
+    # set github action env and get
+    # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-output-parameter
     # https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable
     # https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
