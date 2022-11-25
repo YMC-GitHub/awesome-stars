@@ -6,7 +6,23 @@ import { TextStream } from "../lib/text-stream-io.js";
 import { writeTpl } from "../lib/render-tpl.js";
 
 const { log } = console;
+function getTimeOfTimeZone(date, timeZone) {
+    let lang = "chinese";
+    // lang = "en-US";
+    if (typeof date === "string") {
+        return new Date(
+            new Date(date).toLocaleString(lang, {
+                timeZone,
+            })
+        );
+    }
 
+    return new Date(
+        date.toLocaleString(lang, {
+            timeZone,
+        })
+    );
+}
 function getTableBody(item, option = {}) {
     let { full_name, description, languages } = item;
 
