@@ -228,7 +228,7 @@ async function main() {
         style: "tab", //tab
         useStarredTime: true,
         topicBy: "", //yearmonth
-        useTableOfContent:true
+        useTableOfContent: true,
     };
 
     let content = render(allstars, renderOption);
@@ -241,9 +241,15 @@ async function main() {
     // log(content)
 
     log(`[task] add front content`);
+    let now = formatDate(
+        "yyyy-MM-dd HH:mm:ss",
+        getTimeOfTimeZone(new Date(), "Asia/Shanghai")
+    );
+
     textstream.init(`template/readme.head.md`);
     let front = await textstream.read("");
     if (front) {
+        front = front.replace("{time}", now);
         content = `${front}\n\n${content}`;
     }
 
