@@ -126,6 +126,10 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "work
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): set github action env val"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): fix exit 1"; git log --oneline -n 1
 changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows") ; git add $changed ; git commit -m "chore(core): set update time"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows|lib|temp") ; git add $changed ; git commit -m "chore(core): set update time"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E "workflows|lib|temp") ; git add $changed ; git commit -m "chore(core): put schedule to every day at 8:08"; git log --oneline -n 1
+changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E ".vscode") ; git add $changed ; git commit -m "chore(core): disable auto-save yaml"; git log --oneline -n 1
+
 bin/cmt-changed.js --msg-head="chore(core): dbg gh action"
 bin/cmt-changed.js --msg-head="chore(core): set fetch-data enable"
 bin/cmt-changed.js --msg-head="chore(core): set update time"
