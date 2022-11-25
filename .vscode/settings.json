@@ -22,5 +22,11 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": false
         }
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": false
+        }
     }
 }
