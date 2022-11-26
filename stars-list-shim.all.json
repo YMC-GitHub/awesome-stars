@@ -6370,5 +6370,23 @@
     "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
     "starred_at": "2022-10-29T05:38:23Z",
     "languages": "Dart"
+  },
+  {
+    "full_name": "aiboboxx/clashfree",
+    "description": "clash科学上网、clash翻墙、clash节点、clash订阅链接、clash教程",
+    "starred_at": "2022-11-24T05:29:26Z",
+    "languages": ""
+  },
+  {
+    "full_name": "tauri-apps/awesome-tauri",
+    "description": "🚀 Awesome Tauri Apps, Plugins and Resources",
+    "starred_at": "2022-10-29T05:43:34Z",
+    "languages": ""
+  },
+  {
+    "full_name": "Loyalsoldier/clash-rules",
+    "description": "🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。",
+    "starred_at": "2022-11-24T05:36:21Z",
+    "languages": ""
   }
 ]
