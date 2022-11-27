@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-11-26 09:54:26&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-11-27 10:04:49&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -19,6 +19,7 @@
 
 *  [Unknow](#Unknow)
 *  [Dart](#Dart)
+*  [Python](#Python)
 *  [HTML](#HTML)
 *  [JavaScript](#JavaScript)
 *  [SVG](#SVG)
@@ -28,7 +29,6 @@
 *  [PowerShell](#PowerShell)
 *  [C#](#C#)
 *  [Go](#Go)
-*  [Python](#Python)
 *  [HLSL](#HLSL)
 *  [Vue](#Vue)
 *  [Jinja](#Jinja)
@@ -167,6 +167,96 @@
 - 2022-10-29 [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
 
 - 2018-10-28 [bailicangdu/native-xdm](https://github.com/bailicangdu/native-xdm) - 基于 Flutter 构建一个跨平台的原生APP
+
+
+
+
+## Python
+- 2022-10-26 [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+
+- 2022-08-10 [microsoft/WSL](https://github.com/microsoft/WSL) - Issues found on WSL
+
+- 2022-08-02 [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+- 2022-06-07 [hay/facetool](https://github.com/hay/facetool) - Command line utility to manipulate faces in videos and images
+
+- 2022-06-07 [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
+
+- 2022-06-07 [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) - DeepFaceLab is the leading software for creating deepfakes.
+
+- 2022-05-04 [sugiany/blender_mmd_tools](https://github.com/sugiany/blender_mmd_tools) - mmd_tools is a blender addon for importing Models and Motions of MikuMikuDance.
+
+- 2022-05-02 [atticus-lv/RenderNode](https://github.com/atticus-lv/RenderNode) - node based render workflow for blender
+
+- 2022-04-30 [958261649/Miku_Miku_Rig](https://github.com/958261649/Miku_Miku_Rig) - MikuMikuRig是一款集生成控制器，自动导入动画，自动布料为一体的blender插件
+
+- 2022-04-29 [Vwings/mmdbridge-material-importer](https://github.com/Vwings/mmdbridge-material-importer) - Material importer for MMDBridge and blender 2.8+
+
+- 2022-02-18 [doakey3/Bligify](https://github.com/doakey3/Bligify) - Blender addon for exporting and importing animated GIF sequences
+
+- 2022-02-18 [MarkC-b3d/makepillow](https://github.com/MarkC-b3d/makepillow) - Uses the blender python API to generate a pillow base mesh using cloth simulation physics. Only supported for stable branches of blender, use experimental and daily builds at your own risk.
+
+- 2022-02-18 [the3dadvantage/Modeling-Cloth](https://github.com/the3dadvantage/Modeling-Cloth) - Create real-time cloth-like behavior in meshes in Blender
+
+- 2022-02-18 [PluginCafe/cinema4d_py_sdk_extended](https://github.com/PluginCafe/cinema4d_py_sdk_extended) - The official Python API examples for Cinema 4D.
+
+- 2021-12-08 [googidaddy/bili_upload_tool](https://github.com/googidaddy/bili_upload_tool) - 搬运视频到b站工具
+
+- 2021-12-08 [Ayppo/uploader](https://github.com/Ayppo/uploader) - B站(bilibili)投稿必备
+
+- 2021-08-19 [echim/pySteps](https://github.com/echim/pySteps) - Generic python automation framework with PyAutogui, OpenCV and Tesseract-OCR for desktop apps.
+
+- 2021-08-18 [nodejs/node-gyp](https://github.com/nodejs/node-gyp) - Node.js native addon build tool
+
+- 2021-07-19 [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) - Ansible for DevOps examples.
+
+- 2021-06-25 [facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) - High-Resolution 3D Human Digitization from A Single Image.
+
+- 2021-05-24 [a312863063/generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2) - Here is a series of face generators based on StyleGAN2
+
+- 2021-05-24 [wuhuikai/FaceSwap](https://github.com/wuhuikai/FaceSwap) - Swap face between two photos. 
+
+- 2021-05-23 [nxcd/face-dataset-creator](https://github.com/nxcd/face-dataset-creator) - It's a face extractor from videos and images to create a dataset about face images
+
+- 2021-05-23 [Tyrannosaurus1234/GetFaces](https://github.com/Tyrannosaurus1234/GetFaces) - Python script for extracting faces from video files
+
+- 2021-05-23 [dhvanikotak/Emotion-Detection-in-Videos](https://github.com/dhvanikotak/Emotion-Detection-in-Videos) - The aim of this work is to recognize the six emotions (happiness, sadness, disgust, surprise, fear and anger) based on human facial expressions extracted from videos. To achieve this, we are considering people of different ethnicity, age and gender where each one of them reacts very different when they express their emotions. We collected a data set of 149 videos that included short videos from both, females and males, expressing each of the the emotions described before. The data set was built by students and each of them recorded a video expressing all the emotions with no directions or instructions at all.  Some videos included more body parts than others. In other cases, videos have objects in the background an even different light setups. We wanted this to be as general as possible with no restrictions at all, so it could be a very good indicator of our main goal.   The code detect_faces.py just detects faces from the video and we saved this video in the dimension 240x320. Using this algorithm creates shaky videos. Thus we then stabilized all videos. This can be done via a code or online free stabilizers are also available. After which we used the stabilized videos and ran it through code emotion_classification_videos_faces.py. in the code we developed a method to extract features based on histogram of dense optical flows (HOF) and we used a support vector machine (SVM) classifier to tackle the recognition problem.   For each video at each frame we extracted optical flows. Optical flows measure the motion relative to an observer between two frames at each point of them. Therefore, at each point in the image you will have two values that describes the vector representing the motion between the two frames: the magnitude and the angle. In our case, since videos have a resolution of 240x320, each frame will have a feature descriptor of dimensions 240x320x2. So, the final video descriptor will have a dimension of #framesx240x320x2. In order to make a video comparable to other inputs (because inputs of different length will not be comparable with each other), we need to somehow find a way to summarize the video into a single descriptor. We achieve this by calculating a histogram of the optical flows. This is, separate the extracted flows into categories and count the number of flows for each category. In more details, we split the scene into a grid of s by s bins (10 in this case) in order to record the location of each feature, and then categorized the direction of the flow as one of the 8 different motion directions considered in this problem. After this, we count for each direction the number of flows occurring in each direction bin. Finally, we end up with an s by s by 8 bins descriptor per each frame. Now, the summarizing step for each video could be the average of the histograms in each grid (average pooling method) or we could just pick the maximum value of the histograms by grid throughout all the frames on a video (max pooling   For the classification process, we used support vector machine (SVM) with a non linear kernel classifier, discussed in class, to recognize the new facial expressions. We also considered a Naïve Bayes classifier, but it is widely known that svm outperforms the last method in the computer vision field. A confusion matrix can be made to plot results better. 
+
+- 2021-05-23 [Constannnnnt/Video_FaceSwap](https://github.com/Constannnnnt/Video_FaceSwap) - Given a user profile, a video clip and an actor(actress) profile in the video, Swap the actor's face with the user's face
+
+- 2021-05-20 [bluer007/baidu_uploader](https://github.com/bluer007/baidu_uploader) - 百度网盘上传助手, 突破百度网盘客户端非会员单次最多上传500个文件和最大2G文件大小的限制
+
+- 2021-05-20 [XavierJiezou/opecv-face-detect](https://github.com/XavierJiezou/opecv-face-detect) - null
+
+- 2021-05-20 [mansonami/videoswapface](https://github.com/mansonami/videoswapface) - change the faces in the video
+
+- 2021-05-20 [goberoi/faceit](https://github.com/goberoi/faceit) - A script to make it easy to swap faces in videos using the faceswap library, and YouTube videos.
+
+- 2021-05-20 [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
+
+- 2021-05-20 [tomasrasymas/simimg](https://github.com/tomasrasymas/simimg) - Similar image search
+
+- 2021-05-20 [AlexiaJM/Generative-model-most-similar-images](https://github.com/AlexiaJM/Generative-model-most-similar-images) - Function that output the 5 most similar training (real) images to the given generated (fake) images.
+
+- 2021-05-20 [MashiMaroLjc/Learn-to-identify-similar-images](https://github.com/MashiMaroLjc/Learn-to-identify-similar-images) - Record my python script about Iearning to identify similar images
+
+- 2021-05-20 [TalkUHulk/changeFaceImg](https://github.com/TalkUHulk/changeFaceImg) - null
+
+- 2021-05-20 [pascscha/FaceChanger](https://github.com/pascscha/FaceChanger) - Warp faces similar to some Snapchat filters or face swaps. Eyes, eyebrows, nose and mouth can all be moved and scaled interactively. The script can process the changes in real-time and works off images, videos or a live video stream from the webcam.
+
+- 2021-05-20 [NocoldBob/change_face](https://github.com/NocoldBob/change_face) - change your face in video
+
+- 2021-05-20 [Liangwe/AI-Change-face-in-the-video](https://github.com/Liangwe/AI-Change-face-in-the-video) - 将视频中的人脸更换为指定照片中的人脸，并且输出视频。
+
+- 2021-05-18 [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files. 
+
+- 2021-05-18 [coder-pig/VideoSubtitleExtractTool](https://github.com/coder-pig/VideoSubtitleExtractTool) - 视频字幕提取工具
+
+- 2018-10-05 [flashlizi/cssrem](https://github.com/flashlizi/cssrem) - 一个CSS值转REM的Sublime Text插件
+
+- 2018-09-14 [globocom/m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
+
+- 2018-08-31 [NetEase/c](https://github.com/NetEase/c) - null
 
 
 
@@ -1803,94 +1893,6 @@
 - 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
 
 - 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
-
-
-
-
-## Python
-- 2022-08-10 [microsoft/WSL](https://github.com/microsoft/WSL) - Issues found on WSL
-
-- 2022-08-02 [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
-
-- 2022-06-07 [hay/facetool](https://github.com/hay/facetool) - Command line utility to manipulate faces in videos and images
-
-- 2022-06-07 [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
-
-- 2022-06-07 [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) - DeepFaceLab is the leading software for creating deepfakes.
-
-- 2022-05-04 [sugiany/blender_mmd_tools](https://github.com/sugiany/blender_mmd_tools) - mmd_tools is a blender addon for importing Models and Motions of MikuMikuDance.
-
-- 2022-05-02 [atticus-lv/RenderNode](https://github.com/atticus-lv/RenderNode) - node based render workflow for blender
-
-- 2022-04-30 [958261649/Miku_Miku_Rig](https://github.com/958261649/Miku_Miku_Rig) - MikuMikuRig是一款集生成控制器，自动导入动画，自动布料为一体的blender插件
-
-- 2022-04-29 [Vwings/mmdbridge-material-importer](https://github.com/Vwings/mmdbridge-material-importer) - Material importer for MMDBridge and blender 2.8+
-
-- 2022-02-18 [doakey3/Bligify](https://github.com/doakey3/Bligify) - Blender addon for exporting and importing animated GIF sequences
-
-- 2022-02-18 [MarkC-b3d/makepillow](https://github.com/MarkC-b3d/makepillow) - Uses the blender python API to generate a pillow base mesh using cloth simulation physics. Only supported for stable branches of blender, use experimental and daily builds at your own risk.
-
-- 2022-02-18 [the3dadvantage/Modeling-Cloth](https://github.com/the3dadvantage/Modeling-Cloth) - Create real-time cloth-like behavior in meshes in Blender
-
-- 2022-02-18 [PluginCafe/cinema4d_py_sdk_extended](https://github.com/PluginCafe/cinema4d_py_sdk_extended) - The official Python API examples for Cinema 4D.
-
-- 2021-12-08 [googidaddy/bili_upload_tool](https://github.com/googidaddy/bili_upload_tool) - 搬运视频到b站工具
-
-- 2021-12-08 [Ayppo/uploader](https://github.com/Ayppo/uploader) - B站(bilibili)投稿必备
-
-- 2021-08-19 [echim/pySteps](https://github.com/echim/pySteps) - Generic python automation framework with PyAutogui, OpenCV and Tesseract-OCR for desktop apps.
-
-- 2021-08-18 [nodejs/node-gyp](https://github.com/nodejs/node-gyp) - Node.js native addon build tool
-
-- 2021-07-19 [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) - Ansible for DevOps examples.
-
-- 2021-06-25 [facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) - High-Resolution 3D Human Digitization from A Single Image.
-
-- 2021-05-24 [a312863063/generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2) - Here is a series of face generators based on StyleGAN2
-
-- 2021-05-24 [wuhuikai/FaceSwap](https://github.com/wuhuikai/FaceSwap) - Swap face between two photos. 
-
-- 2021-05-23 [nxcd/face-dataset-creator](https://github.com/nxcd/face-dataset-creator) - It's a face extractor from videos and images to create a dataset about face images
-
-- 2021-05-23 [Tyrannosaurus1234/GetFaces](https://github.com/Tyrannosaurus1234/GetFaces) - Python script for extracting faces from video files
-
-- 2021-05-23 [dhvanikotak/Emotion-Detection-in-Videos](https://github.com/dhvanikotak/Emotion-Detection-in-Videos) - The aim of this work is to recognize the six emotions (happiness, sadness, disgust, surprise, fear and anger) based on human facial expressions extracted from videos. To achieve this, we are considering people of different ethnicity, age and gender where each one of them reacts very different when they express their emotions. We collected a data set of 149 videos that included short videos from both, females and males, expressing each of the the emotions described before. The data set was built by students and each of them recorded a video expressing all the emotions with no directions or instructions at all.  Some videos included more body parts than others. In other cases, videos have objects in the background an even different light setups. We wanted this to be as general as possible with no restrictions at all, so it could be a very good indicator of our main goal.   The code detect_faces.py just detects faces from the video and we saved this video in the dimension 240x320. Using this algorithm creates shaky videos. Thus we then stabilized all videos. This can be done via a code or online free stabilizers are also available. After which we used the stabilized videos and ran it through code emotion_classification_videos_faces.py. in the code we developed a method to extract features based on histogram of dense optical flows (HOF) and we used a support vector machine (SVM) classifier to tackle the recognition problem.   For each video at each frame we extracted optical flows. Optical flows measure the motion relative to an observer between two frames at each point of them. Therefore, at each point in the image you will have two values that describes the vector representing the motion between the two frames: the magnitude and the angle. In our case, since videos have a resolution of 240x320, each frame will have a feature descriptor of dimensions 240x320x2. So, the final video descriptor will have a dimension of #framesx240x320x2. In order to make a video comparable to other inputs (because inputs of different length will not be comparable with each other), we need to somehow find a way to summarize the video into a single descriptor. We achieve this by calculating a histogram of the optical flows. This is, separate the extracted flows into categories and count the number of flows for each category. In more details, we split the scene into a grid of s by s bins (10 in this case) in order to record the location of each feature, and then categorized the direction of the flow as one of the 8 different motion directions considered in this problem. After this, we count for each direction the number of flows occurring in each direction bin. Finally, we end up with an s by s by 8 bins descriptor per each frame. Now, the summarizing step for each video could be the average of the histograms in each grid (average pooling method) or we could just pick the maximum value of the histograms by grid throughout all the frames on a video (max pooling   For the classification process, we used support vector machine (SVM) with a non linear kernel classifier, discussed in class, to recognize the new facial expressions. We also considered a Naïve Bayes classifier, but it is widely known that svm outperforms the last method in the computer vision field. A confusion matrix can be made to plot results better. 
-
-- 2021-05-23 [Constannnnnt/Video_FaceSwap](https://github.com/Constannnnnt/Video_FaceSwap) - Given a user profile, a video clip and an actor(actress) profile in the video, Swap the actor's face with the user's face
-
-- 2021-05-20 [bluer007/baidu_uploader](https://github.com/bluer007/baidu_uploader) - 百度网盘上传助手, 突破百度网盘客户端非会员单次最多上传500个文件和最大2G文件大小的限制
-
-- 2021-05-20 [XavierJiezou/opecv-face-detect](https://github.com/XavierJiezou/opecv-face-detect) - null
-
-- 2021-05-20 [mansonami/videoswapface](https://github.com/mansonami/videoswapface) - change the faces in the video
-
-- 2021-05-20 [goberoi/faceit](https://github.com/goberoi/faceit) - A script to make it easy to swap faces in videos using the faceswap library, and YouTube videos.
-
-- 2021-05-20 [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
-
-- 2021-05-20 [tomasrasymas/simimg](https://github.com/tomasrasymas/simimg) - Similar image search
-
-- 2021-05-20 [AlexiaJM/Generative-model-most-similar-images](https://github.com/AlexiaJM/Generative-model-most-similar-images) - Function that output the 5 most similar training (real) images to the given generated (fake) images.
-
-- 2021-05-20 [MashiMaroLjc/Learn-to-identify-similar-images](https://github.com/MashiMaroLjc/Learn-to-identify-similar-images) - Record my python script about Iearning to identify similar images
-
-- 2021-05-20 [TalkUHulk/changeFaceImg](https://github.com/TalkUHulk/changeFaceImg) - null
-
-- 2021-05-20 [pascscha/FaceChanger](https://github.com/pascscha/FaceChanger) - Warp faces similar to some Snapchat filters or face swaps. Eyes, eyebrows, nose and mouth can all be moved and scaled interactively. The script can process the changes in real-time and works off images, videos or a live video stream from the webcam.
-
-- 2021-05-20 [NocoldBob/change_face](https://github.com/NocoldBob/change_face) - change your face in video
-
-- 2021-05-20 [Liangwe/AI-Change-face-in-the-video](https://github.com/Liangwe/AI-Change-face-in-the-video) - 将视频中的人脸更换为指定照片中的人脸，并且输出视频。
-
-- 2021-05-18 [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files. 
-
-- 2021-05-18 [coder-pig/VideoSubtitleExtractTool](https://github.com/coder-pig/VideoSubtitleExtractTool) - 视频字幕提取工具
-
-- 2018-10-05 [flashlizi/cssrem](https://github.com/flashlizi/cssrem) - 一个CSS值转REM的Sublime Text插件
-
-- 2018-09-14 [globocom/m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
-
-- 2018-08-31 [NetEase/c](https://github.com/NetEase/c) - null
 
 
 

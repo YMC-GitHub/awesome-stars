@@ -6388,5 +6388,11 @@
     "description": "🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。",
     "starred_at": "2022-11-24T05:36:21Z",
     "languages": ""
+  },
+  {
+    "full_name": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "starred_at": "2022-10-26T13:34:09Z",
+    "languages": "Python"
   }
 ]
