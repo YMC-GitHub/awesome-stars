@@ -6400,5 +6400,17 @@
     "description": "The fastest way to build Svelte apps",
     "starred_at": "2022-11-27T06:07:55Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "vitejs/vite",
+    "description": "Next generation frontend tooling. It's fast!",
+    "starred_at": "2022-12-01T05:03:27Z",
+    "languages": "TypeScript"
+  },
+  {
+    "full_name": "tauri-apps/tauri",
+    "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
+    "starred_at": "2022-10-29T05:41:45Z",
+    "languages": "Rust"
   }
 ]
