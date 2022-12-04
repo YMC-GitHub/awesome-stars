@@ -6412,5 +6412,11 @@
     "description": "Build smaller, faster, and more secure desktop applications with a web frontend.",
     "starred_at": "2022-10-29T05:41:45Z",
     "languages": "Rust"
+  },
+  {
+    "full_name": "webtorrent/webtorrent-desktop",
+    "description": "❤️ Streaming torrent app for Mac, Windows, and Linux",
+    "starred_at": "2022-12-02T10:54:02Z",
+    "languages": "JavaScript"
   }
 ]
