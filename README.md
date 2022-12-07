@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-06 09:50:16&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-07 09:54:58&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1064,6 +1064,8 @@
 
 - 2018-07-04 [nuxt-community/i18n-module](https://github.com/nuxt-community/i18n-module) - i18n for Nuxt
 
+- 2018-07-04 [nuxt-modules/i18n](https://github.com/nuxt-modules/i18n) - Module i18n for Nuxt
+
 - 2018-07-04 [surmon-china/vue2any](https://github.com/surmon-china/vue2any) - 把 vue 组件转换为任何 web 类模板
 
 - 2018-06-28 [josdejong/mathjs](https://github.com/josdejong/mathjs) - An extensive math library for JavaScript and Node.js
@@ -1194,6 +1196,8 @@
 
 
 ## TypeScript
+- 2022-12-04 [artsy/eigen](https://github.com/artsy/eigen) - The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.
+
 - 2022-12-01 [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
 
 - 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse

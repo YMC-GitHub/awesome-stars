@@ -6424,5 +6424,17 @@
     "description": "自用资源",
     "starred_at": "2022-12-04T09:45:38Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "nuxt-modules/i18n",
+    "description": "Module i18n for Nuxt",
+    "starred_at": "2018-07-04T13:47:19Z",
+    "languages": "JavaScript"
+  },
+  {
+    "full_name": "artsy/eigen",
+    "description": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.",
+    "starred_at": "2022-12-04T08:48:08Z",
+    "languages": "TypeScript"
   }
 ]
