@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-08 09:50:57&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-09 09:52:31&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1201,6 +1201,8 @@
 - 2022-12-01 [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
 
 - 2022-12-01 [electron-vite/electron-vite-vue](https://github.com/electron-vite/electron-vite-vue) - 🥳 Really simple Electron + Vite + Vue boilerplate.
+
+- 2022-12-01 [antfu/vitesse-webext](https://github.com/antfu/vitesse-webext) - ⚡️ WebExtension Vite Starter Template
 
 - 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse
 

@@ -6442,5 +6442,11 @@
     "description": "🥳 Really simple Electron + Vite + Vue boilerplate.",
     "starred_at": "2022-12-01T04:24:29Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "antfu/vitesse-webext",
+    "description": "⚡️ WebExtension Vite Starter Template",
+    "starred_at": "2022-12-01T04:20:58Z",
+    "languages": "TypeScript"
   }
 ]
