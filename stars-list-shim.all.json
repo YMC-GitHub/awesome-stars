@@ -6460,5 +6460,11 @@
     "description": "分享免费梯子/科学上网/代理/shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理，2小时更新一次，分享Clash代理订阅源和配置文件订阅链接。",
     "starred_at": "2022-12-10T13:04:45Z",
     "languages": ""
+  },
+  {
+    "full_name": "vitejs/awesome-vite",
+    "description": "⚡️ A curated list of awesome things related to Vite.js",
+    "starred_at": "2022-12-01T04:23:33Z",
+    "languages": "JavaScript"
   }
 ]
