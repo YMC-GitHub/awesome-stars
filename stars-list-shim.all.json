@@ -6484,5 +6484,23 @@
     "description": "High-performance, esbuild-based Vite Electron plugin",
     "starred_at": "2022-12-03T22:16:43Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "acidanthera/OpenCorePkg",
+    "description": "OpenCore bootloader",
+    "starred_at": "2022-12-15T01:13:53Z",
+    "languages": "C"
+  },
+  {
+    "full_name": "telegramdesktop/tdesktop",
+    "description": "Telegram Desktop messaging app",
+    "starred_at": "2022-12-09T12:33:55Z",
+    "languages": "C++"
+  },
+  {
+    "full_name": "BeamlakAschalew/cinemax",
+    "description": "Open-source Android app made with Flutter with functionality of watching movies and tv series for free.",
+    "starred_at": "2022-12-06T12:05:02Z",
+    "languages": "Dart"
   }
 ]
