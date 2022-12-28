@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-27 09:43:59&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-28 09:44:09&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -230,6 +230,8 @@
 
 
 ## JavaScript
+- 2022-12-06 [junedomingo/react-native-rename](https://github.com/junedomingo/react-native-rename) - Rename react-native app with just one command
+
 - 2022-12-04 [heroaku/TVboxo](https://github.com/heroaku/TVboxo) - 自用资源
 
 - 2022-12-02 [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) - ❤️ Streaming torrent app for Mac, Windows, and Linux
