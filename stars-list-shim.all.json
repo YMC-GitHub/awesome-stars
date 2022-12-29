@@ -6520,5 +6520,11 @@
     "description": "Rename react-native app with just one command",
     "starred_at": "2022-12-06T11:24:51Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "balena-io/etcher",
+    "description": "Flash OS images to SD cards & USB drives, safely and easily.",
+    "starred_at": "2022-12-20T05:56:19Z",
+    "languages": "TypeScript"
   }
 ]
