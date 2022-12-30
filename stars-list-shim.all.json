@@ -6526,5 +6526,11 @@
     "description": "Flash OS images to SD cards & USB drives, safely and easily.",
     "starred_at": "2022-12-20T05:56:19Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "deadlyjack/Acode",
+    "description": "Acode - powerful text/code editor for android",
+    "starred_at": "2022-12-10T13:31:33Z",
+    "languages": "JavaScript"
   }
 ]
