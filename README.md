@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2022-12-31 09:43:50&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-01-01 10:00:11&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -21,6 +21,7 @@
 *  [C](#C)
 *  [Unknow](#Unknow)
 *  [JavaScript](#JavaScript)
+*  [Java](#Java)
 *  [C++](#C++)
 *  [Dart](#Dart)
 *  [C#](#C#)
@@ -36,7 +37,6 @@
 *  [Jinja](#Jinja)
 *  [CSS](#CSS)
 *  [Markdown](#Markdown)
-*  [Java](#Java)
 *  [CMake](#CMake)
 *  [Ruby](#Ruby)
 *  [PHP](#PHP)
@@ -473,6 +473,8 @@
 - 2022-12-01 [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
 
 - 2022-11-27 [sveltejs/kit](https://github.com/sveltejs/kit) - The fastest way to build Svelte apps
+
+- 2022-11-17 [baranwang/pinyin](https://github.com/baranwang/pinyin) - Node.js 汉字转拼音
 
 - 2022-10-18 [kelektiv/node-cron](https://github.com/kelektiv/node-cron) - Cron for NodeJS.
 
@@ -1611,6 +1613,40 @@
 
 
 
+## Java
+- 2022-12-10 [maks/MGit](https://github.com/maks/MGit) - A Git client for Android.
+
+- 2021-09-01 [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) - 🏗 Build container images for your Java applications.
+
+- 2021-08-14 [hyb1996/Auto.js](https://github.com/hyb1996/Auto.js) - A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
+
+- 2021-07-11 [lxr1907/pokers-server](https://github.com/lxr1907/pokers-server) - texas holdem poker and other poker games tomcat server code
+
+- 2021-05-20 [nivance/image-similarity](https://github.com/nivance/image-similarity) - 计算图片之间的相似度
+
+- 2021-05-20 [DuebassLei/cordova-vue-android](https://github.com/DuebassLei/cordova-vue-android) - Cordova+Vue打包Android Apk简单Demo
+
+- 2020-02-28 [openjfx/javafx-gradle-plugin](https://github.com/openjfx/javafx-gradle-plugin) - Gradle plugin that makes it easy to work with JavaFX 11+
+
+- 2020-02-24 [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Spring Boot
+
+- 2020-02-24 [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Design patterns implemented in Java
+
+- 2020-02-23 [SpecialCyCi/AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu) - The idea of ResideMenu is from Dribbble 1 and 2. It has come true and run in iOS devices. iOS ResideMenu This project is the RefsideMenu Android version. The visual effect is partly referred to iOS version of ResideMenu. And thanks to the authors for the above idea and contribution. 
+
+- 2020-02-05 [simpligility/android-maven-plugin](https://github.com/simpligility/android-maven-plugin) - Maven Plugin for Android Application development and more
+
+- 2020-02-05 [carlossg/glacier-cli](https://github.com/carlossg/glacier-cli) - Amazon AWS Glacier command line interface
+
+- 2019-06-21 [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) - All Algorithms implemented in Java
+
+- 2018-11-08 [gwuhaolin/myccnu](https://github.com/gwuhaolin/myccnu) - 华中师范大学微信服务平台-掌上华师
+
+- 2018-10-25 [mmd0308/HZQ-Admin](https://github.com/mmd0308/HZQ-Admin) - 管理系统
+
+
+
+
 ## C++
 - 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
 
@@ -2183,38 +2219,6 @@
 
 ## Markdown
 - 2021-09-07 [upptime/upptime](https://github.com/upptime/upptime) - ⬆️ Free uptime monitor and status page powered by GitHub
-
-
-
-
-## Java
-- 2021-09-01 [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) - 🏗 Build container images for your Java applications.
-
-- 2021-08-14 [hyb1996/Auto.js](https://github.com/hyb1996/Auto.js) - A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
-
-- 2021-07-11 [lxr1907/pokers-server](https://github.com/lxr1907/pokers-server) - texas holdem poker and other poker games tomcat server code
-
-- 2021-05-20 [nivance/image-similarity](https://github.com/nivance/image-similarity) - 计算图片之间的相似度
-
-- 2021-05-20 [DuebassLei/cordova-vue-android](https://github.com/DuebassLei/cordova-vue-android) - Cordova+Vue打包Android Apk简单Demo
-
-- 2020-02-28 [openjfx/javafx-gradle-plugin](https://github.com/openjfx/javafx-gradle-plugin) - Gradle plugin that makes it easy to work with JavaFX 11+
-
-- 2020-02-24 [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Spring Boot
-
-- 2020-02-24 [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Design patterns implemented in Java
-
-- 2020-02-23 [SpecialCyCi/AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu) - The idea of ResideMenu is from Dribbble 1 and 2. It has come true and run in iOS devices. iOS ResideMenu This project is the RefsideMenu Android version. The visual effect is partly referred to iOS version of ResideMenu. And thanks to the authors for the above idea and contribution. 
-
-- 2020-02-05 [simpligility/android-maven-plugin](https://github.com/simpligility/android-maven-plugin) - Maven Plugin for Android Application development and more
-
-- 2020-02-05 [carlossg/glacier-cli](https://github.com/carlossg/glacier-cli) - Amazon AWS Glacier command line interface
-
-- 2019-06-21 [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) - All Algorithms implemented in Java
-
-- 2018-11-08 [gwuhaolin/myccnu](https://github.com/gwuhaolin/myccnu) - 华中师范大学微信服务平台-掌上华师
-
-- 2018-10-25 [mmd0308/HZQ-Admin](https://github.com/mmd0308/HZQ-Admin) - 管理系统
 
 
 
