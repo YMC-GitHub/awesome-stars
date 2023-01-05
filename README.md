@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-01-04 09:47:07&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-01-05 09:50:13&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -475,6 +475,8 @@
 - 2022-11-27 [sveltejs/kit](https://github.com/sveltejs/kit) - The fastest way to build Svelte apps
 
 - 2022-11-17 [baranwang/pinyin](https://github.com/baranwang/pinyin) - Node.js 汉字转拼音
+
+- 2022-10-21 [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) - A light-weight module that brings the Fetch API to Node.js
 
 - 2022-10-18 [kelektiv/node-cron](https://github.com/kelektiv/node-cron) - Cron for NodeJS.
 
