@@ -6550,5 +6550,11 @@
     "description": "A light-weight module that brings the Fetch API to Node.js",
     "starred_at": "2022-10-21T01:15:48Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "chanind/hanzi-writer",
+    "description": "Chinese character stroke order animations and practice quizzes",
+    "starred_at": "2022-11-18T11:04:44Z",
+    "languages": "TypeScript"
   }
 ]
