@@ -6556,5 +6556,11 @@
     "description": "Chinese character stroke order animations and practice quizzes",
     "starred_at": "2022-11-18T11:04:44Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "fbelavenuto/arpl",
+    "description": "Automated Redpill Loader",
+    "starred_at": "2022-12-11T02:07:23Z",
+    "languages": "Shell"
   }
 ]
