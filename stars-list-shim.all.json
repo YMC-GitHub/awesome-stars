@@ -6562,5 +6562,17 @@
     "description": "Automated Redpill Loader",
     "starred_at": "2022-12-11T02:07:23Z",
     "languages": "Shell"
+  },
+  {
+    "full_name": "vernesong/OpenClash",
+    "description": "A Clash Client For OpenWrt",
+    "starred_at": "2022-12-09T06:34:51Z",
+    "languages": "JavaScript"
+  },
+  {
+    "full_name": "alist-org/alist",
+    "description": "🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。",
+    "starred_at": "2022-12-18T02:12:13Z",
+    "languages": "Go"
   }
 ]
