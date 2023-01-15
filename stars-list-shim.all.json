@@ -6574,5 +6574,17 @@
     "description": "🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。",
     "starred_at": "2022-12-18T02:12:13Z",
     "languages": "Go"
+  },
+  {
+    "full_name": "Slackadays/Clipboard",
+    "description": "📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.",
+    "starred_at": "2023-01-15T01:09:51Z",
+    "languages": "C++"
+  },
+  {
+    "full_name": "Solido/awesome-flutter",
+    "description": "An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.",
+    "starred_at": "2022-10-29T05:37:38Z",
+    "languages": "Dart"
   }
 ]
