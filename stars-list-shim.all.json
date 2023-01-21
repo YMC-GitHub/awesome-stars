@@ -6592,5 +6592,11 @@
     "description": "Private NPM Registry for Enterprise",
     "starred_at": "2022-11-27T06:09:26Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "MotooriKashin/Bilibili-Old",
+    "description": "恢复旧版Bilibili页面，为了那些念旧的人。",
+    "starred_at": "2022-12-23T02:17:30Z",
+    "languages": "TypeScript"
   }
 ]
