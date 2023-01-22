@@ -6598,5 +6598,11 @@
     "description": "恢复旧版Bilibili页面，为了那些念旧的人。",
     "starred_at": "2022-12-23T02:17:30Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "nuxt/nuxt",
+    "description": "Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3.",
+    "starred_at": "2018-05-14T05:34:26Z",
+    "languages": "TypeScript"
   }
 ]
