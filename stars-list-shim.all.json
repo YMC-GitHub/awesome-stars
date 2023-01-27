@@ -6610,5 +6610,11 @@
     "description": "A curated list of software and architecture related design patterns.",
     "starred_at": "2023-01-22T00:30:25Z",
     "languages": ""
+  },
+  {
+    "full_name": "Fndroid/clash_for_windows_pkg",
+    "description": "A Windows/macOS GUI based on Clash",
+    "starred_at": "2022-12-09T06:37:40Z",
+    "languages": ""
   }
 ]
