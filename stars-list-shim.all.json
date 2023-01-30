@@ -6616,5 +6616,17 @@
     "description": "A Windows/macOS GUI based on Clash",
     "starred_at": "2022-12-09T06:37:40Z",
     "languages": ""
+  },
+  {
+    "full_name": "tejas-xd/Pancake",
+    "description": "Pancake is an android streaming app for movies, for movies, tv-shows and anime.",
+    "starred_at": "2022-12-06T12:01:27Z",
+    "languages": "Dart"
+  },
+  {
+    "full_name": "ic005k/OCAuxiliaryTools",
+    "description": "Cross-platform GUI management tools for OpenCore（OCAT）",
+    "starred_at": "2022-12-15T01:02:08Z",
+    "languages": "C++"
   }
 ]
