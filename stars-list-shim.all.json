@@ -6628,5 +6628,11 @@
     "description": "Cross-platform GUI management tools for OpenCore（OCAT）",
     "starred_at": "2022-12-15T01:02:08Z",
     "languages": "C++"
+  },
+  {
+    "full_name": "corpnewt/ProperTree",
+    "description": "Cross platform GUI plist editor written in python.",
+    "starred_at": "2022-12-21T05:30:04Z",
+    "languages": "Python"
   }
 ]
