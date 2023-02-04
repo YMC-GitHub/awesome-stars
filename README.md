@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-03 09:54:22&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-04 09:47:13&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -231,6 +231,8 @@
 - 2022-12-23 [MotooriKashin/Bilibili-Old](https://github.com/MotooriKashin/Bilibili-Old) - 恢复旧版Bilibili页面，为了那些念旧的人。
 
 - 2022-12-20 [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
+
+- 2022-12-09 [nojsja/shadowsocks-electron](https://github.com/nojsja/shadowsocks-electron) - Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.
 
 - 2022-12-04 [artsy/eigen](https://github.com/artsy/eigen) - The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.
 
@@ -767,6 +769,8 @@
 - 2022-11-27 [sveltejs/kit](https://github.com/sveltejs/kit) - The fastest way to build Svelte apps
 
 - 2022-11-17 [baranwang/pinyin](https://github.com/baranwang/pinyin) - Node.js 汉字转拼音
+
+- 2022-11-15 [jimp-dev/jimp](https://github.com/jimp-dev/jimp) - An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.
 
 - 2022-10-21 [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) - A light-weight module that brings the Fetch API to Node.js
 

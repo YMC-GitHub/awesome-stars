@@ -6640,5 +6640,17 @@
     "description": "completely free for everyone. Its build-in Flutter Dart.",
     "starred_at": "2023-01-23T06:06:13Z",
     "languages": "Dart"
+  },
+  {
+    "full_name": "jimp-dev/jimp",
+    "description": "An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.",
+    "starred_at": "2022-11-15T00:46:05Z",
+    "languages": "JavaScript"
+  },
+  {
+    "full_name": "nojsja/shadowsocks-electron",
+    "description": "Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.",
+    "starred_at": "2022-12-09T06:37:53Z",
+    "languages": "TypeScript"
   }
 ]
