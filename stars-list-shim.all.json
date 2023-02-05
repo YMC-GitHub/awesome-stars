@@ -6652,5 +6652,11 @@
     "description": "Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.",
     "starred_at": "2022-12-09T06:37:53Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "tdlib/td",
+    "description": "Cross-platform library for building Telegram clients",
+    "starred_at": "2022-12-09T12:33:08Z",
+    "languages": "C++"
   }
 ]

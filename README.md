@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-04 09:47:13&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-05 09:56:46&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -193,6 +193,8 @@
 - 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
 
 - 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
+
+- 2022-12-09 [tdlib/td](https://github.com/tdlib/td) - Cross-platform library for building Telegram clients
 
 - 2022-10-13 [pmq20/node-packer](https://github.com/pmq20/node-packer) - Packing your Node.js application into a single executable.
 
