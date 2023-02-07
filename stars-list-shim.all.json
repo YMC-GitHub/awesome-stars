@@ -6664,5 +6664,11 @@
     "description": "⚡️ TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM",
     "starred_at": "2022-12-01T04:36:57Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "maxence-charriere/go-app",
+    "description": "A package to build progressive web apps with Go programming language and WebAssembly.",
+    "starred_at": "2023-02-06T03:38:18Z",
+    "languages": "Go"
   }
 ]
