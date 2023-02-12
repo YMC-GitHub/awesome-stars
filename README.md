@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-11 09:45:55&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-12 09:55:00&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -149,6 +149,8 @@
 - 2022-11-27 [cnpm/cnpmcore](https://github.com/cnpm/cnpmcore) - Private NPM Registry for Enterprise
 
 - 2022-11-18 [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) - Chinese character stroke order animations and practice quizzes
+
+- 2022-11-15 [itgalaxy/favicons](https://github.com/itgalaxy/favicons) - Favicons generator for Node.js
 
 - 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse
 
