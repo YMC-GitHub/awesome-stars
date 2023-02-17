@@ -6694,5 +6694,17 @@
     "description": "Favicons generator for Node.js",
     "starred_at": "2022-11-15T00:47:34Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "eritpchy/webdav-aliyundriver-android",
+    "description": "阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现",
+    "starred_at": "2022-12-11T02:52:01Z",
+    "languages": "Java"
+  },
+  {
+    "full_name": "luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E",
+    "description": "Basic EFI with Opencore for Intel X99 Processors (4st Gen)",
+    "starred_at": "2023-01-03T10:37:43Z",
+    "languages": "C++"
   }
 ]
