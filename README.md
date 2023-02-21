@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-20 09:55:43&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-21 09:55:27&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -27,6 +27,7 @@
 *  [Java](#Java)
 *  [Shell](#Shell)
 *  [JavaScript](#JavaScript)
+*  [Kotlin](#Kotlin)
 *  [C#](#C#)
 *  [Rust](#Rust)
 *  [HTML](#HTML)
@@ -1961,6 +1962,12 @@
 - 2018-05-14 [node-webot/wechat](https://github.com/node-webot/wechat) - 微信公共平台消息接口服务中间件
 
 - 2018-05-14 [nuxt/nuxt.js](https://github.com/nuxt/nuxt.js) - The Intuitive Vue(2) Framework
+
+
+
+
+## Kotlin
+- 2022-12-09 [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
 
 
 
