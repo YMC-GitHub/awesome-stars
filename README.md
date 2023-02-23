@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-22 09:53:28&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-02-23 09:51:21&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -123,6 +123,8 @@
 
 
 ## TypeScript
+- 2023-02-03 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - ✨ Trigger.dev is an open-source platform that makes it easy for developers to create event-driven background tasks directly in their code.
+
 - 2023-01-25 [donmccurdy/ndarray-pixels](https://github.com/donmccurdy/ndarray-pixels) - Convert ndarray ↔ image data, for Web and Node.js.
 
 - 2022-12-23 [MotooriKashin/Bilibili-Old](https://github.com/MotooriKashin/Bilibili-Old) - 恢复旧版Bilibili页面，为了那些念旧的人。
@@ -826,6 +828,8 @@
 - 2022-11-17 [baranwang/pinyin](https://github.com/baranwang/pinyin) - Node.js 汉字转拼音
 
 - 2022-11-15 [jimp-dev/jimp](https://github.com/jimp-dev/jimp) - An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.
+
+- 2022-11-05 [liurongsheng/CodeCamp](https://github.com/liurongsheng/CodeCamp) - 技术汇总
 
 - 2022-10-21 [node-fetch/node-fetch](https://github.com/node-fetch/node-fetch) - A light-weight module that brings the Fetch API to Node.js
 

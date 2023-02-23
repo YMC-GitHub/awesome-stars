@@ -6718,5 +6718,17 @@
     "description": "A shadowsocks client for Android",
     "starred_at": "2022-12-09T06:30:26Z",
     "languages": "Kotlin"
+  },
+  {
+    "full_name": "triggerdotdev/trigger.dev",
+    "description": "✨ Trigger.dev is an open-source platform that makes it easy for developers to create event-driven background tasks directly in their code.",
+    "starred_at": "2023-02-03T23:53:52Z",
+    "languages": "TypeScript"
+  },
+  {
+    "full_name": "liurongsheng/CodeCamp",
+    "description": "技术汇总",
+    "starred_at": "2022-11-05T00:41:21Z",
+    "languages": "JavaScript"
   }
 ]
