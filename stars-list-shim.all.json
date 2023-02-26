@@ -6730,5 +6730,11 @@
     "description": "技术汇总",
     "starred_at": "2022-11-05T00:41:21Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "iperov/DeepFaceLive",
+    "description": "Real-time face swap for PC streaming or video calls",
+    "starred_at": "2023-01-22T00:30:48Z",
+    "languages": "Python"
   }
 ]
