@@ -6736,5 +6736,11 @@
     "description": "Real-time face swap for PC streaming or video calls",
     "starred_at": "2023-01-22T00:30:48Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "bluelovers/ws-segment",
+    "description": null,
+    "starred_at": "2022-11-18T07:18:34Z",
+    "languages": "TypeScript"
   }
 ]
