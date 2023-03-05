@@ -6748,5 +6748,11 @@
     "description": "Repo for Getting Started With ACPI",
     "starred_at": "2022-12-21T05:38:13Z",
     "languages": "ASL"
+  },
+  {
+    "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "description": "Stable Diffusion web UI",
+    "starred_at": "2023-03-05T01:10:20Z",
+    "languages": "Python"
   }
 ]
