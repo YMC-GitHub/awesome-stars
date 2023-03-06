@@ -10,13 +10,14 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-05 10:07:41&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-06 09:58:06&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
+*  [Jupyter Notebook](#Jupyter Notebook)
 *  [Python](#Python)
 *  [Dart](#Dart)
 *  [Go](#Go)
@@ -53,7 +54,15 @@
 *  [Nginx](#Nginx)
 
 
+## Jupyter Notebook
+- 2023-03-05 [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
+
+
+
+
 ## Python
+- 2023-03-05 [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch
+
 - 2023-03-05 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
 
 - 2023-01-22 [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) - Real-time face swap for PC streaming or video calls

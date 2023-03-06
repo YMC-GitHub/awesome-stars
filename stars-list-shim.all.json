@@ -6754,5 +6754,17 @@
     "description": "Stable Diffusion web UI",
     "starred_at": "2023-03-05T01:10:20Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "camenduru/stable-diffusion-webui-colab",
+    "description": "stable diffusion webui colab",
+    "starred_at": "2023-03-05T07:38:35Z",
+    "languages": "Jupyter Notebook"
+  },
+  {
+    "full_name": "huggingface/diffusers",
+    "description": "🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch",
+    "starred_at": "2023-03-05T02:47:16Z",
+    "languages": "Python"
   }
 ]
