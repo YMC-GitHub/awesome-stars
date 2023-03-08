@@ -6766,5 +6766,11 @@
     "description": "🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch",
     "starred_at": "2023-03-05T02:47:16Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "huggingface/huggingface.js",
+    "description": "Utilities to use the Hugging Face hub API",
+    "starred_at": "2023-03-05T03:02:56Z",
+    "languages": "TypeScript"
   }
 ]
