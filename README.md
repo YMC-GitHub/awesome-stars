@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-11 09:43:07&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-12 09:55:31&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -198,6 +198,8 @@
 - 2022-11-18 [bluelovers/ws-segment](https://github.com/bluelovers/ws-segment) - null
 
 - 2022-11-15 [itgalaxy/favicons](https://github.com/itgalaxy/favicons) - Favicons generator for Node.js
+
+- 2022-11-02 [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
 
 - 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse
 
