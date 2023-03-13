@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-12 09:55:31&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-13 09:47:50&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -19,6 +19,7 @@
 
 *  [Python](#Python)
 *  [Jupyter Notebook](#Jupyter Notebook)
+*  [JavaScript](#JavaScript)
 *  [TypeScript](#TypeScript)
 *  [Dart](#Dart)
 *  [Go](#Go)
@@ -28,7 +29,6 @@
 *  [ASL](#ASL)
 *  [Java](#Java)
 *  [Shell](#Shell)
-*  [JavaScript](#JavaScript)
 *  [Kotlin](#Kotlin)
 *  [C#](#C#)
 *  [Rust](#Rust)
@@ -162,683 +162,9 @@
 
 
 
-## TypeScript
-- 2023-03-05 [huggingface/huggingface.js](https://github.com/huggingface/huggingface.js) - Utilities to use the Hugging Face hub API
-
-- 2023-02-03 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - ✨ Trigger.dev is an open-source platform that makes it easy for developers to create event-driven background tasks directly in their code.
-
-- 2023-01-25 [donmccurdy/ndarray-pixels](https://github.com/donmccurdy/ndarray-pixels) - Convert ndarray ↔ image data, for Web and Node.js.
-
-- 2022-12-23 [MotooriKashin/Bilibili-Old](https://github.com/MotooriKashin/Bilibili-Old) - 恢复旧版Bilibili页面，为了那些念旧的人。
-
-- 2022-12-20 [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
-
-- 2022-12-09 [nojsja/shadowsocks-electron](https://github.com/nojsja/shadowsocks-electron) - Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.
-
-- 2022-12-04 [artsy/eigen](https://github.com/artsy/eigen) - The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.
-
-- 2022-12-03 [electron-vite/vite-electron-plugin](https://github.com/electron-vite/vite-electron-plugin) - High-performance, esbuild-based Vite Electron plugin
-
-- 2022-12-01 [cawa-93/vite-electron-builder](https://github.com/cawa-93/vite-electron-builder) - Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla
-
-- 2022-12-01 [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
-
-- 2022-12-01 [esbuild-kit/tsx](https://github.com/esbuild-kit/tsx) - ⚡️ TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM
-
-- 2022-12-01 [electron-vite/electron-vite-vue](https://github.com/electron-vite/electron-vite-vue) - 🥳 Really simple Electron + Vite + Vue boilerplate.
-
-- 2022-12-01 [antfu/vitesse-webext](https://github.com/antfu/vitesse-webext) - ⚡️ WebExtension Vite Starter Template
-
-- 2022-11-29 [4gray/iptvnator](https://github.com/4gray/iptvnator) - :tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.
-
-- 2022-11-27 [cnpm/cnpmcore](https://github.com/cnpm/cnpmcore) - Private NPM Registry for Enterprise
-
-- 2022-11-18 [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) - Chinese character stroke order animations and practice quizzes
-
-- 2022-11-18 [bluelovers/ws-segment](https://github.com/bluelovers/ws-segment) - null
-
-- 2022-11-15 [itgalaxy/favicons](https://github.com/itgalaxy/favicons) - Favicons generator for Node.js
-
-- 2022-11-02 [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
-
-- 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse
-
-- 2022-10-13 [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
-
-- 2022-09-26 [lukeed/tsm](https://github.com/lukeed/tsm) - TypeScript Module Loader
-
-- 2022-04-23 [rbuckton/obs-remote](https://github.com/rbuckton/obs-remote) - A touch-friendly desktop application designed for tablets that can be used to control OBS Studio remotely using 'obs-websocket'
-
-- 2022-04-07 [tinyhttp/tinyhttp](https://github.com/tinyhttp/tinyhttp) - 🦄 0-legacy, tiny & fast web framework as a replacement of Express
-
-- 2022-04-07 [keystonejs/keystone](https://github.com/keystonejs/keystone) - The most powerful headless CMS for Node.js — built with GraphQL and React
-
-- 2022-04-01 [nodejs/corepack](https://github.com/nodejs/corepack) - Zero-runtime-dependency package acting as bridge between Node projects and their package managers
-
-- 2022-04-01 [antfu/ni](https://github.com/antfu/ni) - 💡 Use the right package manager
-
-- 2022-04-01 [xiaoxiaojx/super-contra](https://github.com/xiaoxiaojx/super-contra) - 🎮 An h5 game written in React.js（Well, I used to like to write h5 games to have fun）
-
-- 2022-01-27 [duniul/pixel-scale](https://github.com/duniul/pixel-scale) - 📐 Get the pixel scale of an image, or scale it up or down without quality loss. Useful for pixel art!
-
-- 2021-12-14 [typings/vscode](https://github.com/typings/vscode) - Visual Studio Code extension for Typings
-
-- 2021-12-09 [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
-
-- 2021-12-08 [gladiatortoise/node-apiless-youtube-upload](https://github.com/gladiatortoise/node-apiless-youtube-upload) - Upload videos to Youtube in Node.js without any Youtube API dependency by using Selenium.
-
-- 2021-12-08 [Last-Order/BilibiliUploader](https://github.com/Last-Order/BilibiliUploader) - Bilibili Uploader in JavaScript
-
-- 2021-12-08 [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 强大的哔哩哔哩增强脚本
-
-- 2021-12-03 [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) - The repository for high quality TypeScript type definitions.
-
-- 2021-11-30 [wix/react-native-ui-lib](https://github.com/wix/react-native-ui-lib) - UI Components Library for React Native
-
-- 2021-11-30 [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) - A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box
-
-- 2021-11-15 [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action) - Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like.
-
-- 2021-11-15 [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) - Blendshape and kinematics calculator for Mediapipe/Tensorflow.js Face, Eyes, Pose, and Finger tracking models.
-
-- 2021-11-14 [venkatperi/statem](https://github.com/venkatperi/statem) - Develop Javascript Turing/State Machines 
-
-- 2021-11-04 [reg-viz/img-diff-js](https://github.com/reg-viz/img-diff-js) - :art: Node.js library to compare 2 images without native libs.
-
-- 2021-09-07 [TanStack/query](https://github.com/TanStack/query) - 🤖 Powerful asynchronous state management, server-state utilities and data fetching for TS/JS, React, Solid, Svelte and Vue.
-
-- 2021-09-01 [modernweb-dev/web](https://github.com/modernweb-dev/web) - Guides, tools and libraries for modern web development.
-
-- 2021-08-30 [survivejs/webpack-merge](https://github.com/survivejs/webpack-merge) - Merge designed for webpack
-
-- 2021-08-30 [standard/eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript) - An extension of eslint-config-standard, made for TypeScript.
-
-- 2021-08-29 [ooade/micro-typeof](https://github.com/ooade/micro-typeof) - ✍🏿Get the exact type of a value 
-
-- 2021-08-29 [zhangyuang/ssr](https://github.com/zhangyuang/ssr) - A most advanced ssr framework support React/Vue2/Vue3 on Earth that implemented serverless-side render specification.
-
-- 2021-08-25 [dendronhq/dendron](https://github.com/dendronhq/dendron) - The personal knowledge management (PKM) tool that grows as you do!
-
-- 2021-08-22 [AILHC/EasyGameFrameworkOpen](https://github.com/AILHC/EasyGameFrameworkOpen) - 基于Typescript的渐进式通用游戏前端开发框架
-
-- 2021-08-22 [NiGhTTraX/ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo) - Template for setting up a TypeScript monorepo
-
-- 2021-08-22 [pnpm/pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具
-
-- 2021-08-21 [aweiu/setPromiseInterval](https://github.com/aweiu/setPromiseInterval) - 用于定时执行异步任务，调用方式类似原生 setInterval
-
-- 2021-08-21 [Inlustra/env-args](https://github.com/Inlustra/env-args) - Combining well known libs to load config through arguments, .env and environment variables. Handling naming for you.
-
-- 2021-08-20 [sindresorhus/conf](https://github.com/sindresorhus/conf) - Simple config handling for your app or module
-
-- 2021-08-17 [xhuz/ts.dll](https://github.com/xhuz/ts.dll) - 天使插件的nodejs库，用js撸游戏脚本
-
-- 2021-08-17 [aweiu/dm.dll](https://github.com/aweiu/dm.dll) - JS 版按键精灵（大漠插件）
-
-- 2021-08-17 [FireTable/ts.dll](https://github.com/FireTable/ts.dll) - 通过nodejs调用天使插件
-
-- 2021-08-16 [wwwebman/lerna-monorepo-typescript-example](https://github.com/wwwebman/lerna-monorepo-typescript-example) - Lerna Typescript Monorepo example 
-
-- 2021-08-16 [cirahnitex/tsqm](https://github.com/cirahnitex/tsqm) - typescript desktop automation
-
-- 2021-08-16 [xhuz/yys-robot](https://github.com/xhuz/yys-robot) - 网易阴阳师自动挂机脚本
-
-- 2021-08-16 [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
-
-- 2021-07-15 [microsoft/etcd3](https://github.com/microsoft/etcd3) - :bookmark: Node.js client for etcd3
-
-- 2021-07-11 [rundef/node-poker-odds-calculator](https://github.com/rundef/node-poker-odds-calculator) - A pre-flop and post-flop odds calculator for Texas Holdem.
-
-- 2021-07-10 [sindresorhus/p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
-
-- 2021-06-30 [zoy-l/zmi](https://github.com/zoy-l/zmi) - 🎃 Universal React Vue miniapp-ts development tool
-
-- 2021-06-30 [zhangyuang/egg-react-ssr](https://github.com/zhangyuang/egg-react-ssr) - 最小而美的Egg + React + SSR 服务端渲染应用骨架，同时支持JS和TS
-
-- 2021-06-30 [siavashg87/poker-odds-calc](https://github.com/siavashg87/poker-odds-calc) - Fastest and most accurate node module for calculating odds of poker games Texas Hold'em, Texas Shortdeck/Sixplus and Omaha.
-
-- 2021-06-30 [tianlanlandelan/poker](https://github.com/tianlanlandelan/poker) - 使用Egret开发的扑克牌游戏:斗地主
-
-- 2021-06-30 [dgurkaynak/slack-poker-planner](https://github.com/dgurkaynak/slack-poker-planner) - Poker planning app for Slack
-
-- 2021-06-29 [miguel-nascimento/pokereact](https://github.com/miguel-nascimento/pokereact) - ⚛️ Pokédex application build in React
-
-- 2021-06-29 [toworld-dev/scrum-poker-online](https://github.com/toworld-dev/scrum-poker-online) - Scrum Poker Realtime
-
-- 2021-06-29 [acro5piano/pokerhub](https://github.com/acro5piano/pokerhub) - An instant poker app: just share url with your friends to play Texas Holdem
-
-- 2021-06-29 [wzdwc/TexasPokerGame](https://github.com/wzdwc/TexasPokerGame) -  This is an online Texas Hold'em game, base on TypeScript,egg,node,vue,javascript
-
-- 2021-06-14 [octokit/core.js](https://github.com/octokit/core.js) - Extendable client for GitHub's REST & GraphQL APIs
-
-- 2021-06-13 [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - A dynamically generated activity graph to show your GitHub activities of last 31 days.
-
-- 2021-06-07 [ljlm0402/typescript-express-starter](https://github.com/ljlm0402/typescript-express-starter) - 🚀 Quick and Easy TypeScript Express Starter
-
-- 2021-06-07 [bitjson/typescript-starter](https://github.com/bitjson/typescript-starter) - Quickly create and configure a new library or Node.js project
-
-- 2021-06-07 [hediet/vscode-drawio](https://github.com/hediet/vscode-drawio) - This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
-
-- 2021-06-07 [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
-
-- 2021-06-07 [typeorm/typeorm](https://github.com/typeorm/typeorm) - ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.
-
-- 2021-06-07 [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) - The web's most popular Jamstack front-end template (boilerplate) for building web applications with React
-
-- 2021-06-07 [thomasrogerlux/typescript-react-ssr-boilerplate](https://github.com/thomasrogerlux/typescript-react-ssr-boilerplate) - Boilerplate made from scratch to setup a TypeScript ReactJS application using Server Side Rendering
-
-- 2021-06-07 [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API
-
-- 2021-06-07 [browserless/chrome](https://github.com/browserless/chrome) - The browserless Chrome service in Docker. Run on our cloud, or bring your own.
-
-- 2021-05-20 [masx200/baidupcs-batch-upload](https://github.com/masx200/baidupcs-batch-upload) - 使用baidupcs-go,百度网盘批量上传文件,高并发支持,在上传超过几百个文件时，速度快得多
-
-- 2021-05-20 [code-device/x-build](https://github.com/code-device/x-build) - A front-end scaffolding built on Vite2 + Vue3 + TypeScript.
-
-- 2021-05-17 [phaux/node-ffmpeg-stream](https://github.com/phaux/node-ffmpeg-stream) - Node.js bindings to ffmpeg command, exposing stream based API
-
-- 2021-05-16 [ant-design/ant-design](https://github.com/ant-design/ant-design) - An enterprise-class UI design language and React UI library
-
-- 2021-05-14 [zce/caz-prev](https://github.com/zce/caz-prev) - A simple yet powerful template-based Scaffolding tools.
-
-- 2021-05-05 [any86/any-touch](https://github.com/any86/any-touch) - :wave: Touch gesture library, 1kb~5kb, compatible with PC / mobile
-
-- 2021-05-01 [lint-md/ast-plugin](https://github.com/lint-md/ast-plugin) - The simplest abstract syntax tree walker, similar with @Babel plugin.
-
-- 2020-02-09 [HAG87/vscode-maxscript](https://github.com/HAG87/vscode-maxscript) - MaxScript language for VS Code
-
-- 2020-02-03 [Septh/rollup-plugin-node-externals](https://github.com/Septh/rollup-plugin-node-externals) - A Rollup plugin that automatically declares NodeJS built-in modules and npm dependencies as 'external'
-
-- 2020-01-29 [alexjoverm/typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) - Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
-
-- 2020-01-29 [umijs/umi](https://github.com/umijs/umi) - A framework in react community ✨
-
-- 2020-01-02 [jest-community/eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) - ESLint plugin for Jest 
-
-- 2020-01-02 [skovhus/jest-codemods](https://github.com/skovhus/jest-codemods) - Codemods for migrating to Jest https://github.com/facebook/jest 👾
-
-- 2019-08-18 [screendriver/cp-cli](https://github.com/screendriver/cp-cli) - 💻 A "cp" CLI util for Node.js
-
-- 2019-08-13 [lerna/lerna-changelog](https://github.com/lerna/lerna-changelog) - :book: PR-based changelog generator with monorepo support
-
-- 2019-08-09 [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
-
-- 2019-08-09 [reactjs/reactjs.org](https://github.com/reactjs/reactjs.org) - The React documentation website
-
-- 2019-08-07 [TypeStrong/ts-loader](https://github.com/TypeStrong/ts-loader) - TypeScript loader for webpack
-
-- 2019-07-31 [styled-components/styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
-
-- 2019-07-10 [kisstkondoros/codemetrics](https://github.com/kisstkondoros/codemetrics) - VSCode extension which shows the complexity information for TypeScript class members
-
-- 2019-06-11 [algolia/docsearch](https://github.com/algolia/docsearch) - :blue_book: The easiest way to add search to your documentation.
-
-- 2019-05-23 [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
-
-- 2019-05-12 [babel/babel](https://github.com/babel/babel) - 🐠 Babel is a compiler for writing next generation JavaScript.
-
-- 2019-05-12 [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) - Immutable persistent data collections for Javascript which increase efficiency and simplicity.
-
-- 2019-05-03 [microsoft/frontend-bootcamp](https://github.com/microsoft/frontend-bootcamp) - Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux
-
-- 2019-04-29 [hotwired/stimulus](https://github.com/hotwired/stimulus) - A modest JavaScript framework for the HTML you already have
-
-- 2019-04-28 [microsoft/just](https://github.com/microsoft/just) - The task library that just works
-
-- 2019-04-28 [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) - Make images smaller using best-in-class codecs, right in the browser.
-
-- 2019-01-10 [googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify) - A simple utility for promisifying functions and classes.
-
-- 2019-01-04 [rintoj/chai-spec-generator](https://github.com/rintoj/chai-spec-generator) - VSCode Extension: This extension will generate chai test specs from a javascript object.
-
-- 2019-01-04 [AgustinCB/docker-api](https://github.com/AgustinCB/docker-api) - Docker Remote API driver for node.js. It uses the same modem than dockerode, but the interface is promisified and with a fancier syntax.
-
-- 2019-01-03 [microsoft/vscode-docker](https://github.com/microsoft/vscode-docker) - Docker Extension for Visual Studio Code
-
-- 2019-01-03 [steveukx/git-js](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
-
-- 2019-01-03 [davidtheclark/cosmiconfig](https://github.com/davidtheclark/cosmiconfig) - Find and load configuration from a package.json property, rc file, or CommonJS module
-
-- 2019-01-03 [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) - Find and load configuration from a package.json property, rc file, or CommonJS module
-
-- 2018-12-26 [surmon-china/videojs-player](https://github.com/surmon-china/videojs-player) - @videojs player component for @vuejs(3) and React.
-
-- 2018-12-26 [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) - Screenshots with JavaScript
-
-- 2018-12-26 [fb55/css-what](https://github.com/fb55/css-what) - a CSS selector parser
-
-- 2018-12-26 [fb55/domutils](https://github.com/fb55/domutils) - Utilities for working with htmlparser2's DOM
-
-- 2018-12-26 [fb55/domelementtype](https://github.com/fb55/domelementtype) - all the types of nodes in htmlparser2's dom
-
-- 2018-12-25 [fb55/entities](https://github.com/fb55/entities) - Encode & decode HTML & XML entities with ease & speed
-
-- 2018-12-25 [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
-
-- 2018-12-21 [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Lint commit messages
-
-- 2018-12-19 [apertureless/vue-chartjs](https://github.com/apertureless/vue-chartjs) - 📊  Vue.js wrapper for Chart.js
-
-- 2018-11-26 [vuejs/devtools](https://github.com/vuejs/devtools) - ⚙️ Browser devtools extension for debugging Vue.js applications.
-
-- 2018-11-26 [vuejs/vue-loader](https://github.com/vuejs/vue-loader) - 📦 Webpack loader for Vue.js components
-
-- 2018-10-29 [facebook/jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
-
-- 2018-10-26 [mazipan/vue-string-filter](https://github.com/mazipan/vue-string-filter) - ✂️ Vue 2.x lightweight string manipulation filter
-
-- 2018-10-25 [MMF-FE/svgicon](https://github.com/MMF-FE/svgicon) - SVG icon components and tool set
-
-- 2018-10-22 [quicktype/quicktype](https://github.com/quicktype/quicktype) - Generate types and converters from JSON, Schema, and GraphQL
-
-- 2018-10-20 [ecomfe/zrender](https://github.com/ecomfe/zrender) - A lightweight graphic library providing 2d draw for Apache ECharts
-
-- 2018-10-09 [casbin/node-casbin](https://github.com/casbin/node-casbin) - An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser
-
-- 2018-10-08 [berman-solutions/koa-router-joi-validator](https://github.com/berman-solutions/koa-router-joi-validator) - Koa Middleware for route validation using Joi with super simple JSON schemas !
-
-- 2018-10-01 [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) - 🐉 Material Component Framework for Vue
-
-- 2018-09-06 [loiane/javascript-datastructures-algorithms](https://github.com/loiane/javascript-datastructures-algorithms) - :books: collection of JavaScript and TypeScript data structures and algorithms for education purposes. Source code bundle of JavaScript algorithms and data structures book
-
-- 2018-08-28 [GoogleCloudPlatform/nodejs-docker](https://github.com/GoogleCloudPlatform/nodejs-docker) - The Node.js Docker image used by Google App Engine Flexible.
-
-- 2018-08-08 [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
-
-- 2018-07-23 [NervJS/taro](https://github.com/NervJS/taro) - 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。  https://taro.zone/
-
-- 2018-07-04 [nuxt-community/auth-module](https://github.com/nuxt-community/auth-module) - Zero-boilerplate authentication support for Nuxt.js!
-
-- 2018-07-04 [surmon-china/surmon.me.native](https://github.com/surmon-china/surmon.me.native) - 📱 My blog app, powered by react-native
-
-- 2018-06-22 [auth0/express-jwt](https://github.com/auth0/express-jwt) - connect/express middleware that validates a JsonWebToken (JWT) and set the req.user with the attributes
-
-- 2018-06-12 [postcss/postcss](https://github.com/postcss/postcss) - Transforming styles with JS plugins
-
-- 2018-06-02 [lzxb/vue-demo](https://github.com/lzxb/vue-demo) - Vue 基于 Genesis + TS + Vuex 实现的 SSR demo
-
-- 2018-05-22 [pixijs/pixijs](https://github.com/pixijs/pixijs) - The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
-
-- 2018-05-14 [vuejs/vue](https://github.com/vuejs/vue) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
-
-- 2018-05-14 [nuxt/nuxt](https://github.com/nuxt/nuxt) - Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3.
-
-
-
-
-## Dart
-- 2023-02-08 [flutter/website](https://github.com/flutter/website) - Flutter documentation web site
-
-- 2023-01-23 [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) - completely free for everyone. Its build-in Flutter Dart.
-
-- 2022-12-06 [BeamlakAschalew/cinemax](https://github.com/BeamlakAschalew/cinemax) - Open-source Android app made with Flutter with functionality of watching movies and tv series for free.
-
-- 2022-12-06 [tejas-xd/Pancake](https://github.com/tejas-xd/Pancake) - Pancake is an android streaming app for movies, for movies, tv-shows and anime.
-
-- 2022-10-29 [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
-
-- 2022-10-29 [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) - An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
-
-- 2018-10-28 [bailicangdu/native-xdm](https://github.com/bailicangdu/native-xdm) - 基于 Flutter 构建一个跨平台的原生APP
-
-
-
-
-## Go
-- 2023-02-06 [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) - A package to build progressive web apps with Go programming language and WebAssembly.
-
-- 2022-12-18 [alist-org/alist](https://github.com/alist-org/alist) - 🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。
-
-- 2022-08-11 [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes
-
-- 2022-03-20 [mikefarah/yq](https://github.com/mikefarah/yq) - yq is a portable command-line YAML, JSON, XML, CSV and properties processor
-
-- 2021-08-25 [kubescape/kubescape](https://github.com/kubescape/kubescape) - Kubescape is a K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning. 
-
-- 2021-07-12 [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
-
-- 2019-11-27 [docker/compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker
-
-- 2019-10-22 [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
-
-- 2019-10-21 [flannel-io/flannel](https://github.com/flannel-io/flannel) - flannel is a network fabric for containers, designed for Kubernetes
-
-- 2019-10-21 [kubernetes/dashboard](https://github.com/kubernetes/dashboard) - General-purpose web UI for Kubernetes clusters
-
-- 2019-10-21 [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Own your own cloud with one click！
-
-- 2019-08-10 [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
-
-- 2019-06-21 [docker/app](https://github.com/docker/app) - Make your Docker Compose applications reusable, and share them on Docker Hub
-
-- 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
-
-- 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
-
-
-
-
-## C
-- 2023-02-05 [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) - Main libjpeg-turbo repository
-
-- 2022-12-15 [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
-
-- 2021-08-30 [pkrumins/node-png](https://github.com/pkrumins/node-png) - A nodejs C++ module that given a buffer with RGB or RGBA values creates a PNG image (in memory).
-
-- 2021-08-16 [nut-tree/libnut](https://github.com/nut-tree/libnut) - An Node-API addon for desktop automation
-
-- 2021-08-15 [octalmage/robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation. 
-
-- 2021-04-28 [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
-
-- 2019-06-21 [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.
-
-
-
-
-## Unknow
-- 2023-01-22 [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) - A curated list of software and architecture related design patterns.
-
-- 2022-12-13 [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - null
-
-- 2022-12-10 [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss) - 分享免费梯子/科学上网/代理/shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理，2小时更新一次，分享Clash代理订阅源和配置文件订阅链接。
-
-- 2022-12-09 [Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg) - A Windows/macOS GUI based on Clash
-
-- 2022-11-24 [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。
-
-- 2022-11-24 [aiboboxx/clashfree](https://github.com/aiboboxx/clashfree) - clash科学上网、clash翻墙、clash节点、clash订阅链接、clash教程
-
-- 2022-10-29 [tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri) - 🚀 Awesome Tauri Apps, Plugins and Resources
-
-- 2022-06-07 [MachineEditor/MachineVideoEditor](https://github.com/MachineEditor/MachineVideoEditor) - This repository does not contain code, its purpose it for issue tracking and wiki
-
-- 2022-04-18 [ventoy/backend](https://github.com/ventoy/backend) - This is persistence backend image files for Ventoy
-
-- 2022-04-16 [leereilly/games](https://github.com/leereilly/games) - :video_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
-
-- 2022-02-18 [funwithtriangles/blender-to-threejs-export-guide](https://github.com/funwithtriangles/blender-to-threejs-export-guide) - How to export animated models from Blender into three.js
-
-- 2021-12-07 [mithi/robotics-coursework](https://github.com/mithi/robotics-coursework) - 🤖 Places where you can learn robotics (and stuff like that) online 🤖
-
-- 2021-08-30 [gilbarbara/logos](https://github.com/gilbarbara/logos) - A huge collection of SVG logos
-
-- 2021-08-29 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
-
-- 2021-08-18 [Kavex/GameDev-Resources](https://github.com/Kavex/GameDev-Resources) -  :video_game: :game_die: A wonderful list of Game Development resources.
-
-- 2021-08-16 [kiloreux/awesome-robotics](https://github.com/kiloreux/awesome-robotics) - A list of awesome Robotics resources
-
-- 2021-07-19 [LocusInnovations/k8s-vagrant-virtualbox](https://github.com/LocusInnovations/k8s-vagrant-virtualbox) - Create a local kubernetes cluster using virtualbox.
-
-- 2021-07-14 [geerlingguy/ansible-role-docker](https://github.com/geerlingguy/ansible-role-docker) - Ansible Role - Docker
-
-- 2021-07-11 [dirkaholic/vagrant-php-dev-box](https://github.com/dirkaholic/vagrant-php-dev-box) - PHP 7 vagrant development box with nginx, php-fpm, MySQL, Symfony, Laravel, ... on Ubuntu 16.04
-
-- 2021-07-11 [geerlingguy/ansible-vagrant-examples](https://github.com/geerlingguy/ansible-vagrant-examples) - Ansible examples using Vagrant to deploy to local VMs.
-
-- 2021-06-13 [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ A collection of awesome dynamic pinned gists for GitHub
-
-- 2021-06-07 [jgraph/drawio-diagrams](https://github.com/jgraph/drawio-diagrams) - Diagrams for draw.io
-
-- 2021-06-07 [jgraph/drawio-libs](https://github.com/jgraph/drawio-libs) - Libraries for draw.io
-
-- 2020-11-25 [alrra/browser-logos](https://github.com/alrra/browser-logos) - 🗂 High resolution web browser logos
-
-- 2020-03-21 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide) - 中文技术文档的写作规范
-
-- 2020-02-07 [michidk/Unity-Script-Collection](https://github.com/michidk/Unity-Script-Collection) - A maintained collection of useful & free unity scripts / library's / plugins and extensions
-
-- 2020-02-04 [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
-
-- 2019-12-07 [matriphe/docker-alpine-php](https://github.com/matriphe/docker-alpine-php) - PHP FPM and PHP CLI docker image based on Alpine Linux
-
-- 2019-08-09 [weui/weui-design](https://github.com/weui/weui-design) - Design package for WeUI
-
-- 2019-08-08 [doyoe/html-css-guide](https://github.com/doyoe/html-css-guide) - HTML/CSS开发规范指南
-
-- 2019-08-08 [doyoe/trip](https://github.com/doyoe/trip) - 移动前端开发经验指南
-
-- 2019-08-07 [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) - ⚡️ A collection of tips to help take your CSS skills pro 🦾
-
-- 2019-08-07 [airbnb/css](https://github.com/airbnb/css) - A mostly reasonable approach to CSS and Sass.
-
-- 2019-08-06 [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) - Resume template for Chinese programmers . 程序员简历模板系列。包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C/C++程序员简��模板、NodeJS程序员简历模板、架构师简历模板以及通用程序员简历模板
-
-- 2019-08-05 [qianguyihao/Web](https://github.com/qianguyihao/Web) - 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
-
-- 2019-07-30 [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
-
-- 2019-07-22 [PrateekKumarSingh/CheatSheets](https://github.com/PrateekKumarSingh/CheatSheets) - CheatSheets for Powershell, Exchange, Sharepoint, Lync, RegEx, VSCode and more
-
-- 2019-06-21 [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - A book series on JavaScript. @YDKJS on twitter.
-
-- 2019-05-12 [vasanthk/web-security-basics](https://github.com/vasanthk/web-security-basics) - Web security concepts
-
-- 2018-12-14 [laizimo/zimo-article](https://github.com/laizimo/zimo-article) - :books:博客——源于实践，乐于分享，欢迎Star~
-
-- 2018-11-01 [nzakas/understandinges6](https://github.com/nzakas/understandinges6) - Content for the ebook "Understanding ECMAScript 6"
-
-- 2018-11-01 [OshotOkill/understandinges6-simplified-chinese](https://github.com/OshotOkill/understandinges6-simplified-chinese) - Simplified-Chinese edition of "Understanding ECMAScript 6" which is written by Nicholas C. Zakas
-
-- 2018-10-26 [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) - 🎉 The best resources related to Vuetify
-
-- 2018-10-11 [ElemeFE/style-guide](https://github.com/ElemeFE/style-guide) - style guide for everyone
-
-- 2018-10-04 [css-modules/css-modules](https://github.com/css-modules/css-modules) - Documentation about css-modules
-
-- 2018-09-26 [shri/JSDoc-Style-Guide](https://github.com/shri/JSDoc-Style-Guide) - JSDoc Style Guide (originally made for Kimono Labs--this one is a community driven fork)
-
-- 2018-09-24 [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp) - 微信小程序开发资源汇总 :100:
-
-- 2018-08-27 [dailybird/docker-compose-lnmp](https://github.com/dailybird/docker-compose-lnmp) - A docker-compose.yml  with  its dependent Dockerfiles and configs.
-
-- 2018-08-13 [woai30231/http](https://github.com/woai30231/http) - 自己提炼的关于《HTTP权威指南》每章的知识点总结！ 
-
-- 2018-08-04 [CentOS/sig-cloud-instance-images](https://github.com/CentOS/sig-cloud-instance-images) - CentOS cloud images
-
-- 2018-07-23 [ruanyf/jstraining](https://github.com/ruanyf/jstraining) - 全栈工程师培训材料
-
-- 2018-07-20 [aben1188/awesome-wepy](https://github.com/aben1188/awesome-wepy) - Awesome for wepy ! 微信小程序组件化开发框架wepy开发资源汇总
-
-- 2018-07-10 [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
-
-- 2018-07-06 [substack/minimist](https://github.com/substack/minimist) - parse argument options
-
-- 2018-07-06 [substack/node-optimist](https://github.com/substack/node-optimist) - Light-weight option parsing for node.js
-
-- 2018-06-06 [metagrover/ES6-for-humans](https://github.com/metagrover/ES6-for-humans) - A kickstarter guide to writing ES6
-
-- 2018-05-23 [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
-
-- 2018-05-14 [Marak/faker.js](https://github.com/Marak/faker.js) - generate massive amounts of realistic fake data in Node.js and the browser
-
-
-
-
-## C++
-- 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
-
-- 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
-
-- 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
-
-- 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
-
-- 2022-12-09 [tdlib/td](https://github.com/tdlib/td) - Cross-platform library for building Telegram clients
-
-- 2022-10-13 [pmq20/node-packer](https://github.com/pmq20/node-packer) - Packing your Node.js application into a single executable.
-
-- 2022-10-11 [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - Windows Package Manager CLI (aka winget)
-
-- 2022-04-28 [uimac/mmdbridge](https://github.com/uimac/mmdbridge) - MikuMikuDance Plugin for All Renderers
-
-- 2022-04-24 [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
-
-- 2022-04-21 [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) - Remote-control of OBS Studio through WebSocket
-
-- 2021-11-23 [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
-
-- 2021-08-17 [Krombik/keysender](https://github.com/Krombik/keysender) - Node.js Desktop Automation for Windows.
-
-- 2021-08-17 [durs/node-activex](https://github.com/durs/node-activex) - Node.JS Implementaion of ActiveXObject
-
-- 2021-08-16 [gaojunxin/TSPlug](https://github.com/gaojunxin/TSPlug) - null
-
-- 2021-08-16 [justadudewhohacks/opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) - Nodejs bindings to OpenCV 3 and OpenCV 4
-
-- 2021-07-16 [Tencent/puerts](https://github.com/Tencent/puerts) - 普洱TS！Write your game with TypeScript in UE or Unity. PuerTS can be pronounced as pu-erh TS
-
-- 2020-11-30 [rdp/screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free) - a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
-
-- 2019-06-13 [zhangyuanwei/node-images](https://github.com/zhangyuanwei/node-images) - Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
-
-- 2019-04-27 [apache/incubator-weex](https://github.com/apache/incubator-weex) - Apache Weex (Incubating)
-
-- 2018-10-03 [phpv8/v8js](https://github.com/phpv8/v8js) - V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
-
-
-
-
-## ASL
-- 2022-12-21 [dortania/Getting-Started-With-ACPI](https://github.com/dortania/Getting-Started-With-ACPI) - Repo for Getting Started With ACPI
-
-
-
-
-## Java
-- 2022-12-11 [eritpchy/webdav-aliyundriver-android](https://github.com/eritpchy/webdav-aliyundriver-android) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现
-
-- 2022-12-10 [maks/MGit](https://github.com/maks/MGit) - A Git client for Android.
-
-- 2021-09-01 [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) - 🏗 Build container images for your Java applications.
-
-- 2021-08-14 [hyb1996/Auto.js](https://github.com/hyb1996/Auto.js) - A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
-
-- 2021-07-11 [lxr1907/pokers-server](https://github.com/lxr1907/pokers-server) - texas holdem poker and other poker games tomcat server code
-
-- 2021-05-20 [nivance/image-similarity](https://github.com/nivance/image-similarity) - 计算图片之间的相似度
-
-- 2021-05-20 [DuebassLei/cordova-vue-android](https://github.com/DuebassLei/cordova-vue-android) - Cordova+Vue打包Android Apk简单Demo
-
-- 2020-02-28 [openjfx/javafx-gradle-plugin](https://github.com/openjfx/javafx-gradle-plugin) - Gradle plugin that makes it easy to work with JavaFX 11+
-
-- 2020-02-24 [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Spring Boot
-
-- 2020-02-24 [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Design patterns implemented in Java
-
-- 2020-02-23 [SpecialCyCi/AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu) - The idea of ResideMenu is from Dribbble 1 and 2. It has come true and run in iOS devices. iOS ResideMenu This project is the RefsideMenu Android version. The visual effect is partly referred to iOS version of ResideMenu. And thanks to the authors for the above idea and contribution. 
-
-- 2020-02-05 [simpligility/android-maven-plugin](https://github.com/simpligility/android-maven-plugin) - Maven Plugin for Android Application development and more
-
-- 2020-02-05 [carlossg/glacier-cli](https://github.com/carlossg/glacier-cli) - Amazon AWS Glacier command line interface
-
-- 2019-06-21 [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) - All Algorithms implemented in Java
-
-- 2018-11-08 [gwuhaolin/myccnu](https://github.com/gwuhaolin/myccnu) - 华中师范大学微信服务平台-掌上华师
-
-- 2018-10-25 [mmd0308/HZQ-Admin](https://github.com/mmd0308/HZQ-Admin) - 管理系统
-
-
-
-
-## Shell
-- 2022-12-11 [fbelavenuto/arpl](https://github.com/fbelavenuto/arpl) - Automated Redpill Loader
-
-- 2022-10-11 [mviereck/x11docker](https://github.com/mviereck/x11docker) - Run GUI applications and desktops in docker and podman containers. Focus on security.
-
-- 2022-10-11 [tj-actions/eslint-changed-files](https://github.com/tj-actions/eslint-changed-files) - :octocat: Github action to run ESLint on changed pull request files with support for reporting errors via Github checks.
-
-- 2022-04-18 [LordShenron/Grub-Themes](https://github.com/LordShenron/Grub-Themes) - Grub themes that will give a customized look to the Grub2 menu during boot.
-
-- 2022-04-18 [13atm01/GRUB-Theme](https://github.com/13atm01/GRUB-Theme) - :information_source: GRUB Themes with the theme from the anime The Quintessential Quintuplets, Fate Series, VTuber, and Game Doki Doki Literature Club :computer: :heart:
-
-- 2022-04-18 [chef/bento](https://github.com/chef/bento) - Packer templates for building minimal Vagrant baseboxes for multiple platforms
-
-- 2022-04-01 [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
-
-- 2021-09-07 [lando/lando](https://github.com/lando/lando) - A development tool for all your projects that is fast, easy, powerful and liberating
-
-- 2021-08-29 [myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox) - Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS
-
-- 2021-07-21 [leoberbert/cluster-dev-k8s](https://github.com/leoberbert/cluster-dev-k8s) - Cluster k8s utilizando Vagrant
-
-- 2021-07-19 [ansilh/k8s-vagrant](https://github.com/ansilh/k8s-vagrant) - Single Master - Multi Worker K8S cluster for learning and development
-
-- 2021-07-19 [davidmccormick/alpine-k8s](https://github.com/davidmccormick/alpine-k8s) - a build of kubernetes running on alpine on vagrant
-
-- 2021-07-19 [geerlingguy/packer-boxes](https://github.com/geerlingguy/packer-boxes) - Jeff Geerling's Packer build configurations for Vagrant boxes.
-
-- 2021-07-19 [fideloper/Vaprobash](https://github.com/fideloper/Vaprobash) - Vagrant Provisioning Bash Scripts
-
-- 2021-07-19 [ansible/ansible-examples](https://github.com/ansible/ansible-examples) - A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.
-
-- 2021-07-16 [knightFly/k8s-etcd-mongoSet-Deploy](https://github.com/knightFly/k8s-etcd-mongoSet-Deploy) - etcd ， mongo复制集，jenkins和gitlab一键部署脚本
-
-- 2021-07-15 [zhuchuangang/k8s-install-scripts](https://github.com/zhuchuangang/k8s-install-scripts) - kubernetes install scripts,that includes etcd、kubernetes、flannel、docker,and there are many yaml files here,for example the kubernetes addones,redis,rabbitmq,mongo,traefik,ingress-nginx,cpehfs and so on.
-
-- 2021-07-14 [openstack/devstack-vagrant](https://github.com/openstack/devstack-vagrant) - Vagrant configuration for building DevStack environments. Mirror of code maintained at opendev.org.
-
-- 2021-07-14 [anhcq151/centos7-k8s](https://github.com/anhcq151/centos7-k8s) - bootstrap a new k8s cluster with load-balancer and nfs storage using Vagrant and Virtualbox
-
-- 2021-07-14 [cloudnativehero/kubeadm-vagrant](https://github.com/cloudnativehero/kubeadm-vagrant) - Setup Kubernetes Cluster with Kubeadm and Vagrant
-
-- 2021-07-13 [coreos/coreos-kubernetes](https://github.com/coreos/coreos-kubernetes) - CoreOS Container Linux+Kubernetes documentation & Vagrant installers
-
-- 2021-07-13 [istio/community](https://github.com/istio/community) - Istio governance material.
-
-- 2021-07-11 [rootsongjc/kubernetes-vagrant-centos-cluster](https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster) - Setting up a distributed Kubernetes cluster along with Istio service mesh locally with Vagrant and VirtualBox, only PoC or Demo use.
-
-- 2021-05-31 [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) - Official electron build of draw.io
-
-- 2021-05-20 [meoow/baiduyun-upload-script](https://github.com/meoow/baiduyun-upload-script) - Upload files or direcotries form command line using shell script
-
-- 2021-05-20 [jooray/video-slide-extractor](https://github.com/jooray/video-slide-extractor) - Two simple scripts to extract keyframes with set number of changes and then filter out frames with faces
-
-- 2020-07-07 [guanguans/dnmp-plus](https://github.com/guanguans/dnmp-plus) - 🐳Docker的LNMP一键安装开发环境 + PHP非侵入式监控平台xhgui(优化系统性能、定位Bug神器)
-
-- 2020-06-13 [liumiaocn/easypack](https://github.com/liumiaocn/easypack) - For Cloud Native and DevOps: make popular OSS easily used
-
-- 2019-10-17 [ws1990/k8s-install](https://github.com/ws1990/k8s-install) - k8s一键安装，目前支持v1.11.2
-
-- 2019-06-26 [docker/docker-bench-security](https://github.com/docker/docker-bench-security) - The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
-
-- 2019-05-28 [rootsongjc/kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook) - Kubernetes中文指南/云原生应用架构实战手册 -  https://jimmysong.io/kubernetes-handbook
-
-- 2018-09-13 [alpinelinux/aports](https://github.com/alpinelinux/aports) - [MIRROR] Alpine packages build scripts
-
-- 2018-09-12 [docker-library/buildpack-deps](https://github.com/docker-library/buildpack-deps) - null
-
-- 2018-09-11 [zabbix/zabbix-docker](https://github.com/zabbix/zabbix-docker) - Official Zabbix Dockerfiles
-
-- 2018-09-09 [docker-archive/swarm-library-image](https://github.com/docker-archive/swarm-library-image) - Official Image packaging for Classic Swarm, now archived
-
-- 2018-09-09 [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) - Alpine Linux Docker image. Win at minimalism!
-
-- 2018-09-08 [sameersbn/docker-gitlab](https://github.com/sameersbn/docker-gitlab) - Dockerized GitLab
-
-- 2018-08-28 [docker-library/php](https://github.com/docker-library/php) - Docker Official Image packaging for PHP
-
-- 2018-08-28 [docker-library/docs](https://github.com/docker-library/docs) - Documentation for Docker Official Images in docker-library
-
-- 2018-08-28 [gtsigner/docker-lnmp-redis](https://github.com/gtsigner/docker-lnmp-redis) - devops
-
-- 2018-08-28 [twang2218/docker-lnmp](https://github.com/twang2218/docker-lnmp) - Docker example of LNMP setup (Compose, Swarm)
-
-- 2018-08-09 [addcn/docker-lnmp](https://github.com/addcn/docker-lnmp) - Deploy lnmp(Linux, Nginx, MySQL, PHP7) using docker.
-
-- 2018-08-04 [nginxinc/docker-nginx](https://github.com/nginxinc/docker-nginx) - Official NGINX Dockerfiles
-
-- 2018-08-04 [docker-library/mysql](https://github.com/docker-library/mysql) - Docker Official Image packaging for MySQL Community Server
-
-- 2018-08-04 [tianon/docker-brew-ubuntu-core](https://github.com/tianon/docker-brew-ubuntu-core) - DEPRECATED; see https://github.com/tianon/docker-brew-ubuntu-core/pull/248
-
-- 2018-08-04 [docker-library/mongo](https://github.com/docker-library/mongo) - Docker Official Image packaging for MongoDB
-
-
-
-
 ## JavaScript
+- 2023-03-05 [cmdr2/stable-diffusion-ui](https://github.com/cmdr2/stable-diffusion-ui) - Easiest 1-click way to install and use Stable Diffusion on your own computer. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.
+
 - 2022-12-10 [deadlyjack/Acode](https://github.com/deadlyjack/Acode) - Acode - powerful text/code editor for android
 
 - 2022-12-09 [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - A Clash Client For OpenWrt
@@ -1994,6 +1320,682 @@
 - 2018-05-14 [node-webot/wechat](https://github.com/node-webot/wechat) - 微信公共平台消息接口服务中间件
 
 - 2018-05-14 [nuxt/nuxt.js](https://github.com/nuxt/nuxt.js) - The Intuitive Vue(2) Framework
+
+
+
+
+## TypeScript
+- 2023-03-05 [huggingface/huggingface.js](https://github.com/huggingface/huggingface.js) - Utilities to use the Hugging Face hub API
+
+- 2023-02-03 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - ✨ Trigger.dev is an open-source platform that makes it easy for developers to create event-driven background tasks directly in their code.
+
+- 2023-01-25 [donmccurdy/ndarray-pixels](https://github.com/donmccurdy/ndarray-pixels) - Convert ndarray ↔ image data, for Web and Node.js.
+
+- 2022-12-23 [MotooriKashin/Bilibili-Old](https://github.com/MotooriKashin/Bilibili-Old) - 恢复旧版Bilibili页面，为了那些念旧的人。
+
+- 2022-12-20 [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
+
+- 2022-12-09 [nojsja/shadowsocks-electron](https://github.com/nojsja/shadowsocks-electron) - Shadowsocks GUI application made for Ubuntu / Mac / Win users and powered by Electron.
+
+- 2022-12-04 [artsy/eigen](https://github.com/artsy/eigen) - The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.
+
+- 2022-12-03 [electron-vite/vite-electron-plugin](https://github.com/electron-vite/vite-electron-plugin) - High-performance, esbuild-based Vite Electron plugin
+
+- 2022-12-01 [cawa-93/vite-electron-builder](https://github.com/cawa-93/vite-electron-builder) - Secure boilerplate for Electron app based on Vite. TypeScript + Vue/React/Angular/Svelte/Vanilla
+
+- 2022-12-01 [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
+
+- 2022-12-01 [esbuild-kit/tsx](https://github.com/esbuild-kit/tsx) - ⚡️ TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM
+
+- 2022-12-01 [electron-vite/electron-vite-vue](https://github.com/electron-vite/electron-vite-vue) - 🥳 Really simple Electron + Vite + Vue boilerplate.
+
+- 2022-12-01 [antfu/vitesse-webext](https://github.com/antfu/vitesse-webext) - ⚡️ WebExtension Vite Starter Template
+
+- 2022-11-29 [4gray/iptvnator](https://github.com/4gray/iptvnator) - :tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.
+
+- 2022-11-27 [cnpm/cnpmcore](https://github.com/cnpm/cnpmcore) - Private NPM Registry for Enterprise
+
+- 2022-11-18 [chanind/hanzi-writer](https://github.com/chanind/hanzi-writer) - Chinese character stroke order animations and practice quizzes
+
+- 2022-11-18 [bluelovers/ws-segment](https://github.com/bluelovers/ws-segment) - null
+
+- 2022-11-15 [itgalaxy/favicons](https://github.com/itgalaxy/favicons) - Favicons generator for Node.js
+
+- 2022-11-02 [ionic-team/capacitor](https://github.com/ionic-team/capacitor) - Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
+
+- 2022-10-15 [antfu/vitesse-lite](https://github.com/antfu/vitesse-lite) - ⛺️ Lightweight version of Vitesse
+
+- 2022-10-13 [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
+
+- 2022-09-26 [lukeed/tsm](https://github.com/lukeed/tsm) - TypeScript Module Loader
+
+- 2022-04-23 [rbuckton/obs-remote](https://github.com/rbuckton/obs-remote) - A touch-friendly desktop application designed for tablets that can be used to control OBS Studio remotely using 'obs-websocket'
+
+- 2022-04-07 [tinyhttp/tinyhttp](https://github.com/tinyhttp/tinyhttp) - 🦄 0-legacy, tiny & fast web framework as a replacement of Express
+
+- 2022-04-07 [keystonejs/keystone](https://github.com/keystonejs/keystone) - The most powerful headless CMS for Node.js — built with GraphQL and React
+
+- 2022-04-01 [nodejs/corepack](https://github.com/nodejs/corepack) - Zero-runtime-dependency package acting as bridge between Node projects and their package managers
+
+- 2022-04-01 [antfu/ni](https://github.com/antfu/ni) - 💡 Use the right package manager
+
+- 2022-04-01 [xiaoxiaojx/super-contra](https://github.com/xiaoxiaojx/super-contra) - 🎮 An h5 game written in React.js（Well, I used to like to write h5 games to have fun）
+
+- 2022-01-27 [duniul/pixel-scale](https://github.com/duniul/pixel-scale) - 📐 Get the pixel scale of an image, or scale it up or down without quality loss. Useful for pixel art!
+
+- 2021-12-14 [typings/vscode](https://github.com/typings/vscode) - Visual Studio Code extension for Typings
+
+- 2021-12-09 [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
+
+- 2021-12-08 [gladiatortoise/node-apiless-youtube-upload](https://github.com/gladiatortoise/node-apiless-youtube-upload) - Upload videos to Youtube in Node.js without any Youtube API dependency by using Selenium.
+
+- 2021-12-08 [Last-Order/BilibiliUploader](https://github.com/Last-Order/BilibiliUploader) - Bilibili Uploader in JavaScript
+
+- 2021-12-08 [the1812/Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - 强大的哔哩哔哩增强脚本
+
+- 2021-12-03 [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) - The repository for high quality TypeScript type definitions.
+
+- 2021-11-30 [wix/react-native-ui-lib](https://github.com/wix/react-native-ui-lib) - UI Components Library for React Native
+
+- 2021-11-30 [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) - A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box
+
+- 2021-11-15 [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action) - Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like.
+
+- 2021-11-15 [yeemachine/kalidokit](https://github.com/yeemachine/kalidokit) - Blendshape and kinematics calculator for Mediapipe/Tensorflow.js Face, Eyes, Pose, and Finger tracking models.
+
+- 2021-11-14 [venkatperi/statem](https://github.com/venkatperi/statem) - Develop Javascript Turing/State Machines 
+
+- 2021-11-04 [reg-viz/img-diff-js](https://github.com/reg-viz/img-diff-js) - :art: Node.js library to compare 2 images without native libs.
+
+- 2021-09-07 [TanStack/query](https://github.com/TanStack/query) - 🤖 Powerful asynchronous state management, server-state utilities and data fetching for TS/JS, React, Solid, Svelte and Vue.
+
+- 2021-09-01 [modernweb-dev/web](https://github.com/modernweb-dev/web) - Guides, tools and libraries for modern web development.
+
+- 2021-08-30 [survivejs/webpack-merge](https://github.com/survivejs/webpack-merge) - Merge designed for webpack
+
+- 2021-08-30 [standard/eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript) - An extension of eslint-config-standard, made for TypeScript.
+
+- 2021-08-29 [ooade/micro-typeof](https://github.com/ooade/micro-typeof) - ✍🏿Get the exact type of a value 
+
+- 2021-08-29 [zhangyuang/ssr](https://github.com/zhangyuang/ssr) - A most advanced ssr framework support React/Vue2/Vue3 on Earth that implemented serverless-side render specification.
+
+- 2021-08-25 [dendronhq/dendron](https://github.com/dendronhq/dendron) - The personal knowledge management (PKM) tool that grows as you do!
+
+- 2021-08-22 [AILHC/EasyGameFrameworkOpen](https://github.com/AILHC/EasyGameFrameworkOpen) - 基于Typescript的渐进式通用游戏前端开发框架
+
+- 2021-08-22 [NiGhTTraX/ts-monorepo](https://github.com/NiGhTTraX/ts-monorepo) - Template for setting up a TypeScript monorepo
+
+- 2021-08-22 [pnpm/pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具
+
+- 2021-08-21 [aweiu/setPromiseInterval](https://github.com/aweiu/setPromiseInterval) - 用于定时执行异步任务，调用方式类似原生 setInterval
+
+- 2021-08-21 [Inlustra/env-args](https://github.com/Inlustra/env-args) - Combining well known libs to load config through arguments, .env and environment variables. Handling naming for you.
+
+- 2021-08-20 [sindresorhus/conf](https://github.com/sindresorhus/conf) - Simple config handling for your app or module
+
+- 2021-08-17 [xhuz/ts.dll](https://github.com/xhuz/ts.dll) - 天使插件的nodejs库，用js撸游戏脚本
+
+- 2021-08-17 [aweiu/dm.dll](https://github.com/aweiu/dm.dll) - JS 版按键精灵（大漠插件）
+
+- 2021-08-17 [FireTable/ts.dll](https://github.com/FireTable/ts.dll) - 通过nodejs调用天使插件
+
+- 2021-08-16 [wwwebman/lerna-monorepo-typescript-example](https://github.com/wwwebman/lerna-monorepo-typescript-example) - Lerna Typescript Monorepo example 
+
+- 2021-08-16 [cirahnitex/tsqm](https://github.com/cirahnitex/tsqm) - typescript desktop automation
+
+- 2021-08-16 [xhuz/yys-robot](https://github.com/xhuz/yys-robot) - 网易阴阳师自动挂机脚本
+
+- 2021-08-16 [nut-tree/nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node
+
+- 2021-07-15 [microsoft/etcd3](https://github.com/microsoft/etcd3) - :bookmark: Node.js client for etcd3
+
+- 2021-07-11 [rundef/node-poker-odds-calculator](https://github.com/rundef/node-poker-odds-calculator) - A pre-flop and post-flop odds calculator for Texas Holdem.
+
+- 2021-07-10 [sindresorhus/p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control
+
+- 2021-06-30 [zoy-l/zmi](https://github.com/zoy-l/zmi) - 🎃 Universal React Vue miniapp-ts development tool
+
+- 2021-06-30 [zhangyuang/egg-react-ssr](https://github.com/zhangyuang/egg-react-ssr) - 最小而美的Egg + React + SSR 服务端渲染应用骨架，同时支持JS和TS
+
+- 2021-06-30 [siavashg87/poker-odds-calc](https://github.com/siavashg87/poker-odds-calc) - Fastest and most accurate node module for calculating odds of poker games Texas Hold'em, Texas Shortdeck/Sixplus and Omaha.
+
+- 2021-06-30 [tianlanlandelan/poker](https://github.com/tianlanlandelan/poker) - 使用Egret开发的扑克牌游戏:斗地主
+
+- 2021-06-30 [dgurkaynak/slack-poker-planner](https://github.com/dgurkaynak/slack-poker-planner) - Poker planning app for Slack
+
+- 2021-06-29 [miguel-nascimento/pokereact](https://github.com/miguel-nascimento/pokereact) - ⚛️ Pokédex application build in React
+
+- 2021-06-29 [toworld-dev/scrum-poker-online](https://github.com/toworld-dev/scrum-poker-online) - Scrum Poker Realtime
+
+- 2021-06-29 [acro5piano/pokerhub](https://github.com/acro5piano/pokerhub) - An instant poker app: just share url with your friends to play Texas Holdem
+
+- 2021-06-29 [wzdwc/TexasPokerGame](https://github.com/wzdwc/TexasPokerGame) -  This is an online Texas Hold'em game, base on TypeScript,egg,node,vue,javascript
+
+- 2021-06-14 [octokit/core.js](https://github.com/octokit/core.js) - Extendable client for GitHub's REST & GraphQL APIs
+
+- 2021-06-13 [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) - A dynamically generated activity graph to show your GitHub activities of last 31 days.
+
+- 2021-06-07 [ljlm0402/typescript-express-starter](https://github.com/ljlm0402/typescript-express-starter) - 🚀 Quick and Easy TypeScript Express Starter
+
+- 2021-06-07 [bitjson/typescript-starter](https://github.com/bitjson/typescript-starter) - Quickly create and configure a new library or Node.js project
+
+- 2021-06-07 [hediet/vscode-drawio](https://github.com/hediet/vscode-drawio) - This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.
+
+- 2021-06-07 [prisma/prisma](https://github.com/prisma/prisma) - Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB
+
+- 2021-06-07 [typeorm/typeorm](https://github.com/typeorm/typeorm) - ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.
+
+- 2021-06-07 [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) - The web's most popular Jamstack front-end template (boilerplate) for building web applications with React
+
+- 2021-06-07 [thomasrogerlux/typescript-react-ssr-boilerplate](https://github.com/thomasrogerlux/typescript-react-ssr-boilerplate) - Boilerplate made from scratch to setup a TypeScript ReactJS application using Server Side Rendering
+
+- 2021-06-07 [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API
+
+- 2021-06-07 [browserless/chrome](https://github.com/browserless/chrome) - The browserless Chrome service in Docker. Run on our cloud, or bring your own.
+
+- 2021-05-20 [masx200/baidupcs-batch-upload](https://github.com/masx200/baidupcs-batch-upload) - 使用baidupcs-go,百度网盘批量上传文件,高并发支持,在上传超过几百个文件时，速度快得多
+
+- 2021-05-20 [code-device/x-build](https://github.com/code-device/x-build) - A front-end scaffolding built on Vite2 + Vue3 + TypeScript.
+
+- 2021-05-17 [phaux/node-ffmpeg-stream](https://github.com/phaux/node-ffmpeg-stream) - Node.js bindings to ffmpeg command, exposing stream based API
+
+- 2021-05-16 [ant-design/ant-design](https://github.com/ant-design/ant-design) - An enterprise-class UI design language and React UI library
+
+- 2021-05-14 [zce/caz-prev](https://github.com/zce/caz-prev) - A simple yet powerful template-based Scaffolding tools.
+
+- 2021-05-05 [any86/any-touch](https://github.com/any86/any-touch) - :wave: Touch gesture library, 1kb~5kb, compatible with PC / mobile
+
+- 2021-05-01 [lint-md/ast-plugin](https://github.com/lint-md/ast-plugin) - The simplest abstract syntax tree walker, similar with @Babel plugin.
+
+- 2020-02-09 [HAG87/vscode-maxscript](https://github.com/HAG87/vscode-maxscript) - MaxScript language for VS Code
+
+- 2020-02-03 [Septh/rollup-plugin-node-externals](https://github.com/Septh/rollup-plugin-node-externals) - A Rollup plugin that automatically declares NodeJS built-in modules and npm dependencies as 'external'
+
+- 2020-01-29 [alexjoverm/typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) - Starter kit with zero-config for building a library in TypeScript, featuring RollupJS, Jest, Prettier, TSLint, Semantic Release, and more!
+
+- 2020-01-29 [umijs/umi](https://github.com/umijs/umi) - A framework in react community ✨
+
+- 2020-01-02 [jest-community/eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) - ESLint plugin for Jest 
+
+- 2020-01-02 [skovhus/jest-codemods](https://github.com/skovhus/jest-codemods) - Codemods for migrating to Jest https://github.com/facebook/jest 👾
+
+- 2019-08-18 [screendriver/cp-cli](https://github.com/screendriver/cp-cli) - 💻 A "cp" CLI util for Node.js
+
+- 2019-08-13 [lerna/lerna-changelog](https://github.com/lerna/lerna-changelog) - :book: PR-based changelog generator with monorepo support
+
+- 2019-08-09 [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
+
+- 2019-08-09 [reactjs/reactjs.org](https://github.com/reactjs/reactjs.org) - The React documentation website
+
+- 2019-08-07 [TypeStrong/ts-loader](https://github.com/TypeStrong/ts-loader) - TypeScript loader for webpack
+
+- 2019-07-31 [styled-components/styled-components](https://github.com/styled-components/styled-components) - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
+
+- 2019-07-10 [kisstkondoros/codemetrics](https://github.com/kisstkondoros/codemetrics) - VSCode extension which shows the complexity information for TypeScript class members
+
+- 2019-06-11 [algolia/docsearch](https://github.com/algolia/docsearch) - :blue_book: The easiest way to add search to your documentation.
+
+- 2019-05-23 [microsoft/vscode](https://github.com/microsoft/vscode) - Visual Studio Code
+
+- 2019-05-12 [babel/babel](https://github.com/babel/babel) - 🐠 Babel is a compiler for writing next generation JavaScript.
+
+- 2019-05-12 [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) - Immutable persistent data collections for Javascript which increase efficiency and simplicity.
+
+- 2019-05-03 [microsoft/frontend-bootcamp](https://github.com/microsoft/frontend-bootcamp) - Frontend Workshop from HTML/CSS/JS to TypeScript/React/Redux
+
+- 2019-04-29 [hotwired/stimulus](https://github.com/hotwired/stimulus) - A modest JavaScript framework for the HTML you already have
+
+- 2019-04-28 [microsoft/just](https://github.com/microsoft/just) - The task library that just works
+
+- 2019-04-28 [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) - Make images smaller using best-in-class codecs, right in the browser.
+
+- 2019-01-10 [googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify) - A simple utility for promisifying functions and classes.
+
+- 2019-01-04 [rintoj/chai-spec-generator](https://github.com/rintoj/chai-spec-generator) - VSCode Extension: This extension will generate chai test specs from a javascript object.
+
+- 2019-01-04 [AgustinCB/docker-api](https://github.com/AgustinCB/docker-api) - Docker Remote API driver for node.js. It uses the same modem than dockerode, but the interface is promisified and with a fancier syntax.
+
+- 2019-01-03 [microsoft/vscode-docker](https://github.com/microsoft/vscode-docker) - Docker Extension for Visual Studio Code
+
+- 2019-01-03 [steveukx/git-js](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
+
+- 2019-01-03 [davidtheclark/cosmiconfig](https://github.com/davidtheclark/cosmiconfig) - Find and load configuration from a package.json property, rc file, or CommonJS module
+
+- 2019-01-03 [cosmiconfig/cosmiconfig](https://github.com/cosmiconfig/cosmiconfig) - Find and load configuration from a package.json property, rc file, or CommonJS module
+
+- 2018-12-26 [surmon-china/videojs-player](https://github.com/surmon-china/videojs-player) - @videojs player component for @vuejs(3) and React.
+
+- 2018-12-26 [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) - Screenshots with JavaScript
+
+- 2018-12-26 [fb55/css-what](https://github.com/fb55/css-what) - a CSS selector parser
+
+- 2018-12-26 [fb55/domutils](https://github.com/fb55/domutils) - Utilities for working with htmlparser2's DOM
+
+- 2018-12-26 [fb55/domelementtype](https://github.com/fb55/domelementtype) - all the types of nodes in htmlparser2's dom
+
+- 2018-12-25 [fb55/entities](https://github.com/fb55/entities) - Encode & decode HTML & XML entities with ease & speed
+
+- 2018-12-25 [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
+
+- 2018-12-21 [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) - 📓 Lint commit messages
+
+- 2018-12-19 [apertureless/vue-chartjs](https://github.com/apertureless/vue-chartjs) - 📊  Vue.js wrapper for Chart.js
+
+- 2018-11-26 [vuejs/devtools](https://github.com/vuejs/devtools) - ⚙️ Browser devtools extension for debugging Vue.js applications.
+
+- 2018-11-26 [vuejs/vue-loader](https://github.com/vuejs/vue-loader) - 📦 Webpack loader for Vue.js components
+
+- 2018-10-29 [facebook/jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
+
+- 2018-10-26 [mazipan/vue-string-filter](https://github.com/mazipan/vue-string-filter) - ✂️ Vue 2.x lightweight string manipulation filter
+
+- 2018-10-25 [MMF-FE/svgicon](https://github.com/MMF-FE/svgicon) - SVG icon components and tool set
+
+- 2018-10-22 [quicktype/quicktype](https://github.com/quicktype/quicktype) - Generate types and converters from JSON, Schema, and GraphQL
+
+- 2018-10-20 [ecomfe/zrender](https://github.com/ecomfe/zrender) - A lightweight graphic library providing 2d draw for Apache ECharts
+
+- 2018-10-09 [casbin/node-casbin](https://github.com/casbin/node-casbin) - An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser
+
+- 2018-10-08 [berman-solutions/koa-router-joi-validator](https://github.com/berman-solutions/koa-router-joi-validator) - Koa Middleware for route validation using Joi with super simple JSON schemas !
+
+- 2018-10-01 [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) - 🐉 Material Component Framework for Vue
+
+- 2018-09-06 [loiane/javascript-datastructures-algorithms](https://github.com/loiane/javascript-datastructures-algorithms) - :books: collection of JavaScript and TypeScript data structures and algorithms for education purposes. Source code bundle of JavaScript algorithms and data structures book
+
+- 2018-08-28 [GoogleCloudPlatform/nodejs-docker](https://github.com/GoogleCloudPlatform/nodejs-docker) - The Node.js Docker image used by Google App Engine Flexible.
+
+- 2018-08-08 [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
+
+- 2018-07-23 [NervJS/taro](https://github.com/NervJS/taro) - 开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。  https://taro.zone/
+
+- 2018-07-04 [nuxt-community/auth-module](https://github.com/nuxt-community/auth-module) - Zero-boilerplate authentication support for Nuxt.js!
+
+- 2018-07-04 [surmon-china/surmon.me.native](https://github.com/surmon-china/surmon.me.native) - 📱 My blog app, powered by react-native
+
+- 2018-06-22 [auth0/express-jwt](https://github.com/auth0/express-jwt) - connect/express middleware that validates a JsonWebToken (JWT) and set the req.user with the attributes
+
+- 2018-06-12 [postcss/postcss](https://github.com/postcss/postcss) - Transforming styles with JS plugins
+
+- 2018-06-02 [lzxb/vue-demo](https://github.com/lzxb/vue-demo) - Vue 基于 Genesis + TS + Vuex 实现的 SSR demo
+
+- 2018-05-22 [pixijs/pixijs](https://github.com/pixijs/pixijs) - The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
+
+- 2018-05-14 [vuejs/vue](https://github.com/vuejs/vue) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+- 2018-05-14 [nuxt/nuxt](https://github.com/nuxt/nuxt) - Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3.
+
+
+
+
+## Dart
+- 2023-02-08 [flutter/website](https://github.com/flutter/website) - Flutter documentation web site
+
+- 2023-01-23 [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) - completely free for everyone. Its build-in Flutter Dart.
+
+- 2022-12-06 [BeamlakAschalew/cinemax](https://github.com/BeamlakAschalew/cinemax) - Open-source Android app made with Flutter with functionality of watching movies and tv series for free.
+
+- 2022-12-06 [tejas-xd/Pancake](https://github.com/tejas-xd/Pancake) - Pancake is an android streaming app for movies, for movies, tv-shows and anime.
+
+- 2022-10-29 [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+
+- 2022-10-29 [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) - An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
+
+- 2018-10-28 [bailicangdu/native-xdm](https://github.com/bailicangdu/native-xdm) - 基于 Flutter 构建一个跨平台的原生APP
+
+
+
+
+## Go
+- 2023-02-06 [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) - A package to build progressive web apps with Go programming language and WebAssembly.
+
+- 2022-12-18 [alist-org/alist](https://github.com/alist-org/alist) - 🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。
+
+- 2022-08-11 [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes
+
+- 2022-03-20 [mikefarah/yq](https://github.com/mikefarah/yq) - yq is a portable command-line YAML, JSON, XML, CSV and properties processor
+
+- 2021-08-25 [kubescape/kubescape](https://github.com/kubescape/kubescape) - Kubescape is a K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning. 
+
+- 2021-07-12 [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
+
+- 2019-11-27 [docker/compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker
+
+- 2019-10-22 [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
+
+- 2019-10-21 [flannel-io/flannel](https://github.com/flannel-io/flannel) - flannel is a network fabric for containers, designed for Kubernetes
+
+- 2019-10-21 [kubernetes/dashboard](https://github.com/kubernetes/dashboard) - General-purpose web UI for Kubernetes clusters
+
+- 2019-10-21 [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Own your own cloud with one click！
+
+- 2019-08-10 [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
+
+- 2019-06-21 [docker/app](https://github.com/docker/app) - Make your Docker Compose applications reusable, and share them on Docker Hub
+
+- 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
+
+- 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
+
+
+
+
+## C
+- 2023-02-05 [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) - Main libjpeg-turbo repository
+
+- 2022-12-15 [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
+
+- 2021-08-30 [pkrumins/node-png](https://github.com/pkrumins/node-png) - A nodejs C++ module that given a buffer with RGB or RGBA values creates a PNG image (in memory).
+
+- 2021-08-16 [nut-tree/libnut](https://github.com/nut-tree/libnut) - An Node-API addon for desktop automation
+
+- 2021-08-15 [octalmage/robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation. 
+
+- 2021-04-28 [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
+
+- 2019-06-21 [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.
+
+
+
+
+## Unknow
+- 2023-01-22 [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) - A curated list of software and architecture related design patterns.
+
+- 2022-12-13 [zbezj/HEU_KMS_Activator](https://github.com/zbezj/HEU_KMS_Activator) - null
+
+- 2022-12-10 [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss) - 分享免费梯子/科学上网/代理/shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理，2小时更新一次，分享Clash代理订阅源和配置文件订阅链接。
+
+- 2022-12-09 [Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg) - A Windows/macOS GUI based on Clash
+
+- 2022-11-24 [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) - 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端。
+
+- 2022-11-24 [aiboboxx/clashfree](https://github.com/aiboboxx/clashfree) - clash科学上网、clash翻墙、clash节点、clash订阅链接、clash教程
+
+- 2022-10-29 [tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri) - 🚀 Awesome Tauri Apps, Plugins and Resources
+
+- 2022-06-07 [MachineEditor/MachineVideoEditor](https://github.com/MachineEditor/MachineVideoEditor) - This repository does not contain code, its purpose it for issue tracking and wiki
+
+- 2022-04-18 [ventoy/backend](https://github.com/ventoy/backend) - This is persistence backend image files for Ventoy
+
+- 2022-04-16 [leereilly/games](https://github.com/leereilly/games) - :video_game: A list of popular/awesome video games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
+
+- 2022-02-18 [funwithtriangles/blender-to-threejs-export-guide](https://github.com/funwithtriangles/blender-to-threejs-export-guide) - How to export animated models from Blender into three.js
+
+- 2021-12-07 [mithi/robotics-coursework](https://github.com/mithi/robotics-coursework) - 🤖 Places where you can learn robotics (and stuff like that) online 🤖
+
+- 2021-08-30 [gilbarbara/logos](https://github.com/gilbarbara/logos) - A huge collection of SVG logos
+
+- 2021-08-29 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) - :books: Freely available programming books
+
+- 2021-08-18 [Kavex/GameDev-Resources](https://github.com/Kavex/GameDev-Resources) -  :video_game: :game_die: A wonderful list of Game Development resources.
+
+- 2021-08-16 [kiloreux/awesome-robotics](https://github.com/kiloreux/awesome-robotics) - A list of awesome Robotics resources
+
+- 2021-07-19 [LocusInnovations/k8s-vagrant-virtualbox](https://github.com/LocusInnovations/k8s-vagrant-virtualbox) - Create a local kubernetes cluster using virtualbox.
+
+- 2021-07-14 [geerlingguy/ansible-role-docker](https://github.com/geerlingguy/ansible-role-docker) - Ansible Role - Docker
+
+- 2021-07-11 [dirkaholic/vagrant-php-dev-box](https://github.com/dirkaholic/vagrant-php-dev-box) - PHP 7 vagrant development box with nginx, php-fpm, MySQL, Symfony, Laravel, ... on Ubuntu 16.04
+
+- 2021-07-11 [geerlingguy/ansible-vagrant-examples](https://github.com/geerlingguy/ansible-vagrant-examples) - Ansible examples using Vagrant to deploy to local VMs.
+
+- 2021-06-13 [matchai/awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) - 📌✨ A collection of awesome dynamic pinned gists for GitHub
+
+- 2021-06-07 [jgraph/drawio-diagrams](https://github.com/jgraph/drawio-diagrams) - Diagrams for draw.io
+
+- 2021-06-07 [jgraph/drawio-libs](https://github.com/jgraph/drawio-libs) - Libraries for draw.io
+
+- 2020-11-25 [alrra/browser-logos](https://github.com/alrra/browser-logos) - 🗂 High resolution web browser logos
+
+- 2020-03-21 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide) - 中文技术文档的写作规范
+
+- 2020-02-07 [michidk/Unity-Script-Collection](https://github.com/michidk/Unity-Script-Collection) - A maintained collection of useful & free unity scripts / library's / plugins and extensions
+
+- 2020-02-04 [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) - Useful resources for creating apps with Electron
+
+- 2019-12-07 [matriphe/docker-alpine-php](https://github.com/matriphe/docker-alpine-php) - PHP FPM and PHP CLI docker image based on Alpine Linux
+
+- 2019-08-09 [weui/weui-design](https://github.com/weui/weui-design) - Design package for WeUI
+
+- 2019-08-08 [doyoe/html-css-guide](https://github.com/doyoe/html-css-guide) - HTML/CSS开发规范指南
+
+- 2019-08-08 [doyoe/trip](https://github.com/doyoe/trip) - 移动前端开发经验指南
+
+- 2019-08-07 [AllThingsSmitty/css-protips](https://github.com/AllThingsSmitty/css-protips) - ⚡️ A collection of tips to help take your CSS skills pro 🦾
+
+- 2019-08-07 [airbnb/css](https://github.com/airbnb/css) - A mostly reasonable approach to CSS and Sass.
+
+- 2019-08-06 [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) - Resume template for Chinese programmers . 程序员简历模板系列。包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C/C++程序员简��模板、NodeJS程序员简历模板、架构师简历模板以及通用程序员简历模板
+
+- 2019-08-05 [qianguyihao/Web](https://github.com/qianguyihao/Web) - 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。
+
+- 2019-07-30 [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
+
+- 2019-07-22 [PrateekKumarSingh/CheatSheets](https://github.com/PrateekKumarSingh/CheatSheets) - CheatSheets for Powershell, Exchange, Sharepoint, Lync, RegEx, VSCode and more
+
+- 2019-06-21 [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - A book series on JavaScript. @YDKJS on twitter.
+
+- 2019-05-12 [vasanthk/web-security-basics](https://github.com/vasanthk/web-security-basics) - Web security concepts
+
+- 2018-12-14 [laizimo/zimo-article](https://github.com/laizimo/zimo-article) - :books:博客——源于实践，乐于分享，欢迎Star~
+
+- 2018-11-01 [nzakas/understandinges6](https://github.com/nzakas/understandinges6) - Content for the ebook "Understanding ECMAScript 6"
+
+- 2018-11-01 [OshotOkill/understandinges6-simplified-chinese](https://github.com/OshotOkill/understandinges6-simplified-chinese) - Simplified-Chinese edition of "Understanding ECMAScript 6" which is written by Nicholas C. Zakas
+
+- 2018-10-26 [vuetifyjs/awesome-vuetify](https://github.com/vuetifyjs/awesome-vuetify) - 🎉 The best resources related to Vuetify
+
+- 2018-10-11 [ElemeFE/style-guide](https://github.com/ElemeFE/style-guide) - style guide for everyone
+
+- 2018-10-04 [css-modules/css-modules](https://github.com/css-modules/css-modules) - Documentation about css-modules
+
+- 2018-09-26 [shri/JSDoc-Style-Guide](https://github.com/shri/JSDoc-Style-Guide) - JSDoc Style Guide (originally made for Kimono Labs--this one is a community driven fork)
+
+- 2018-09-24 [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp) - 微信小程序开发资源汇总 :100:
+
+- 2018-08-27 [dailybird/docker-compose-lnmp](https://github.com/dailybird/docker-compose-lnmp) - A docker-compose.yml  with  its dependent Dockerfiles and configs.
+
+- 2018-08-13 [woai30231/http](https://github.com/woai30231/http) - 自己提炼的关于《HTTP权威指南》每章的知识点总结！ 
+
+- 2018-08-04 [CentOS/sig-cloud-instance-images](https://github.com/CentOS/sig-cloud-instance-images) - CentOS cloud images
+
+- 2018-07-23 [ruanyf/jstraining](https://github.com/ruanyf/jstraining) - 全栈工程师培训材料
+
+- 2018-07-20 [aben1188/awesome-wepy](https://github.com/aben1188/awesome-wepy) - Awesome for wepy ! 微信小程序组件化开发框架wepy开发资源汇总
+
+- 2018-07-10 [vuejs/awesome-vue](https://github.com/vuejs/awesome-vue) - 🎉 A curated list of awesome things related to Vue.js
+
+- 2018-07-06 [substack/minimist](https://github.com/substack/minimist) - parse argument options
+
+- 2018-07-06 [substack/node-optimist](https://github.com/substack/node-optimist) - Light-weight option parsing for node.js
+
+- 2018-06-06 [metagrover/ES6-for-humans](https://github.com/metagrover/ES6-for-humans) - A kickstarter guide to writing ES6
+
+- 2018-05-23 [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) - 🗂 The perfect Front-End Checklist for modern websites and meticulous developers
+
+- 2018-05-14 [Marak/faker.js](https://github.com/Marak/faker.js) - generate massive amounts of realistic fake data in Node.js and the browser
+
+
+
+
+## C++
+- 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
+
+- 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
+
+- 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
+
+- 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
+
+- 2022-12-09 [tdlib/td](https://github.com/tdlib/td) - Cross-platform library for building Telegram clients
+
+- 2022-10-13 [pmq20/node-packer](https://github.com/pmq20/node-packer) - Packing your Node.js application into a single executable.
+
+- 2022-10-11 [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - Windows Package Manager CLI (aka winget)
+
+- 2022-04-28 [uimac/mmdbridge](https://github.com/uimac/mmdbridge) - MikuMikuDance Plugin for All Renderers
+
+- 2022-04-24 [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
+
+- 2022-04-21 [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) - Remote-control of OBS Studio through WebSocket
+
+- 2021-11-23 [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+- 2021-08-17 [Krombik/keysender](https://github.com/Krombik/keysender) - Node.js Desktop Automation for Windows.
+
+- 2021-08-17 [durs/node-activex](https://github.com/durs/node-activex) - Node.JS Implementaion of ActiveXObject
+
+- 2021-08-16 [gaojunxin/TSPlug](https://github.com/gaojunxin/TSPlug) - null
+
+- 2021-08-16 [justadudewhohacks/opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) - Nodejs bindings to OpenCV 3 and OpenCV 4
+
+- 2021-07-16 [Tencent/puerts](https://github.com/Tencent/puerts) - 普洱TS！Write your game with TypeScript in UE or Unity. PuerTS can be pronounced as pu-erh TS
+
+- 2020-11-30 [rdp/screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free) - a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
+
+- 2019-06-13 [zhangyuanwei/node-images](https://github.com/zhangyuanwei/node-images) - Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
+
+- 2019-04-27 [apache/incubator-weex](https://github.com/apache/incubator-weex) - Apache Weex (Incubating)
+
+- 2018-10-03 [phpv8/v8js](https://github.com/phpv8/v8js) - V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
+
+
+
+
+## ASL
+- 2022-12-21 [dortania/Getting-Started-With-ACPI](https://github.com/dortania/Getting-Started-With-ACPI) - Repo for Getting Started With ACPI
+
+
+
+
+## Java
+- 2022-12-11 [eritpchy/webdav-aliyundriver-android](https://github.com/eritpchy/webdav-aliyundriver-android) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现
+
+- 2022-12-10 [maks/MGit](https://github.com/maks/MGit) - A Git client for Android.
+
+- 2021-09-01 [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) - 🏗 Build container images for your Java applications.
+
+- 2021-08-14 [hyb1996/Auto.js](https://github.com/hyb1996/Auto.js) - A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
+
+- 2021-07-11 [lxr1907/pokers-server](https://github.com/lxr1907/pokers-server) - texas holdem poker and other poker games tomcat server code
+
+- 2021-05-20 [nivance/image-similarity](https://github.com/nivance/image-similarity) - 计算图片之间的相似度
+
+- 2021-05-20 [DuebassLei/cordova-vue-android](https://github.com/DuebassLei/cordova-vue-android) - Cordova+Vue打包Android Apk简单Demo
+
+- 2020-02-28 [openjfx/javafx-gradle-plugin](https://github.com/openjfx/javafx-gradle-plugin) - Gradle plugin that makes it easy to work with JavaFX 11+
+
+- 2020-02-24 [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Spring Boot
+
+- 2020-02-24 [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - Design patterns implemented in Java
+
+- 2020-02-23 [SpecialCyCi/AndroidResideMenu](https://github.com/SpecialCyCi/AndroidResideMenu) - The idea of ResideMenu is from Dribbble 1 and 2. It has come true and run in iOS devices. iOS ResideMenu This project is the RefsideMenu Android version. The visual effect is partly referred to iOS version of ResideMenu. And thanks to the authors for the above idea and contribution. 
+
+- 2020-02-05 [simpligility/android-maven-plugin](https://github.com/simpligility/android-maven-plugin) - Maven Plugin for Android Application development and more
+
+- 2020-02-05 [carlossg/glacier-cli](https://github.com/carlossg/glacier-cli) - Amazon AWS Glacier command line interface
+
+- 2019-06-21 [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) - All Algorithms implemented in Java
+
+- 2018-11-08 [gwuhaolin/myccnu](https://github.com/gwuhaolin/myccnu) - 华中师范大学微信服务平台-掌上华师
+
+- 2018-10-25 [mmd0308/HZQ-Admin](https://github.com/mmd0308/HZQ-Admin) - 管理系统
+
+
+
+
+## Shell
+- 2022-12-11 [fbelavenuto/arpl](https://github.com/fbelavenuto/arpl) - Automated Redpill Loader
+
+- 2022-10-11 [mviereck/x11docker](https://github.com/mviereck/x11docker) - Run GUI applications and desktops in docker and podman containers. Focus on security.
+
+- 2022-10-11 [tj-actions/eslint-changed-files](https://github.com/tj-actions/eslint-changed-files) - :octocat: Github action to run ESLint on changed pull request files with support for reporting errors via Github checks.
+
+- 2022-04-18 [LordShenron/Grub-Themes](https://github.com/LordShenron/Grub-Themes) - Grub themes that will give a customized look to the Grub2 menu during boot.
+
+- 2022-04-18 [13atm01/GRUB-Theme](https://github.com/13atm01/GRUB-Theme) - :information_source: GRUB Themes with the theme from the anime The Quintessential Quintuplets, Fate Series, VTuber, and Game Doki Doki Literature Club :computer: :heart:
+
+- 2022-04-18 [chef/bento](https://github.com/chef/bento) - Packer templates for building minimal Vagrant baseboxes for multiple platforms
+
+- 2022-04-01 [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
+
+- 2021-09-07 [lando/lando](https://github.com/lando/lando) - A development tool for all your projects that is fast, easy, powerful and liberating
+
+- 2021-08-29 [myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox) - Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS
+
+- 2021-07-21 [leoberbert/cluster-dev-k8s](https://github.com/leoberbert/cluster-dev-k8s) - Cluster k8s utilizando Vagrant
+
+- 2021-07-19 [ansilh/k8s-vagrant](https://github.com/ansilh/k8s-vagrant) - Single Master - Multi Worker K8S cluster for learning and development
+
+- 2021-07-19 [davidmccormick/alpine-k8s](https://github.com/davidmccormick/alpine-k8s) - a build of kubernetes running on alpine on vagrant
+
+- 2021-07-19 [geerlingguy/packer-boxes](https://github.com/geerlingguy/packer-boxes) - Jeff Geerling's Packer build configurations for Vagrant boxes.
+
+- 2021-07-19 [fideloper/Vaprobash](https://github.com/fideloper/Vaprobash) - Vagrant Provisioning Bash Scripts
+
+- 2021-07-19 [ansible/ansible-examples](https://github.com/ansible/ansible-examples) - A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.
+
+- 2021-07-16 [knightFly/k8s-etcd-mongoSet-Deploy](https://github.com/knightFly/k8s-etcd-mongoSet-Deploy) - etcd ， mongo复制集，jenkins和gitlab一键部署脚本
+
+- 2021-07-15 [zhuchuangang/k8s-install-scripts](https://github.com/zhuchuangang/k8s-install-scripts) - kubernetes install scripts,that includes etcd、kubernetes、flannel、docker,and there are many yaml files here,for example the kubernetes addones,redis,rabbitmq,mongo,traefik,ingress-nginx,cpehfs and so on.
+
+- 2021-07-14 [openstack/devstack-vagrant](https://github.com/openstack/devstack-vagrant) - Vagrant configuration for building DevStack environments. Mirror of code maintained at opendev.org.
+
+- 2021-07-14 [anhcq151/centos7-k8s](https://github.com/anhcq151/centos7-k8s) - bootstrap a new k8s cluster with load-balancer and nfs storage using Vagrant and Virtualbox
+
+- 2021-07-14 [cloudnativehero/kubeadm-vagrant](https://github.com/cloudnativehero/kubeadm-vagrant) - Setup Kubernetes Cluster with Kubeadm and Vagrant
+
+- 2021-07-13 [coreos/coreos-kubernetes](https://github.com/coreos/coreos-kubernetes) - CoreOS Container Linux+Kubernetes documentation & Vagrant installers
+
+- 2021-07-13 [istio/community](https://github.com/istio/community) - Istio governance material.
+
+- 2021-07-11 [rootsongjc/kubernetes-vagrant-centos-cluster](https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster) - Setting up a distributed Kubernetes cluster along with Istio service mesh locally with Vagrant and VirtualBox, only PoC or Demo use.
+
+- 2021-05-31 [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) - Official electron build of draw.io
+
+- 2021-05-20 [meoow/baiduyun-upload-script](https://github.com/meoow/baiduyun-upload-script) - Upload files or direcotries form command line using shell script
+
+- 2021-05-20 [jooray/video-slide-extractor](https://github.com/jooray/video-slide-extractor) - Two simple scripts to extract keyframes with set number of changes and then filter out frames with faces
+
+- 2020-07-07 [guanguans/dnmp-plus](https://github.com/guanguans/dnmp-plus) - 🐳Docker的LNMP一键安装开发环境 + PHP非侵入式监控平台xhgui(优化系统性能、定位Bug神器)
+
+- 2020-06-13 [liumiaocn/easypack](https://github.com/liumiaocn/easypack) - For Cloud Native and DevOps: make popular OSS easily used
+
+- 2019-10-17 [ws1990/k8s-install](https://github.com/ws1990/k8s-install) - k8s一键安装，目前支持v1.11.2
+
+- 2019-06-26 [docker/docker-bench-security](https://github.com/docker/docker-bench-security) - The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
+
+- 2019-05-28 [rootsongjc/kubernetes-handbook](https://github.com/rootsongjc/kubernetes-handbook) - Kubernetes中文指南/云原生应用架构实战手册 -  https://jimmysong.io/kubernetes-handbook
+
+- 2018-09-13 [alpinelinux/aports](https://github.com/alpinelinux/aports) - [MIRROR] Alpine packages build scripts
+
+- 2018-09-12 [docker-library/buildpack-deps](https://github.com/docker-library/buildpack-deps) - null
+
+- 2018-09-11 [zabbix/zabbix-docker](https://github.com/zabbix/zabbix-docker) - Official Zabbix Dockerfiles
+
+- 2018-09-09 [docker-archive/swarm-library-image](https://github.com/docker-archive/swarm-library-image) - Official Image packaging for Classic Swarm, now archived
+
+- 2018-09-09 [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine) - Alpine Linux Docker image. Win at minimalism!
+
+- 2018-09-08 [sameersbn/docker-gitlab](https://github.com/sameersbn/docker-gitlab) - Dockerized GitLab
+
+- 2018-08-28 [docker-library/php](https://github.com/docker-library/php) - Docker Official Image packaging for PHP
+
+- 2018-08-28 [docker-library/docs](https://github.com/docker-library/docs) - Documentation for Docker Official Images in docker-library
+
+- 2018-08-28 [gtsigner/docker-lnmp-redis](https://github.com/gtsigner/docker-lnmp-redis) - devops
+
+- 2018-08-28 [twang2218/docker-lnmp](https://github.com/twang2218/docker-lnmp) - Docker example of LNMP setup (Compose, Swarm)
+
+- 2018-08-09 [addcn/docker-lnmp](https://github.com/addcn/docker-lnmp) - Deploy lnmp(Linux, Nginx, MySQL, PHP7) using docker.
+
+- 2018-08-04 [nginxinc/docker-nginx](https://github.com/nginxinc/docker-nginx) - Official NGINX Dockerfiles
+
+- 2018-08-04 [docker-library/mysql](https://github.com/docker-library/mysql) - Docker Official Image packaging for MySQL Community Server
+
+- 2018-08-04 [tianon/docker-brew-ubuntu-core](https://github.com/tianon/docker-brew-ubuntu-core) - DEPRECATED; see https://github.com/tianon/docker-brew-ubuntu-core/pull/248
+
+- 2018-08-04 [docker-library/mongo](https://github.com/docker-library/mongo) - Docker Official Image packaging for MongoDB
 
 
 
