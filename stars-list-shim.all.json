@@ -6790,5 +6790,11 @@
     "description": "Easiest 1-click way to install and use Stable Diffusion on your own computer. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
     "starred_at": "2023-03-05T05:31:20Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "fkunn1326/openpose-editor",
+    "description": "Openpose Editor for AUTOMATIC1111's stable-diffusion-webui",
+    "starred_at": "2023-03-07T07:40:18Z",
+    "languages": "Python"
   }
 ]
