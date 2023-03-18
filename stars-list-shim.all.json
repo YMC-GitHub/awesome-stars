@@ -6802,5 +6802,17 @@
     "description": "Small script for AUTOMATIC1111/stable-diffusion-webui to create images between two seeds",
     "starred_at": "2023-03-08T09:50:22Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "cube-js/cube",
+    "description": "📊  Cube — The Semantic Layer for Building Data Applications",
+    "starred_at": "2021-09-07T00:51:15Z",
+    "languages": "Rust"
+  },
+  {
+    "full_name": "Amblyopius/Stable-Diffusion-ONNX-FP16",
+    "description": "Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.",
+    "starred_at": "2023-03-05T10:53:07Z",
+    "languages": "Python"
   }
 ]

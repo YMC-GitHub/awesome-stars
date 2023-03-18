@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-17 09:45:23&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-18 09:45:23&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -60,6 +60,8 @@
 - 2023-03-07 [fkunn1326/openpose-editor](https://github.com/fkunn1326/openpose-editor) - Openpose Editor for AUTOMATIC1111's stable-diffusion-webui
 
 - 2023-03-07 [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
+
+- 2023-03-05 [Amblyopius/Stable-Diffusion-ONNX-FP16](https://github.com/Amblyopius/Stable-Diffusion-ONNX-FP16) - Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.
 
 - 2023-03-05 [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch
 
@@ -2024,6 +2026,8 @@
 - 2022-10-29 [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
 
 - 2021-09-07 [cube-js/cube.js](https://github.com/cube-js/cube.js) - 📊  Cube — Headless Business Intelligence for Building Data Applications
+
+- 2021-09-07 [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
 
 - 2021-08-16 [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) -  A simple, cross-platform GUI automation module for Python and Rust.
 
