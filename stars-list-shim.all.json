@@ -6814,5 +6814,11 @@
     "description": "Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.",
     "starred_at": "2023-03-05T10:53:07Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "reactjs/react.dev",
+    "description": "The React documentation website",
+    "starred_at": "2019-08-09T16:40:39Z",
+    "languages": "TypeScript"
   }
 ]

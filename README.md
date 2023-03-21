@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-20 09:49:32&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-21 09:39:34&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1532,6 +1532,8 @@
 - 2019-08-09 [facebook/docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 
 - 2019-08-09 [reactjs/reactjs.org](https://github.com/reactjs/reactjs.org) - The React documentation website
+
+- 2019-08-09 [reactjs/react.dev](https://github.com/reactjs/react.dev) - The React documentation website
 
 - 2019-08-07 [TypeStrong/ts-loader](https://github.com/TypeStrong/ts-loader) - TypeScript loader for webpack
 
