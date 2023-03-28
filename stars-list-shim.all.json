@@ -6820,5 +6820,11 @@
     "description": "The React documentation website",
     "starred_at": "2019-08-09T16:40:39Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "Automattic/node-canvas",
+    "description": "Node canvas is a Cairo backed Canvas implementation for NodeJS.",
+    "starred_at": "2023-02-05T01:09:56Z",
+    "languages": "JavaScript"
   }
 ]
