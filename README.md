@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-28 09:44:34&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-03-29 09:52:00&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -55,6 +55,8 @@
 
 
 ## Python
+- 2023-03-26 [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) - Tiled Diffusion and VAE optimize
+
 - 2023-03-08 [yownas/seed_travel](https://github.com/yownas/seed_travel) - Small script for AUTOMATIC1111/stable-diffusion-webui to create images between two seeds
 
 - 2023-03-07 [fkunn1326/openpose-editor](https://github.com/fkunn1326/openpose-editor) - Openpose Editor for AUTOMATIC1111's stable-diffusion-webui

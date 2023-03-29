@@ -6826,5 +6826,11 @@
     "description": "Node canvas is a Cairo backed Canvas implementation for NodeJS.",
     "starred_at": "2023-02-05T01:09:56Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "pkuliyi2015/multidiffusion-upscaler-for-automatic1111",
+    "description": "Tiled Diffusion and VAE optimize",
+    "starred_at": "2023-03-26T13:30:54Z",
+    "languages": "Python"
   }
 ]
