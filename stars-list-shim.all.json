@@ -6832,5 +6832,11 @@
     "description": "Tiled Diffusion and VAE optimize",
     "starred_at": "2023-03-26T13:30:54Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "civitai/civitai",
+    "description": "A repository of models, textual inversions, and more",
+    "starred_at": "2023-03-29T16:01:06Z",
+    "languages": "TypeScript"
   }
 ]
