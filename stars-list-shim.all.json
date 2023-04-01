@@ -6838,5 +6838,11 @@
     "description": "A repository of models, textual inversions, and more",
     "starred_at": "2023-03-29T16:01:06Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "sczhou/CodeFormer",
+    "description": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
+    "starred_at": "2023-03-06T23:52:31Z",
+    "languages": "Python"
   }
 ]
