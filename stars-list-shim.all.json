@@ -6844,5 +6844,11 @@
     "description": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
     "starred_at": "2023-03-06T23:52:31Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "messense/aliyundrive-webdav",
+    "description": "阿里云盘 WebDAV 服务",
+    "starred_at": "2022-12-11T02:44:11Z",
+    "languages": "Rust"
   }
 ]
