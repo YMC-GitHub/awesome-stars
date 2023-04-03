@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-02 09:42:05&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-03 09:36:48&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -58,6 +58,8 @@
 - 2023-03-29 [civitai/civitai](https://github.com/civitai/civitai) - A repository of models, textual inversions, and more
 
 - 2023-03-05 [huggingface/huggingface.js](https://github.com/huggingface/huggingface.js) - Utilities to use the Hugging Face hub API
+
+- 2023-02-07 [tweenjs/tween.js](https://github.com/tweenjs/tween.js) - JavaScript/TypeScript animation engine
 
 - 2023-02-03 [triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev) - ✨ Trigger.dev is an open-source platform that makes it easy for developers to create event-driven background tasks directly in their code.
 

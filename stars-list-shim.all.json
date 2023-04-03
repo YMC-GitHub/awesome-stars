@@ -6850,5 +6850,11 @@
     "description": "阿里云盘 WebDAV 服务",
     "starred_at": "2022-12-11T02:44:11Z",
     "languages": "Rust"
+  },
+  {
+    "full_name": "tweenjs/tween.js",
+    "description": "JavaScript/TypeScript animation engine",
+    "starred_at": "2023-02-07T07:03:37Z",
+    "languages": "TypeScript"
   }
 ]
