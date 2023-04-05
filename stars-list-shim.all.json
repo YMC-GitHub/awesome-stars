@@ -6856,5 +6856,11 @@
     "description": "JavaScript/TypeScript animation engine",
     "starred_at": "2023-02-07T07:03:37Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "coqui-ai/TTS",
+    "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+    "starred_at": "2023-02-25T12:15:34Z",
+    "languages": "Python"
   }
 ]
