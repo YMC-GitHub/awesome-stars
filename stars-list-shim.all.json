@@ -6862,5 +6862,11 @@
     "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
     "starred_at": "2023-02-25T12:15:34Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "VinsonLaro/stable-diffusion-webui-chinese",
+    "description": "stable-diffusion-webui 的汉化版本",
+    "starred_at": "2023-03-05T01:09:04Z",
+    "languages": ""
   }
 ]
