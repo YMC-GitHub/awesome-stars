@@ -6868,5 +6868,11 @@
     "description": "stable-diffusion-webui 的汉化版本",
     "starred_at": "2023-03-05T01:09:04Z",
     "languages": ""
+  },
+  {
+    "full_name": "ZhUyU1997/open-pose-editor",
+    "description": "online 3d openpose editor for stable diffusion and controlnet",
+    "starred_at": "2023-03-27T16:21:34Z",
+    "languages": "TypeScript"
   }
 ]
