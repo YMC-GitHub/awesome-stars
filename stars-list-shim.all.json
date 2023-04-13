@@ -6874,5 +6874,17 @@
     "description": "online 3d openpose editor for stable diffusion and controlnet",
     "starred_at": "2023-03-27T16:21:34Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "AbdBarho/stable-diffusion-webui-docker",
+    "description": "Easy Docker setup for Stable Diffusion with user-friendly UI",
+    "starred_at": "2023-03-09T13:06:45Z",
+    "languages": "Dockerfile"
+  },
+  {
+    "full_name": "BluePointLilac/ContextMenuManager",
+    "description": "🖱️ 纯粹的Windows右键菜单管理程序",
+    "starred_at": "2022-12-13T07:24:28Z",
+    "languages": "C#"
   }
 ]
