@@ -6886,5 +6886,11 @@
     "description": "🖱️ 纯粹的Windows右键菜单管理程序",
     "starred_at": "2022-12-13T07:24:28Z",
     "languages": "C#"
+  },
+  {
+    "full_name": "TypeStrong/ts-node",
+    "description": "TypeScript execution and REPL for node.js",
+    "starred_at": "2023-04-02T07:47:46Z",
+    "languages": "TypeScript"
   }
 ]
