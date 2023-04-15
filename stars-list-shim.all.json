@@ -6892,5 +6892,11 @@
     "description": "TypeScript execution and REPL for node.js",
     "starred_at": "2023-04-02T07:47:46Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "lllyasviel/ControlNet",
+    "description": "Let us control diffusion models!",
+    "starred_at": "2023-03-07T02:02:24Z",
+    "languages": "Python"
   }
 ]
