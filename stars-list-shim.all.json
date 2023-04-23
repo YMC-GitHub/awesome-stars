@@ -6898,5 +6898,11 @@
     "description": "Let us control diffusion models!",
     "starred_at": "2023-03-07T02:02:24Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "DrKLO/Telegram",
+    "description": "Telegram for Android source",
+    "starred_at": "2022-12-09T12:33:20Z",
+    "languages": "Java"
   }
 ]

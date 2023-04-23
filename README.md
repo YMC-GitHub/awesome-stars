@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-22 09:38:42&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-23 09:49:27&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1938,6 +1938,8 @@
 - 2022-12-11 [eritpchy/webdav-aliyundriver-android](https://github.com/eritpchy/webdav-aliyundriver-android) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现
 
 - 2022-12-10 [maks/MGit](https://github.com/maks/MGit) - A Git client for Android.
+
+- 2022-12-09 [DrKLO/Telegram](https://github.com/DrKLO/Telegram) - Telegram for Android source
 
 - 2021-09-01 [GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib) - 🏗 Build container images for your Java applications.
 
