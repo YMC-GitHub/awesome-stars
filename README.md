@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-23 09:49:27&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-24 09:42:14&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -326,6 +326,8 @@
 - 2018-11-26 [vuejs/vue-loader](https://github.com/vuejs/vue-loader) - 📦 Webpack loader for Vue.js components
 
 - 2018-10-29 [facebook/jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
+
+- 2018-10-29 [jestjs/jest](https://github.com/jestjs/jest) - Delightful JavaScript Testing.
 
 - 2018-10-26 [mazipan/vue-string-filter](https://github.com/mazipan/vue-string-filter) - ✂️ Vue 2.x lightweight string manipulation filter
 
@@ -1873,6 +1875,8 @@
 
 
 ## C++
+- 2023-02-02 [Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings) - C++那些事
+
 - 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
 
 - 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
