@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-25 09:40:36&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-26 09:39:31&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -390,6 +390,8 @@
 - 2023-03-05 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
 
 - 2023-02-25 [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+
+- 2023-02-04 [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) - An arbitrary face-swapping framework on images and videos with one single trained model!
 
 - 2023-01-22 [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) - Real-time face swap for PC streaming or video calls
 
@@ -1880,6 +1882,8 @@
 - 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
 
 - 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
+
+- 2022-12-21 [acidanthera/WhateverGreen](https://github.com/acidanthera/WhateverGreen) - Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs
 
 - 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
 

@@ -6916,5 +6916,17 @@
     "description": "C++那些事",
     "starred_at": "2023-02-02T00:51:28Z",
     "languages": "C++"
+  },
+  {
+    "full_name": "acidanthera/WhateverGreen",
+    "description": "Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs",
+    "starred_at": "2022-12-21T06:24:34Z",
+    "languages": "C++"
+  },
+  {
+    "full_name": "neuralchen/SimSwap",
+    "description": "An arbitrary face-swapping framework on images and videos with one single trained model!",
+    "starred_at": "2023-02-04T00:26:31Z",
+    "languages": "Python"
   }
 ]
