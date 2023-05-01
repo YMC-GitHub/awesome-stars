@@ -6940,5 +6940,11 @@
     "description": null,
     "starred_at": "2023-04-27T04:31:26Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "termux/termux-app",
+    "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+    "starred_at": "2022-12-10T13:41:39Z",
+    "languages": "Java"
   }
 ]

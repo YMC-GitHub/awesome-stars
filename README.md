@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-04-30 09:43:04&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-01 09:42:34&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1948,6 +1948,8 @@
 
 ## Java
 - 2022-12-11 [eritpchy/webdav-aliyundriver-android](https://github.com/eritpchy/webdav-aliyundriver-android) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现
+
+- 2022-12-10 [termux/termux-app](https://github.com/termux/termux-app) - Termux - a terminal emulator application for Android OS extendible by variety of packages.
 
 - 2022-12-10 [maks/MGit](https://github.com/maks/MGit) - A Git client for Android.
 
