@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-02 09:39:49&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-03 09:39:13&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -55,6 +55,8 @@
 
 
 ## Python
+- 2023-04-27 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) - null
+
 - 2023-04-27 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) - null
 
 - 2023-03-26 [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) - Tiled Diffusion and VAE optimize
