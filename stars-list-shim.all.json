@@ -6952,5 +6952,11 @@
     "description": null,
     "starred_at": "2023-04-27T08:13:03Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "bbc/peaks.js",
+    "description": "JavaScript UI component for interacting with audio waveforms",
+    "starred_at": "2023-01-22T00:28:06Z",
+    "languages": "JavaScript"
   }
 ]
