@@ -6958,5 +6958,11 @@
     "description": "JavaScript UI component for interacting with audio waveforms",
     "starred_at": "2023-01-22T00:28:06Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "facebookresearch/segment-anything",
+    "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "starred_at": "2023-05-01T13:28:54Z",
+    "languages": "Jupyter Notebook"
   }
 ]

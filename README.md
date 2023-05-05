@@ -10,17 +10,17 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-04 09:37:15&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-05 09:34:27&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
+*  [Jupyter Notebook](#Jupyter Notebook)
 *  [Python](#Python)
 *  [TypeScript](#TypeScript)
 *  [Dockerfile](#Dockerfile)
-*  [Jupyter Notebook](#Jupyter Notebook)
 *  [JavaScript](#JavaScript)
 *  [Unknow](#Unknow)
 *  [Dart](#Dart)
@@ -52,6 +52,14 @@
 *  [Stylus](#Stylus)
 *  [Makefile](#Makefile)
 *  [Nginx](#Nginx)
+
+
+## Jupyter Notebook
+- 2023-05-01 [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) - The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
+
+- 2023-03-05 [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
+
+
 
 
 ## Python
@@ -514,12 +522,6 @@
 - 2018-08-27 [huiyonghkw/lnmp-docker](https://github.com/huiyonghkw/lnmp-docker) - Docker for LNMP (CentOS7 + Nginx + MariaDB + PHP7 + Redis + Supervisor + WebSocket  + Cron)
 
 - 2018-08-09 [sakurallj/docker-lnmp](https://github.com/sakurallj/docker-lnmp) - null
-
-
-
-
-## Jupyter Notebook
-- 2023-03-05 [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
 
 
 
