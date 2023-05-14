@@ -6964,5 +6964,11 @@
     "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
     "starred_at": "2023-05-01T13:28:54Z",
     "languages": "Jupyter Notebook"
+  },
+  {
+    "full_name": "xmake-io/xmake",
+    "description": "🔥 A cross-platform build utility based on Lua",
+    "starred_at": "2023-05-12T20:55:50Z",
+    "languages": "Lua"
   }
 ]
