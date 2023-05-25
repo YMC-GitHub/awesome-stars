@@ -6970,5 +6970,11 @@
     "description": "🔥 A cross-platform build utility based on Lua",
     "starred_at": "2023-05-12T20:55:50Z",
     "languages": "Lua"
+  },
+  {
+    "full_name": "Zeqiang-Lai/DragGAN",
+    "description": "Workable implementation of \"Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold\"",
+    "starred_at": "2023-05-24T01:45:14Z",
+    "languages": "Python"
   }
 ]

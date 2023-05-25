@@ -10,16 +10,16 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-24 09:45:29&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-25 09:40:18&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
+*  [Python](#Python)
 *  [Lua](#Lua)
 *  [Jupyter Notebook](#Jupyter Notebook)
-*  [Python](#Python)
 *  [TypeScript](#TypeScript)
 *  [Dockerfile](#Dockerfile)
 *  [JavaScript](#JavaScript)
@@ -55,21 +55,9 @@
 *  [Nginx](#Nginx)
 
 
-## Lua
-- 2023-05-12 [xmake-io/xmake](https://github.com/xmake-io/xmake) - 🔥 A cross-platform build utility based on Lua
-
-
-
-
-## Jupyter Notebook
-- 2023-05-01 [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) - The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
-
-- 2023-03-05 [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
-
-
-
-
 ## Python
+- 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
+
 - 2023-04-27 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) - null
 
 - 2023-04-27 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) - null
@@ -187,6 +175,20 @@
 - 2018-09-14 [globocom/m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 
 - 2018-08-31 [NetEase/c](https://github.com/NetEase/c) - null
+
+
+
+
+## Lua
+- 2023-05-12 [xmake-io/xmake](https://github.com/xmake-io/xmake) - 🔥 A cross-platform build utility based on Lua
+
+
+
+
+## Jupyter Notebook
+- 2023-05-01 [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) - The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
+
+- 2023-03-05 [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) - stable diffusion webui colab
 
 
 
