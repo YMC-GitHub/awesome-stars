@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-05-31 09:58:16&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-01 10:21:09&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -57,6 +57,8 @@
 
 ## Python
 - 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
+
+- 2023-05-10 [flutydeer/audio-slicer](https://github.com/flutydeer/audio-slicer) - A simple GUI application that slices audio with silence detection
 
 - 2023-04-27 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) - null
 

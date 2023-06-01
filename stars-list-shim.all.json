@@ -6976,5 +6976,11 @@
     "description": "Workable implementation of \"Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold\"",
     "starred_at": "2023-05-24T01:45:14Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "flutydeer/audio-slicer",
+    "description": "A simple GUI application that slices audio with silence detection",
+    "starred_at": "2023-05-10T08:35:38Z",
+    "languages": "Python"
   }
 ]
