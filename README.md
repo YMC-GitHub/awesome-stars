@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-05 09:59:57&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-06 10:00:57&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -56,6 +56,8 @@
 
 
 ## Python
+- 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
+
 - 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
 
 - 2023-05-10 [flutydeer/audio-slicer](https://github.com/flutydeer/audio-slicer) - A simple GUI application that slices audio with silence detection
@@ -1965,6 +1967,8 @@
 
 ## Java
 - 2022-12-11 [eritpchy/webdav-aliyundriver-android](https://github.com/eritpchy/webdav-aliyundriver-android) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现
+
+- 2022-12-11 [eritpchy/aliyundrive-webdav](https://github.com/eritpchy/aliyundrive-webdav) - 阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现，支持安卓、Linux、树莓派、Docker、Windows部署， 并附带JAVA SDK支持二次开发
 
 - 2022-12-10 [termux/termux-app](https://github.com/termux/termux-app) - Termux - a terminal emulator application for Android OS extendible by variety of packages.
 

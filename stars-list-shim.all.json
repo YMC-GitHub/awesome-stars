@@ -6982,5 +6982,17 @@
     "description": "A simple GUI application that slices audio with silence detection",
     "starred_at": "2023-05-10T08:35:38Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "OpenTalker/SadTalker",
+    "description": "[CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+    "starred_at": "2023-06-01T00:58:21Z",
+    "languages": "Python"
+  },
+  {
+    "full_name": "eritpchy/aliyundrive-webdav",
+    "description": "阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现，支持安卓、Linux、树莓派、Docker、Windows部署， 并附带JAVA SDK支持二次开发",
+    "starred_at": "2022-12-11T02:52:01Z",
+    "languages": "Java"
   }
 ]
