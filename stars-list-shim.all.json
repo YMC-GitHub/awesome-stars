@@ -6994,5 +6994,11 @@
     "description": "阿里云盘(https://www.aliyundrive.com/) 的webdav协议开源实现，支持安卓、Linux、树莓派、Docker、Windows部署， 并附带JAVA SDK支持二次开发",
     "starred_at": "2022-12-11T02:52:01Z",
     "languages": "Java"
+  },
+  {
+    "full_name": "Mrs4s/go-cqhttp",
+    "description": "cqhttp的golang实现，轻量、原生跨平台.",
+    "starred_at": "2023-06-08T00:20:21Z",
+    "languages": "Go"
   }
 ]
