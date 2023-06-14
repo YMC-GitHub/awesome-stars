@@ -7000,5 +7000,11 @@
     "description": "cqhttp的golang实现，轻量、原生跨平台.",
     "starred_at": "2023-06-08T00:20:21Z",
     "languages": "Go"
+  },
+  {
+    "full_name": "daliansky/Hackintosh",
+    "description": "Hackintosh long-term maintenance model EFI and installation tutorial",
+    "starred_at": "2022-12-13T11:01:44Z",
+    "languages": "Shell"
   }
 ]
