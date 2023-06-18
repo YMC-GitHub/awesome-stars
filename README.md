@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-17 09:46:34&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-18 10:04:30&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -821,6 +821,8 @@
 - 2021-05-17 [volumenetwork/video-crop](https://github.com/volumenetwork/video-crop) - Lib to crop videos using ffmpeg
 
 - 2021-05-17 [renative-org/renative](https://github.com/renative-org/renative) - 🚀🚀🚀 Unified Development Platform for iOS, tvOS, Android, Android TV, Android Wear, Web, Tizen TV, Tizen Watch, Tizen Mobile, LG webOS, macOS/OSX, Windows, KaiOS, FirefoxOS Firefox TV platforms
+
+- 2021-05-17 [flexn-io/renative](https://github.com/flexn-io/renative) - 🚀🚀🚀 Unified Development Platform for iOS, tvOS, Android, Android TV, Android Wear, Web, Tizen TV, Tizen Watch, Tizen Mobile, LG webOS, macOS/OSX, Windows, KaiOS, FirefoxOS Firefox TV platforms
 
 - 2021-05-16 [schwarzkopfb/tesseract-ocr](https://github.com/schwarzkopfb/tesseract-ocr) - Node.js wrapper for Tesseract OCR CLI.
 
@@ -1887,6 +1889,8 @@
 - 2023-02-05 [libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo) - Main libjpeg-turbo repository
 
 - 2022-12-21 [acidanthera/Lilu](https://github.com/acidanthera/Lilu) - Arbitrary kext and process patching on macOS
+
+- 2022-12-20 [CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) - Bootloader for macOS, Windows and Linux in UEFI and in legacy mode
 
 - 2022-12-15 [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
 
