@@ -7024,5 +7024,11 @@
     "description": "🚀🚀🚀 Unified Development Platform for iOS, tvOS, Android, Android TV, Android Wear, Web, Tizen TV, Tizen Watch, Tizen Mobile, LG webOS, macOS/OSX, Windows, KaiOS, FirefoxOS Firefox TV platforms",
     "starred_at": "2021-05-17T12:28:10Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin",
+    "description": "A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using Automatic1111-sd-webui as a backend. ",
+    "starred_at": "2023-05-30T09:25:16Z",
+    "languages": "JavaScript"
   }
 ]
