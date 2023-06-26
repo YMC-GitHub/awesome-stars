@@ -7030,5 +7030,11 @@
     "description": "A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using Automatic1111-sd-webui as a backend. ",
     "starred_at": "2023-05-30T09:25:16Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "s0md3v/sd-webui-roop",
+    "description": "roop extension for StableDiffusion web-ui",
+    "starred_at": "2023-06-25T13:04:37Z",
+    "languages": "Python"
   }
 ]

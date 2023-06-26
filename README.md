@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-25 10:18:54&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-26 10:06:38&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -56,6 +56,8 @@
 
 
 ## Python
+- 2023-06-25 [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) - roop extension for StableDiffusion web-ui
+
 - 2023-06-14 [mattyamonaca/PBRemTools](https://github.com/mattyamonaca/PBRemTools) - Precise background remover
 
 - 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
