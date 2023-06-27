@@ -7036,5 +7036,17 @@
     "description": "roop extension for StableDiffusion web-ui",
     "starred_at": "2023-06-25T13:04:37Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "Jittor/JittorLLMs",
+    "description": "计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点",
+    "starred_at": "2023-06-08T00:14:16Z",
+    "languages": "Python"
+  },
+  {
+    "full_name": "koishijs/koishi",
+    "description": "Cross-platform chatbot framework made with love",
+    "starred_at": "2023-06-08T00:22:53Z",
+    "languages": "TypeScript"
   }
 ]
