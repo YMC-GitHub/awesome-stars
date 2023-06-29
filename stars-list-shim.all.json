@@ -7048,5 +7048,11 @@
     "description": "Cross-platform chatbot framework made with love",
     "starred_at": "2023-06-08T00:22:53Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "XingangPan/DragGAN",
+    "description": "Official Code for DragGAN (SIGGRAPH 2023)",
+    "starred_at": "2023-05-24T01:46:56Z",
+    "languages": "Python"
   }
 ]
