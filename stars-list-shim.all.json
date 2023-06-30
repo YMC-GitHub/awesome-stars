@@ -7054,5 +7054,17 @@
     "description": "Official Code for DragGAN (SIGGRAPH 2023)",
     "starred_at": "2023-05-24T01:46:56Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "brev/esm-loaders",
+    "description": "ESModule Loaders Monorepo",
+    "starred_at": "2022-11-09T23:41:16Z",
+    "languages": "JavaScript"
+  },
+  {
+    "full_name": "danielgatis/rembg",
+    "description": "Rembg is a tool to remove images background",
+    "starred_at": "2023-06-04T23:43:10Z",
+    "languages": "Python"
   }
 ]

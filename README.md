@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-29 09:59:15&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-06-30 09:57:44&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -61,6 +61,8 @@
 - 2023-06-14 [mattyamonaca/PBRemTools](https://github.com/mattyamonaca/PBRemTools) - Precise background remover
 
 - 2023-06-08 [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
+
+- 2023-06-04 [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
 
 - 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
 
@@ -571,6 +573,8 @@
 - 2022-11-17 [baranwang/pinyin](https://github.com/baranwang/pinyin) - Node.js 汉字转拼音
 
 - 2022-11-15 [jimp-dev/jimp](https://github.com/jimp-dev/jimp) - An image processing library written entirely in JavaScript for Node, with zero external or native dependencies.
+
+- 2022-11-09 [brev/esm-loaders](https://github.com/brev/esm-loaders) - ESModule Loaders Monorepo
 
 - 2022-11-05 [liurongsheng/CodeCamp](https://github.com/liurongsheng/CodeCamp) - 技术汇总
 
