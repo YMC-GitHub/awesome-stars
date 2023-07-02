@@ -7066,5 +7066,17 @@
     "description": "Rembg is a tool to remove images background",
     "starred_at": "2023-06-04T23:43:10Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "xrayfree/free-ssr-ss-v2ray-vpn-clash",
+    "description": "长期免费维护数个SSR/SS/V2RAY/VPN/CLASH订阅高速节点链接！电报群：https://t.me/xrayfree",
+    "starred_at": "2022-12-09T07:33:06Z",
+    "languages": ""
+  },
+  {
+    "full_name": "OpenGVLab/DragGAN",
+    "description": "Unofficial Implementation of DragGAN - \"Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold\" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）",
+    "starred_at": "2023-05-24T01:45:14Z",
+    "languages": "Python"
   }
 ]
