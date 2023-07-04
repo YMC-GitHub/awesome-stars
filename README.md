@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-03 10:02:47&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-04 10:04:21&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -20,6 +20,7 @@
 *  [Python](#Python)
 *  [TypeScript](#TypeScript)
 *  [Go](#Go)
+*  [C++](#C++)
 *  [JavaScript](#JavaScript)
 *  [Lua](#Lua)
 *  [Jupyter Notebook](#Jupyter Notebook)
@@ -27,7 +28,6 @@
 *  [Dockerfile](#Dockerfile)
 *  [Dart](#Dart)
 *  [C](#C)
-*  [C++](#C++)
 *  [ASL](#ASL)
 *  [Shell](#Shell)
 *  [C#](#C#)
@@ -63,6 +63,8 @@
 - 2023-06-08 [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
 
 - 2023-06-04 [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
+
+- 2023-06-01 [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.
 
 - 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
 
@@ -545,6 +547,56 @@
 - 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
 
 - 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
+
+
+
+
+## C++
+- 2023-05-31 [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
+
+- 2023-02-02 [Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings) - C++那些事
+
+- 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
+
+- 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
+
+- 2022-12-21 [acidanthera/WhateverGreen](https://github.com/acidanthera/WhateverGreen) - Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs
+
+- 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
+
+- 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
+
+- 2022-12-09 [tdlib/td](https://github.com/tdlib/td) - Cross-platform library for building Telegram clients
+
+- 2022-10-13 [pmq20/node-packer](https://github.com/pmq20/node-packer) - Packing your Node.js application into a single executable.
+
+- 2022-10-11 [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - Windows Package Manager CLI (aka winget)
+
+- 2022-04-28 [uimac/mmdbridge](https://github.com/uimac/mmdbridge) - MikuMikuDance Plugin for All Renderers
+
+- 2022-04-24 [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
+
+- 2022-04-21 [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) - Remote-control of OBS Studio through WebSocket
+
+- 2021-11-23 [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+- 2021-08-17 [Krombik/keysender](https://github.com/Krombik/keysender) - Node.js Desktop Automation for Windows.
+
+- 2021-08-17 [durs/node-activex](https://github.com/durs/node-activex) - Node.JS Implementaion of ActiveXObject
+
+- 2021-08-16 [gaojunxin/TSPlug](https://github.com/gaojunxin/TSPlug) - null
+
+- 2021-08-16 [justadudewhohacks/opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) - Nodejs bindings to OpenCV 3 and OpenCV 4
+
+- 2021-07-16 [Tencent/puerts](https://github.com/Tencent/puerts) - 普洱TS！Write your game with TypeScript in UE or Unity. PuerTS can be pronounced as pu-erh TS
+
+- 2020-11-30 [rdp/screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free) - a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
+
+- 2019-06-13 [zhangyuanwei/node-images](https://github.com/zhangyuanwei/node-images) - Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
+
+- 2019-04-27 [apache/incubator-weex](https://github.com/apache/incubator-weex) - Apache Weex (Incubating)
+
+- 2018-10-03 [phpv8/v8js](https://github.com/phpv8/v8js) - V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
 
 
 
@@ -1923,54 +1975,6 @@
 - 2021-04-28 [ventoy/Ventoy](https://github.com/ventoy/Ventoy) - A new bootable USB solution.
 
 - 2019-06-21 [TheAlgorithms/C](https://github.com/TheAlgorithms/C) - Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.
-
-
-
-
-## C++
-- 2023-02-02 [Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings) - C++那些事
-
-- 2023-01-15 [Slackadays/Clipboard](https://github.com/Slackadays/Clipboard) - 📋 Cut, copy, and paste anything, anywhere, all from the terminal. Quick, easy, and pretty.
-
-- 2023-01-03 [luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E) - Basic EFI with Opencore for Intel X99 Processors (4st Gen)
-
-- 2022-12-21 [acidanthera/WhateverGreen](https://github.com/acidanthera/WhateverGreen) - Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs
-
-- 2022-12-15 [ic005k/OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) - Cross-platform GUI management tools for OpenCore（OCAT）
-
-- 2022-12-09 [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) - Telegram Desktop messaging app
-
-- 2022-12-09 [tdlib/td](https://github.com/tdlib/td) - Cross-platform library for building Telegram clients
-
-- 2022-10-13 [pmq20/node-packer](https://github.com/pmq20/node-packer) - Packing your Node.js application into a single executable.
-
-- 2022-10-11 [microsoft/winget-cli](https://github.com/microsoft/winget-cli) - Windows Package Manager CLI (aka winget)
-
-- 2022-04-28 [uimac/mmdbridge](https://github.com/uimac/mmdbridge) - MikuMikuDance Plugin for All Renderers
-
-- 2022-04-24 [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
-
-- 2022-04-21 [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) - Remote-control of OBS Studio through WebSocket
-
-- 2021-11-23 [electron/electron](https://github.com/electron/electron) - :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
-
-- 2021-08-17 [Krombik/keysender](https://github.com/Krombik/keysender) - Node.js Desktop Automation for Windows.
-
-- 2021-08-17 [durs/node-activex](https://github.com/durs/node-activex) - Node.JS Implementaion of ActiveXObject
-
-- 2021-08-16 [gaojunxin/TSPlug](https://github.com/gaojunxin/TSPlug) - null
-
-- 2021-08-16 [justadudewhohacks/opencv4nodejs](https://github.com/justadudewhohacks/opencv4nodejs) - Nodejs bindings to OpenCV 3 and OpenCV 4
-
-- 2021-07-16 [Tencent/puerts](https://github.com/Tencent/puerts) - 普洱TS！Write your game with TypeScript in UE or Unity. PuerTS can be pronounced as pu-erh TS
-
-- 2020-11-30 [rdp/screen-capture-recorder-to-video-windows-free](https://github.com/rdp/screen-capture-recorder-to-video-windows-free) - a free open source  windows "screen capture" device and recorder (also allows VLC/ffmpeg and others to capture/stream desktop/audio)
-
-- 2019-06-13 [zhangyuanwei/node-images](https://github.com/zhangyuanwei/node-images) - Cross-platform image decoder(png/jpeg/gif) and encoder(png/jpeg) for Nodejs
-
-- 2019-04-27 [apache/incubator-weex](https://github.com/apache/incubator-weex) - Apache Weex (Incubating)
-
-- 2018-10-03 [phpv8/v8js](https://github.com/phpv8/v8js) - V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
 
 
 
