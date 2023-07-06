@@ -7096,5 +7096,17 @@
     "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
     "starred_at": "2023-06-01T14:08:28Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "s0md3v/roop",
+    "description": "one-click deepfake (face swap)",
+    "starred_at": "2023-06-25T13:01:00Z",
+    "languages": "Python"
+  },
+  {
+    "full_name": "goto100/xpath",
+    "description": "DOM 3 Xpath implemention and helper for node.js",
+    "starred_at": "2022-11-14T00:53:34Z",
+    "languages": "JavaScript"
   }
 ]
