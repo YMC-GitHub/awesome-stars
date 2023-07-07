@@ -10,17 +10,18 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-06 10:05:28&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-07 10:03:07&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
-*  [Python](#Python)
+*  [QML](#QML)
 *  [TypeScript](#TypeScript)
-*  [Go](#Go)
 *  [C++](#C++)
+*  [Python](#Python)
+*  [Go](#Go)
 *  [JavaScript](#JavaScript)
 *  [Lua](#Lua)
 *  [Jupyter Notebook](#Jupyter Notebook)
@@ -55,151 +56,15 @@
 *  [Nginx](#Nginx)
 
 
-## Python
-- 2023-06-25 [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) - roop extension for StableDiffusion web-ui
-
-- 2023-06-25 [s0md3v/roop](https://github.com/s0md3v/roop) - one-click deepfake (face swap)
-
-- 2023-06-14 [mattyamonaca/PBRemTools](https://github.com/mattyamonaca/PBRemTools) - Precise background remover
-
-- 2023-06-08 [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
-
-- 2023-06-04 [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
-
-- 2023-06-01 [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.
-
-- 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
-
-- 2023-05-24 [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) - Official Code for DragGAN (SIGGRAPH 2023)
-
-- 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
-
-- 2023-05-24 [OpenGVLab/DragGAN](https://github.com/OpenGVLab/DragGAN) - Unofficial Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）
-
-- 2023-05-10 [flutydeer/audio-slicer](https://github.com/flutydeer/audio-slicer) - A simple GUI application that slices audio with silence detection
-
-- 2023-04-27 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) - null
-
-- 2023-04-27 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) - null
-
-- 2023-03-26 [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) - Tiled Diffusion and VAE optimize
-
-- 2023-03-08 [yownas/seed_travel](https://github.com/yownas/seed_travel) - Small script for AUTOMATIC1111/stable-diffusion-webui to create images between two seeds
-
-- 2023-03-07 [fkunn1326/openpose-editor](https://github.com/fkunn1326/openpose-editor) - Openpose Editor for AUTOMATIC1111's stable-diffusion-webui
-
-- 2023-03-07 [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
-
-- 2023-03-07 [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) - Let us control diffusion models!
-
-- 2023-03-06 [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) - [NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer
-
-- 2023-03-05 [Amblyopius/Stable-Diffusion-ONNX-FP16](https://github.com/Amblyopius/Stable-Diffusion-ONNX-FP16) - Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.
-
-- 2023-03-05 [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch
-
-- 2023-03-05 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
-
-- 2023-02-25 [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
-
-- 2023-02-04 [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) - An arbitrary face-swapping framework on images and videos with one single trained model!
-
-- 2023-01-22 [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) - Real-time face swap for PC streaming or video calls
-
-- 2022-12-21 [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree) - Cross platform GUI plist editor written in python.
-
-- 2022-10-26 [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
-
-- 2022-10-22 [yihong0618/gitblog](https://github.com/yihong0618/gitblog) - People Die, but Long Live GitHub
-
-- 2022-08-10 [microsoft/WSL](https://github.com/microsoft/WSL) - Issues found on WSL
-
-- 2022-08-02 [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
-
-- 2022-06-07 [hay/facetool](https://github.com/hay/facetool) - Command line utility to manipulate faces in videos and images
-
-- 2022-06-07 [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
-
-- 2022-06-07 [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) - DeepFaceLab is the leading software for creating deepfakes.
-
-- 2022-05-04 [sugiany/blender_mmd_tools](https://github.com/sugiany/blender_mmd_tools) - mmd_tools is a blender addon for importing Models and Motions of MikuMikuDance.
-
-- 2022-05-02 [atticus-lv/RenderNode](https://github.com/atticus-lv/RenderNode) - node based render workflow for blender
-
-- 2022-04-30 [958261649/Miku_Miku_Rig](https://github.com/958261649/Miku_Miku_Rig) - MikuMikuRig是一款集生成控制器，自动导入动画，自动布料为一体的blender插件
-
-- 2022-04-29 [Vwings/mmdbridge-material-importer](https://github.com/Vwings/mmdbridge-material-importer) - Material importer for MMDBridge and blender 2.8+
-
-- 2022-02-18 [doakey3/Bligify](https://github.com/doakey3/Bligify) - Blender addon for exporting and importing animated GIF sequences
-
-- 2022-02-18 [MarkC-b3d/makepillow](https://github.com/MarkC-b3d/makepillow) - Uses the blender python API to generate a pillow base mesh using cloth simulation physics. Only supported for stable branches of blender, use experimental and daily builds at your own risk.
-
-- 2022-02-18 [the3dadvantage/Modeling-Cloth](https://github.com/the3dadvantage/Modeling-Cloth) - Create real-time cloth-like behavior in meshes in Blender
-
-- 2022-02-18 [PluginCafe/cinema4d_py_sdk_extended](https://github.com/PluginCafe/cinema4d_py_sdk_extended) - The official Python API examples for Cinema 4D.
-
-- 2021-12-08 [googidaddy/bili_upload_tool](https://github.com/googidaddy/bili_upload_tool) - 搬运视频到b站工具
-
-- 2021-12-08 [Ayppo/uploader](https://github.com/Ayppo/uploader) - B站(bilibili)投稿必备
-
-- 2021-08-19 [echim/pySteps](https://github.com/echim/pySteps) - Generic python automation framework with PyAutogui, OpenCV and Tesseract-OCR for desktop apps.
-
-- 2021-08-18 [nodejs/node-gyp](https://github.com/nodejs/node-gyp) - Node.js native addon build tool
-
-- 2021-07-19 [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) - Ansible for DevOps examples.
-
-- 2021-06-25 [facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) - High-Resolution 3D Human Digitization from A Single Image.
-
-- 2021-05-24 [a312863063/generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2) - Here is a series of face generators based on StyleGAN2
-
-- 2021-05-24 [wuhuikai/FaceSwap](https://github.com/wuhuikai/FaceSwap) - Swap face between two photos. 
-
-- 2021-05-23 [nxcd/face-dataset-creator](https://github.com/nxcd/face-dataset-creator) - It's a face extractor from videos and images to create a dataset about face images
-
-- 2021-05-23 [Tyrannosaurus1234/GetFaces](https://github.com/Tyrannosaurus1234/GetFaces) - Python script for extracting faces from video files
-
-- 2021-05-23 [dhvanikotak/Emotion-Detection-in-Videos](https://github.com/dhvanikotak/Emotion-Detection-in-Videos) - The aim of this work is to recognize the six emotions (happiness, sadness, disgust, surprise, fear and anger) based on human facial expressions extracted from videos. To achieve this, we are considering people of different ethnicity, age and gender where each one of them reacts very different when they express their emotions. We collected a data set of 149 videos that included short videos from both, females and males, expressing each of the the emotions described before. The data set was built by students and each of them recorded a video expressing all the emotions with no directions or instructions at all.  Some videos included more body parts than others. In other cases, videos have objects in the background an even different light setups. We wanted this to be as general as possible with no restrictions at all, so it could be a very good indicator of our main goal.   The code detect_faces.py just detects faces from the video and we saved this video in the dimension 240x320. Using this algorithm creates shaky videos. Thus we then stabilized all videos. This can be done via a code or online free stabilizers are also available. After which we used the stabilized videos and ran it through code emotion_classification_videos_faces.py. in the code we developed a method to extract features based on histogram of dense optical flows (HOF) and we used a support vector machine (SVM) classifier to tackle the recognition problem.   For each video at each frame we extracted optical flows. Optical flows measure the motion relative to an observer between two frames at each point of them. Therefore, at each point in the image you will have two values that describes the vector representing the motion between the two frames: the magnitude and the angle. In our case, since videos have a resolution of 240x320, each frame will have a feature descriptor of dimensions 240x320x2. So, the final video descriptor will have a dimension of #framesx240x320x2. In order to make a video comparable to other inputs (because inputs of different length will not be comparable with each other), we need to somehow find a way to summarize the video into a single descriptor. We achieve this by calculating a histogram of the optical flows. This is, separate the extracted flows into categories and count the number of flows for each category. In more details, we split the scene into a grid of s by s bins (10 in this case) in order to record the location of each feature, and then categorized the direction of the flow as one of the 8 different motion directions considered in this problem. After this, we count for each direction the number of flows occurring in each direction bin. Finally, we end up with an s by s by 8 bins descriptor per each frame. Now, the summarizing step for each video could be the average of the histograms in each grid (average pooling method) or we could just pick the maximum value of the histograms by grid throughout all the frames on a video (max pooling   For the classification process, we used support vector machine (SVM) with a non linear kernel classifier, discussed in class, to recognize the new facial expressions. We also considered a Naïve Bayes classifier, but it is widely known that svm outperforms the last method in the computer vision field. A confusion matrix can be made to plot results better. 
-
-- 2021-05-23 [Constannnnnt/Video_FaceSwap](https://github.com/Constannnnnt/Video_FaceSwap) - Given a user profile, a video clip and an actor(actress) profile in the video, Swap the actor's face with the user's face
-
-- 2021-05-20 [bluer007/baidu_uploader](https://github.com/bluer007/baidu_uploader) - 百度网盘上传助手, 突破百度网盘客户端非会员单次最多上传500个文件和最大2G文件大小的限制
-
-- 2021-05-20 [XavierJiezou/opecv-face-detect](https://github.com/XavierJiezou/opecv-face-detect) - null
-
-- 2021-05-20 [mansonami/videoswapface](https://github.com/mansonami/videoswapface) - change the faces in the video
-
-- 2021-05-20 [goberoi/faceit](https://github.com/goberoi/faceit) - A script to make it easy to swap faces in videos using the faceswap library, and YouTube videos.
-
-- 2021-05-20 [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
-
-- 2021-05-20 [tomasrasymas/simimg](https://github.com/tomasrasymas/simimg) - Similar image search
-
-- 2021-05-20 [AlexiaJM/Generative-model-most-similar-images](https://github.com/AlexiaJM/Generative-model-most-similar-images) - Function that output the 5 most similar training (real) images to the given generated (fake) images.
-
-- 2021-05-20 [MashiMaroLjc/Learn-to-identify-similar-images](https://github.com/MashiMaroLjc/Learn-to-identify-similar-images) - Record my python script about Iearning to identify similar images
-
-- 2021-05-20 [TalkUHulk/changeFaceImg](https://github.com/TalkUHulk/changeFaceImg) - null
-
-- 2021-05-20 [pascscha/FaceChanger](https://github.com/pascscha/FaceChanger) - Warp faces similar to some Snapchat filters or face swaps. Eyes, eyebrows, nose and mouth can all be moved and scaled interactively. The script can process the changes in real-time and works off images, videos or a live video stream from the webcam.
-
-- 2021-05-20 [NocoldBob/change_face](https://github.com/NocoldBob/change_face) - change your face in video
-
-- 2021-05-20 [Liangwe/AI-Change-face-in-the-video](https://github.com/Liangwe/AI-Change-face-in-the-video) - 将视频中的人脸更换为指定照片中的人脸，并且输出视频。
-
-- 2021-05-18 [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files. 
-
-- 2021-05-18 [coder-pig/VideoSubtitleExtractTool](https://github.com/coder-pig/VideoSubtitleExtractTool) - 视频字幕提取工具
-
-- 2018-10-05 [flashlizi/cssrem](https://github.com/flashlizi/cssrem) - 一个CSS值转REM的Sublime Text插件
-
-- 2018-09-14 [globocom/m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
-
-- 2018-08-31 [NetEase/c](https://github.com/NetEase/c) - null
+## QML
+- 2023-07-06 [zhuzichu520/FluentUI](https://github.com/zhuzichu520/FluentUI) - FluentUI for QML
 
 
 
 
 ## TypeScript
+- 2023-07-06 [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
+
 - 2023-06-08 [koishijs/koishi](https://github.com/koishijs/koishi) - Cross-platform chatbot framework made with love
 
 - 2023-04-02 [TypeStrong/ts-node](https://github.com/TypeStrong/ts-node) - TypeScript execution and REPL for node.js
@@ -517,43 +382,9 @@
 
 
 
-## Go
-- 2023-06-08 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
-
-- 2023-02-06 [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) - A package to build progressive web apps with Go programming language and WebAssembly.
-
-- 2022-12-18 [alist-org/alist](https://github.com/alist-org/alist) - 🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。
-
-- 2022-08-11 [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes
-
-- 2022-03-20 [mikefarah/yq](https://github.com/mikefarah/yq) - yq is a portable command-line YAML, JSON, XML, CSV and properties processor
-
-- 2021-08-25 [kubescape/kubescape](https://github.com/kubescape/kubescape) - Kubescape is a K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning. 
-
-- 2021-07-12 [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
-
-- 2019-11-27 [docker/compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker
-
-- 2019-10-22 [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
-
-- 2019-10-21 [flannel-io/flannel](https://github.com/flannel-io/flannel) - flannel is a network fabric for containers, designed for Kubernetes
-
-- 2019-10-21 [kubernetes/dashboard](https://github.com/kubernetes/dashboard) - General-purpose web UI for Kubernetes clusters
-
-- 2019-10-21 [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Own your own cloud with one click！
-
-- 2019-08-10 [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
-
-- 2019-06-21 [docker/app](https://github.com/docker/app) - Make your Docker Compose applications reusable, and share them on Docker Hub
-
-- 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
-
-- 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
-
-
-
-
 ## C++
+- 2023-07-06 [godotengine/godot](https://github.com/godotengine/godot) - Godot Engine – Multi-platform 2D and 3D game engine
+
 - 2023-05-31 [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
 
 - 2023-02-02 [Light-City/CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings) - C++那些事
@@ -599,6 +430,186 @@
 - 2019-04-27 [apache/incubator-weex](https://github.com/apache/incubator-weex) - Apache Weex (Incubating)
 
 - 2018-10-03 [phpv8/v8js](https://github.com/phpv8/v8js) - V8 Javascript Engine for PHP — This PHP extension embeds the Google V8 Javascript Engine
+
+
+
+
+## Python
+- 2023-06-25 [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) - roop extension for StableDiffusion web-ui
+
+- 2023-06-25 [s0md3v/roop](https://github.com/s0md3v/roop) - one-click deepfake (face swap)
+
+- 2023-06-14 [mattyamonaca/PBRemTools](https://github.com/mattyamonaca/PBRemTools) - Precise background remover
+
+- 2023-06-08 [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
+
+- 2023-06-04 [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
+
+- 2023-06-01 [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) - Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.
+
+- 2023-06-01 [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) - [CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
+
+- 2023-05-24 [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) - Official Code for DragGAN (SIGGRAPH 2023)
+
+- 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
+
+- 2023-05-24 [OpenGVLab/DragGAN](https://github.com/OpenGVLab/DragGAN) - Unofficial Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）
+
+- 2023-05-10 [flutydeer/audio-slicer](https://github.com/flutydeer/audio-slicer) - A simple GUI application that slices audio with silence detection
+
+- 2023-04-27 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) - null
+
+- 2023-04-27 [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) - null
+
+- 2023-03-26 [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) - Tiled Diffusion and VAE optimize
+
+- 2023-03-08 [yownas/seed_travel](https://github.com/yownas/seed_travel) - Small script for AUTOMATIC1111/stable-diffusion-webui to create images between two seeds
+
+- 2023-03-07 [fkunn1326/openpose-editor](https://github.com/fkunn1326/openpose-editor) - Openpose Editor for AUTOMATIC1111's stable-diffusion-webui
+
+- 2023-03-07 [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet
+
+- 2023-03-07 [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) - Let us control diffusion models!
+
+- 2023-03-06 [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) - [NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer
+
+- 2023-03-05 [Amblyopius/Stable-Diffusion-ONNX-FP16](https://github.com/Amblyopius/Stable-Diffusion-ONNX-FP16) - Example code and documentation on how to get Stable Diffusion running with ONNX FP16 models on DirectML. Can run accelerated on all DirectML supported cards including AMD and Intel.
+
+- 2023-03-05 [huggingface/diffusers](https://github.com/huggingface/diffusers) - 🤗 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch
+
+- 2023-03-05 [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - Stable Diffusion web UI
+
+- 2023-02-25 [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+
+- 2023-02-04 [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) - An arbitrary face-swapping framework on images and videos with one single trained model!
+
+- 2023-01-22 [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) - Real-time face swap for PC streaming or video calls
+
+- 2022-12-21 [corpnewt/ProperTree](https://github.com/corpnewt/ProperTree) - Cross platform GUI plist editor written in python.
+
+- 2022-10-26 [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+
+- 2022-10-22 [yihong0618/gitblog](https://github.com/yihong0618/gitblog) - People Die, but Long Live GitHub
+
+- 2022-08-10 [microsoft/WSL](https://github.com/microsoft/WSL) - Issues found on WSL
+
+- 2022-08-02 [babysor/MockingBird](https://github.com/babysor/MockingBird) - 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+- 2022-06-07 [hay/facetool](https://github.com/hay/facetool) - Command line utility to manipulate faces in videos and images
+
+- 2022-06-07 [deepfakes/faceswap](https://github.com/deepfakes/faceswap) - Deepfakes Software For All
+
+- 2022-06-07 [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) - DeepFaceLab is the leading software for creating deepfakes.
+
+- 2022-05-04 [sugiany/blender_mmd_tools](https://github.com/sugiany/blender_mmd_tools) - mmd_tools is a blender addon for importing Models and Motions of MikuMikuDance.
+
+- 2022-05-02 [atticus-lv/RenderNode](https://github.com/atticus-lv/RenderNode) - node based render workflow for blender
+
+- 2022-04-30 [958261649/Miku_Miku_Rig](https://github.com/958261649/Miku_Miku_Rig) - MikuMikuRig是一款集生成控制器，自动导入动画，自动布料为一体的blender插件
+
+- 2022-04-29 [Vwings/mmdbridge-material-importer](https://github.com/Vwings/mmdbridge-material-importer) - Material importer for MMDBridge and blender 2.8+
+
+- 2022-02-18 [doakey3/Bligify](https://github.com/doakey3/Bligify) - Blender addon for exporting and importing animated GIF sequences
+
+- 2022-02-18 [MarkC-b3d/makepillow](https://github.com/MarkC-b3d/makepillow) - Uses the blender python API to generate a pillow base mesh using cloth simulation physics. Only supported for stable branches of blender, use experimental and daily builds at your own risk.
+
+- 2022-02-18 [the3dadvantage/Modeling-Cloth](https://github.com/the3dadvantage/Modeling-Cloth) - Create real-time cloth-like behavior in meshes in Blender
+
+- 2022-02-18 [PluginCafe/cinema4d_py_sdk_extended](https://github.com/PluginCafe/cinema4d_py_sdk_extended) - The official Python API examples for Cinema 4D.
+
+- 2021-12-08 [googidaddy/bili_upload_tool](https://github.com/googidaddy/bili_upload_tool) - 搬运视频到b站工具
+
+- 2021-12-08 [Ayppo/uploader](https://github.com/Ayppo/uploader) - B站(bilibili)投稿必备
+
+- 2021-08-19 [echim/pySteps](https://github.com/echim/pySteps) - Generic python automation framework with PyAutogui, OpenCV and Tesseract-OCR for desktop apps.
+
+- 2021-08-18 [nodejs/node-gyp](https://github.com/nodejs/node-gyp) - Node.js native addon build tool
+
+- 2021-07-19 [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops) - Ansible for DevOps examples.
+
+- 2021-06-25 [facebookresearch/pifuhd](https://github.com/facebookresearch/pifuhd) - High-Resolution 3D Human Digitization from A Single Image.
+
+- 2021-05-24 [a312863063/generators-with-stylegan2](https://github.com/a312863063/generators-with-stylegan2) - Here is a series of face generators based on StyleGAN2
+
+- 2021-05-24 [wuhuikai/FaceSwap](https://github.com/wuhuikai/FaceSwap) - Swap face between two photos. 
+
+- 2021-05-23 [nxcd/face-dataset-creator](https://github.com/nxcd/face-dataset-creator) - It's a face extractor from videos and images to create a dataset about face images
+
+- 2021-05-23 [Tyrannosaurus1234/GetFaces](https://github.com/Tyrannosaurus1234/GetFaces) - Python script for extracting faces from video files
+
+- 2021-05-23 [dhvanikotak/Emotion-Detection-in-Videos](https://github.com/dhvanikotak/Emotion-Detection-in-Videos) - The aim of this work is to recognize the six emotions (happiness, sadness, disgust, surprise, fear and anger) based on human facial expressions extracted from videos. To achieve this, we are considering people of different ethnicity, age and gender where each one of them reacts very different when they express their emotions. We collected a data set of 149 videos that included short videos from both, females and males, expressing each of the the emotions described before. The data set was built by students and each of them recorded a video expressing all the emotions with no directions or instructions at all.  Some videos included more body parts than others. In other cases, videos have objects in the background an even different light setups. We wanted this to be as general as possible with no restrictions at all, so it could be a very good indicator of our main goal.   The code detect_faces.py just detects faces from the video and we saved this video in the dimension 240x320. Using this algorithm creates shaky videos. Thus we then stabilized all videos. This can be done via a code or online free stabilizers are also available. After which we used the stabilized videos and ran it through code emotion_classification_videos_faces.py. in the code we developed a method to extract features based on histogram of dense optical flows (HOF) and we used a support vector machine (SVM) classifier to tackle the recognition problem.   For each video at each frame we extracted optical flows. Optical flows measure the motion relative to an observer between two frames at each point of them. Therefore, at each point in the image you will have two values that describes the vector representing the motion between the two frames: the magnitude and the angle. In our case, since videos have a resolution of 240x320, each frame will have a feature descriptor of dimensions 240x320x2. So, the final video descriptor will have a dimension of #framesx240x320x2. In order to make a video comparable to other inputs (because inputs of different length will not be comparable with each other), we need to somehow find a way to summarize the video into a single descriptor. We achieve this by calculating a histogram of the optical flows. This is, separate the extracted flows into categories and count the number of flows for each category. In more details, we split the scene into a grid of s by s bins (10 in this case) in order to record the location of each feature, and then categorized the direction of the flow as one of the 8 different motion directions considered in this problem. After this, we count for each direction the number of flows occurring in each direction bin. Finally, we end up with an s by s by 8 bins descriptor per each frame. Now, the summarizing step for each video could be the average of the histograms in each grid (average pooling method) or we could just pick the maximum value of the histograms by grid throughout all the frames on a video (max pooling   For the classification process, we used support vector machine (SVM) with a non linear kernel classifier, discussed in class, to recognize the new facial expressions. We also considered a Naïve Bayes classifier, but it is widely known that svm outperforms the last method in the computer vision field. A confusion matrix can be made to plot results better. 
+
+- 2021-05-23 [Constannnnnt/Video_FaceSwap](https://github.com/Constannnnnt/Video_FaceSwap) - Given a user profile, a video clip and an actor(actress) profile in the video, Swap the actor's face with the user's face
+
+- 2021-05-20 [bluer007/baidu_uploader](https://github.com/bluer007/baidu_uploader) - 百度网盘上传助手, 突破百度网盘客户端非会员单次最多上传500个文件和最大2G文件大小的限制
+
+- 2021-05-20 [XavierJiezou/opecv-face-detect](https://github.com/XavierJiezou/opecv-face-detect) - null
+
+- 2021-05-20 [mansonami/videoswapface](https://github.com/mansonami/videoswapface) - change the faces in the video
+
+- 2021-05-20 [goberoi/faceit](https://github.com/goberoi/faceit) - A script to make it easy to swap faces in videos using the faceswap library, and YouTube videos.
+
+- 2021-05-20 [alievk/avatarify-python](https://github.com/alievk/avatarify-python) - Avatars for Zoom, Skype and other video-conferencing apps.
+
+- 2021-05-20 [tomasrasymas/simimg](https://github.com/tomasrasymas/simimg) - Similar image search
+
+- 2021-05-20 [AlexiaJM/Generative-model-most-similar-images](https://github.com/AlexiaJM/Generative-model-most-similar-images) - Function that output the 5 most similar training (real) images to the given generated (fake) images.
+
+- 2021-05-20 [MashiMaroLjc/Learn-to-identify-similar-images](https://github.com/MashiMaroLjc/Learn-to-identify-similar-images) - Record my python script about Iearning to identify similar images
+
+- 2021-05-20 [TalkUHulk/changeFaceImg](https://github.com/TalkUHulk/changeFaceImg) - null
+
+- 2021-05-20 [pascscha/FaceChanger](https://github.com/pascscha/FaceChanger) - Warp faces similar to some Snapchat filters or face swaps. Eyes, eyebrows, nose and mouth can all be moved and scaled interactively. The script can process the changes in real-time and works off images, videos or a live video stream from the webcam.
+
+- 2021-05-20 [NocoldBob/change_face](https://github.com/NocoldBob/change_face) - change your face in video
+
+- 2021-05-20 [Liangwe/AI-Change-face-in-the-video](https://github.com/Liangwe/AI-Change-face-in-the-video) - 将视频中的人脸更换为指定照片中的人脸，并且输出视频。
+
+- 2021-05-18 [YaoFANGUK/video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) - 视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files. 
+
+- 2021-05-18 [coder-pig/VideoSubtitleExtractTool](https://github.com/coder-pig/VideoSubtitleExtractTool) - 视频字幕提取工具
+
+- 2018-10-05 [flashlizi/cssrem](https://github.com/flashlizi/cssrem) - 一个CSS值转REM的Sublime Text插件
+
+- 2018-09-14 [globocom/m3u8](https://github.com/globocom/m3u8) - Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
+
+- 2018-08-31 [NetEase/c](https://github.com/NetEase/c) - null
+
+
+
+
+## Go
+- 2023-06-08 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) - cqhttp的golang实现，轻量、原生跨平台.
+
+- 2023-02-06 [maxence-charriere/go-app](https://github.com/maxence-charriere/go-app) - A package to build progressive web apps with Go programming language and WebAssembly.
+
+- 2022-12-18 [alist-org/alist](https://github.com/alist-org/alist) - 🗂️A file list program that supports multiple storage, powered by Gin and Solidjs. / 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。
+
+- 2022-08-11 [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes
+
+- 2022-03-20 [mikefarah/yq](https://github.com/mikefarah/yq) - yq is a portable command-line YAML, JSON, XML, CSV and properties processor
+
+- 2021-08-25 [kubescape/kubescape](https://github.com/kubescape/kubescape) - Kubescape is a K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning. 
+
+- 2021-07-12 [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
+
+- 2019-11-27 [docker/compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker
+
+- 2019-10-22 [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) - Production-Grade Container Scheduling and Management
+
+- 2019-10-21 [flannel-io/flannel](https://github.com/flannel-io/flannel) - flannel is a network fabric for containers, designed for Kubernetes
+
+- 2019-10-21 [kubernetes/dashboard](https://github.com/kubernetes/dashboard) - General-purpose web UI for Kubernetes clusters
+
+- 2019-10-21 [labring/sealos](https://github.com/labring/sealos) - Cloud operating system based on kubernetes. Own your own cloud with one click！
+
+- 2019-08-10 [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
+
+- 2019-06-21 [docker/app](https://github.com/docker/app) - Make your Docker Compose applications reusable, and share them on Docker Hub
+
+- 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
+
+- 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
 
 
 
