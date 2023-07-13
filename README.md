@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-12 10:03:17&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-13 10:06:18&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -442,6 +442,8 @@
 - 2023-06-14 [mattyamonaca/PBRemTools](https://github.com/mattyamonaca/PBRemTools) - Precise background remover
 
 - 2023-06-08 [Jittor/JittorLLMs](https://github.com/Jittor/JittorLLMs) - 计图大模型推理库，具有高性能、配置要求低、中文支持好、可移植等特点
+
+- 2023-06-06 [kabachuha/sd-webui-text2video](https://github.com/kabachuha/sd-webui-text2video) - Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies
 
 - 2023-06-04 [danielgatis/rembg](https://github.com/danielgatis/rembg) - Rembg is a tool to remove images background
 

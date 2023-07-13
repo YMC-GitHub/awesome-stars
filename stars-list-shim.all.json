@@ -7126,5 +7126,11 @@
     "description": "Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.",
     "starred_at": "2023-07-06T14:08:12Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "kabachuha/sd-webui-text2video",
+    "description": "Auto1111 extension implementing text2video diffusion models (like ModelScope or VideoCrafter) using only Auto1111 webui dependencies",
+    "starred_at": "2023-06-06T02:05:19Z",
+    "languages": "Python"
   }
 ]
