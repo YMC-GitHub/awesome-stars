@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-17 10:09:56&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-18 10:16:08&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -1758,6 +1758,8 @@
 - 2018-05-22 [github/fetch](https://github.com/github/fetch) - A window.fetch JavaScript polyfill.
 
 - 2018-05-22 [cwage/fetch](https://github.com/cwage/fetch) - A window.fetch JavaScript polyfill.
+
+- 2018-05-22 [JakeChampion/fetch](https://github.com/JakeChampion/fetch) - A window.fetch JavaScript polyfill.
 
 - 2018-05-22 [request/request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
 
