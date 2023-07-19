@@ -7150,5 +7150,17 @@
     "description": "A window.fetch JavaScript polyfill.",
     "starred_at": "2018-05-22T17:20:25Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "napi-rs/node-rs",
+    "description": "Node.js bindings ❤️ Rust crates ",
+    "starred_at": "2023-07-18T12:30:26Z",
+    "languages": "Rust"
+  },
+  {
+    "full_name": "napi-rs/napi-rs",
+    "description": "A framework for building compiled Node.js add-ons in Rust via Node-API",
+    "starred_at": "2023-07-18T12:30:48Z",
+    "languages": "Rust"
   }
 ]
