@@ -10,16 +10,16 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-19 11:05:13&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-07-20 09:42:57&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
+*  [TypeScript](#TypeScript)
 *  [Rust](#Rust)
 *  [QML](#QML)
-*  [TypeScript](#TypeScript)
 *  [C++](#C++)
 *  [Python](#Python)
 *  [Go](#Go)
@@ -56,33 +56,9 @@
 *  [Nginx](#Nginx)
 
 
-## Rust
-- 2023-07-18 [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
-
-- 2023-07-18 [napi-rs/node-rs](https://github.com/napi-rs/node-rs) - Node.js bindings ❤️ Rust crates 
-
-- 2022-12-11 [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务
-
-- 2022-10-29 [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
-
-- 2021-09-07 [cube-js/cube.js](https://github.com/cube-js/cube.js) - 📊  Cube — Headless Business Intelligence for Building Data Applications
-
-- 2021-09-07 [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-
-- 2021-08-16 [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) -  A simple, cross-platform GUI automation module for Python and Rust.
-
-- 2019-04-29 [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
-
-
-
-
-## QML
-- 2023-07-06 [zhuzichu520/FluentUI](https://github.com/zhuzichu520/FluentUI) - FluentUI for QML
-
-
-
-
 ## TypeScript
+- 2023-07-19 [nestjs/nest](https://github.com/nestjs/nest) - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀
+
 - 2023-07-06 [BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) - Babylon.js is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
 
 - 2023-06-08 [koishijs/koishi](https://github.com/koishijs/koishi) - Cross-platform chatbot framework made with love
@@ -398,6 +374,32 @@
 - 2018-05-14 [vuejs/vue](https://github.com/vuejs/vue) - 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
 - 2018-05-14 [nuxt/nuxt](https://github.com/nuxt/nuxt) - Nuxt is an intuitive and extendable way to create type-safe, performant and production-grade full-stack web apps and websites with Vue 3.
+
+
+
+
+## Rust
+- 2023-07-18 [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
+
+- 2023-07-18 [napi-rs/node-rs](https://github.com/napi-rs/node-rs) - Node.js bindings ❤️ Rust crates 
+
+- 2022-12-11 [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务
+
+- 2022-10-29 [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+
+- 2021-09-07 [cube-js/cube.js](https://github.com/cube-js/cube.js) - 📊  Cube — Headless Business Intelligence for Building Data Applications
+
+- 2021-09-07 [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
+
+- 2021-08-16 [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) -  A simple, cross-platform GUI automation module for Python and Rust.
+
+- 2019-04-29 [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
+
+
+
+
+## QML
+- 2023-07-06 [zhuzichu520/FluentUI](https://github.com/zhuzichu520/FluentUI) - FluentUI for QML
 
 
 

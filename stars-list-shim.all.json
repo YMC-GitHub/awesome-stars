@@ -7162,5 +7162,11 @@
     "description": "A framework for building compiled Node.js add-ons in Rust via Node-API",
     "starred_at": "2023-07-18T12:30:48Z",
     "languages": "Rust"
+  },
+  {
+    "full_name": "nestjs/nest",
+    "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+    "starred_at": "2023-07-19T11:35:04Z",
+    "languages": "TypeScript"
   }
 ]
