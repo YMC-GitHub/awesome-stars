@@ -7168,5 +7168,17 @@
     "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
     "starred_at": "2023-07-19T11:35:04Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "easydiffusion/easydiffusion",
+    "description": "Easiest 1-click way to install and use Stable Diffusion on your computer. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
+    "starred_at": "2023-03-05T05:31:20Z",
+    "languages": "JavaScript"
+  },
+  {
+    "full_name": "dreamwhite/Chonky-itlwm-Build",
+    "description": "Intel Wi-Fi Drivers for macOS ",
+    "starred_at": "2022-12-23T01:00:21Z",
+    "languages": "Python"
   }
 ]
