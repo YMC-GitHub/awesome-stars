@@ -7180,5 +7180,11 @@
     "description": "Intel Wi-Fi Drivers for macOS ",
     "starred_at": "2022-12-23T01:00:21Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "OpenIntelWireless/IntelBluetoothFirmware",
+    "description": "Intel Bluetooth Kernel Extensions for macOS",
+    "starred_at": "2022-12-23T01:25:42Z",
+    "languages": "C++"
   }
 ]
