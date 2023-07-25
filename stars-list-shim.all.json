@@ -7186,5 +7186,11 @@
     "description": "Intel Bluetooth Kernel Extensions for macOS",
     "starred_at": "2022-12-23T01:25:42Z",
     "languages": "C++"
+  },
+  {
+    "full_name": "webview/webview",
+    "description": "Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)",
+    "starred_at": "2023-07-18T07:50:32Z",
+    "languages": "C"
   }
 ]
