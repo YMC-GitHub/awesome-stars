@@ -7210,5 +7210,11 @@
     "description": "Run Kubernetes locally",
     "starred_at": "2023-07-15T13:40:11Z",
     "languages": "Go"
+  },
+  {
+    "full_name": "canonical/microk8s",
+    "description": "MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.",
+    "starred_at": "2023-07-15T13:37:51Z",
+    "languages": "Python"
   }
 ]
