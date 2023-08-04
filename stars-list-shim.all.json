@@ -7216,5 +7216,11 @@
     "description": "MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.",
     "starred_at": "2023-07-15T13:37:51Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "vuejs/vitepress",
+    "description": "Vite & Vue powered static site generator.",
+    "starred_at": "2023-07-09T13:02:19Z",
+    "languages": "TypeScript"
   }
 ]
