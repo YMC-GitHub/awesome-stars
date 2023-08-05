@@ -7222,5 +7222,11 @@
     "description": "Vite & Vue powered static site generator.",
     "starred_at": "2023-07-09T13:02:19Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "jimmywarting/StreamSaver.js",
+    "description": "StreamSaver writes stream to the filesystem directly asynchronous",
+    "starred_at": "2022-12-01T03:57:01Z",
+    "languages": "JavaScript"
   }
 ]

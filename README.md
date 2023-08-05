@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-08-04 09:38:12&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-08-05 09:34:27&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -696,6 +696,8 @@
 - 2022-12-02 [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) - ❤️ Streaming torrent app for Mac, Windows, and Linux
 
 - 2022-12-01 [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
+
+- 2022-12-01 [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) - StreamSaver writes stream to the filesystem directly asynchronous
 
 - 2022-11-27 [sveltejs/kit](https://github.com/sveltejs/kit) - The fastest way to build Svelte apps
 
