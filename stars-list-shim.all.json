@@ -7228,5 +7228,11 @@
     "description": "StreamSaver writes stream to the filesystem directly asynchronous",
     "starred_at": "2022-12-01T03:57:01Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "sorayuki/obs-multi-rtmp",
+    "description": "OBS複数サイト同時配信プラグイン",
+    "starred_at": "2023-06-27T06:56:10Z",
+    "languages": "C++"
   }
 ]
