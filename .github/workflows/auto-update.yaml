@@ -62,7 +62,7 @@ jobs:
       - name: get time zone info
         run:  |
           date
-          TZ_TOUSE="/Asia/Shanghai";sudo ln -sf /usr/share/zoneinfo/$TZ_TOUSE /etc/localtime ;sudo echo "$TZ_TOUSE" > /etc/timezone;date -R | cut -d " " -f6;
+          TZ_TOUSE="/Asia/Shanghai";sudo ln -sf /usr/share/zoneinfo/$TZ_TOUSE /etc/localtime ;date -R | cut -d " " -f6;
 
       - name: sync git repo
         uses: actions/checkout@v3
