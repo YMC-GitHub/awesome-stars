@@ -201,7 +201,7 @@ async function main() {
 
     let fileopt = {
         dataLoc: `stars-list-shim.all.json`,
-        readmeLoc: `README.md`,
+        readmeLoc: `stars-list-table.md.md`,
     };
     let allstars;
     log(`[info] load data`);
@@ -269,9 +269,9 @@ async function main() {
         content = `${front}\n\n${content}`;
     }
 
-    textstream.init(`README.md`);
+    textstream.init(`stars-list-table.md.md`);
     await textstream.write(content);
-    log(`[info] out: README.md`);
+    log(`[info] out: stars-list-table.md.md`);
 }
 
 // @ymc/streamio
