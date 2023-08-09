@@ -167,3 +167,42 @@ https://github.com/dlavrenuek/test-workflow-if-condition/blob/master/.github/wor
 
 # Changes to be committed: vs Changes not staged for commit: vs Untracked files: vs Your branch is ahead of
 ```
+
+### set  schedule
+
+set github workflow schedule with beijing time +8 h
+
+```yaml
+  schedule:
+    # - cron: 30 * * * * # run per 30 min
+    # - cron: 0 8,12 * * * # run when 8:00 and 12:00 (utc)
+    # - cron: 0 4 * * * # run when 12:00 (beijing)
+    # - cron: 0 8 * * * # run when 0:00 (beijing)
+    # - cron: 0 0,4 * * * # run when 8:00 and 12:00 (beijing)
+    # - cron: 0 0,12 * * * # run when 8:00 and 20:00 (beijing)
+    # - cron: 0 0,4,12 * * * # run when 8:00,12:00,20:00 (beijing)
+    # - cron: 0 20 * * 0-5 #  runs at minute 0 of the 4th beijing hour from week 0 to 5
+    # - cron: 8 17,20 * * 1,3,5 #  runs at minute 8 of the 1th,20th beijing hour from week 1 ,week 3 , week 5
+    # - cron: 20/15 * * * * # runs every 15 minutes starting from minute 20 through 59 (minutes 20, 35, and 50)
+    # - cron: 8 0 8 * * # runs at 8:08 the 8th day of per month
+    # - cron: 8 0 25 * * # runs at 8:08 the 25th day of per month
+    - cron: 8 0 1/7 * * # runs every 7 day at 8:08 starting from the day?
+    - cron: 8 0 * * * # runs every day at 8:08 starting from the day?
+```
+
+value|description
+:----|:----
+30 * * * * | run per 30 min
+0 8,12 * * * | run when 8:00 and 12:00 (utc)
+0 4 * * * | run when 12:00 (beijing)
+0 8 * * * | run when 0:00 (beijing)
+0 0,4 * * * | run when 8:00 and 12:00 (beijing)
+0 0,12 * * * | run when 8:00 and 20:00 (beijing)
+0 0,4,12 * * * | run when 8:00,12:00,20:00 (beijing)
+0 20 * * 0-5 |  runs at minute 0 of the 4th beijing hour from week 0 to 5
+8 17,20 * * 1,3,5 |  runs at minute 8 of the 1th,20th beijing hour from week 1 ,week 3 , week 5
+20/15 * * * * | runs every 15 minutes starting from minute 20 through 59 (minutes 20, 35, and 50)
+8 0 8 * * | runs at 8:08 the 8th day of per month
+8 0 25 * * | runs at 8:08 the 25th day of per month
+8 0 1/7 * * | runs every 7 day at 8:08 starting from the day?
+8 0 * * * | runs every day at 8:08 starting from the day?
