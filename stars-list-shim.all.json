@@ -7240,5 +7240,11 @@
     "description": "The Swiss army knife of vanilla Hackintoshing",
     "starred_at": "2022-12-18T16:33:17Z",
     "languages": "Objective-C"
+  },
+  {
+    "full_name": "coredns/coredns",
+    "description": "CoreDNS is a DNS server that chains plugins",
+    "starred_at": "2023-07-31T02:16:16Z",
+    "languages": "Go"
   }
 ]
