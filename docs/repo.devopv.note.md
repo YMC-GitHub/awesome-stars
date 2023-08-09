@@ -133,6 +133,7 @@ changed=$(git status --porcelain | grep -E "^ M" | sed "s/ M //g" |grep -E ".vsc
 bin/cmt-changed.js --msg-head="chore(core): dbg gh action"
 bin/cmt-changed.js --msg-head="chore(core): set fetch-data enable"
 bin/cmt-changed.js --msg-head="chore(core): set update time"
+bin/cmt-changed.js --msg-head="chore(core): dbg os timezone"
 
 git add .vscode/settings.json ; git commit --file .changeset/msg.tmp.md ; git log --oneline -n 1
 git add .vscode/settings.json ;git commit -m "chore(core): del git bash terminal setting"; git log --oneline -n 1
