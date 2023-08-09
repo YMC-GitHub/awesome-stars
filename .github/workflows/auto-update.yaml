@@ -59,6 +59,11 @@ jobs:
 
     name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
     steps:
+      - name: get time zone info
+        run:  |
+          date
+          TZ_TOUSE="/Asia/Shanghai";ln -sf /usr/share/zoneinfo/$TZ_TOUSE /etc/localtime ;echo "$TZ_TOUSE" /etc/timezone;date -R | cut -d " " -f6;
+
       - name: sync git repo
         uses: actions/checkout@v3
 
