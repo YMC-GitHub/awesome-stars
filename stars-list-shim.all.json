@@ -7246,5 +7246,11 @@
     "description": "CoreDNS is a DNS server that chains plugins",
     "starred_at": "2023-07-31T02:16:16Z",
     "languages": "Go"
+  },
+  {
+    "full_name": "continue-revolution/sd-webui-segment-anything",
+    "description": "Segment Anything for Stable Diffusion WebUI",
+    "starred_at": "2023-05-04T02:01:56Z",
+    "languages": "Python"
   }
 ]
