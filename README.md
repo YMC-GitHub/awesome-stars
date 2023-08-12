@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-08-11 09:17:02&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-08-12 09:16:03&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -99,6 +99,8 @@
 
 ## TypeScript
 - 2023-07-19 [nestjs/nest](https://github.com/nestjs/nest) - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀
+
+- 2023-07-18 [cacjs/cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 
 - 2023-07-09 [vuejs/vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
 
