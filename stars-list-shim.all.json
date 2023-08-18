@@ -7258,5 +7258,11 @@
     "description": "Simple yet powerful framework for building command-line apps.",
     "starred_at": "2023-07-18T02:17:16Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "THUDM/ChatGLM-6B",
+    "description": "ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型",
+    "starred_at": "2023-06-01T15:36:04Z",
+    "languages": "Python"
   }
 ]
