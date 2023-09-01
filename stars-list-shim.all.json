@@ -7264,5 +7264,11 @@
     "description": "ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型",
     "starred_at": "2023-06-01T15:36:04Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "comfyanonymous/ComfyUI",
+    "description": "A powerful and modular stable diffusion GUI with a graph/nodes interface.",
+    "starred_at": "2023-08-28T13:22:34Z",
+    "languages": "Python"
   }
 ]
