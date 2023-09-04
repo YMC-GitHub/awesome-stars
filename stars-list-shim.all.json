@@ -7270,5 +7270,11 @@
     "description": "A powerful and modular stable diffusion GUI with a graph/nodes interface.",
     "starred_at": "2023-08-28T13:22:34Z",
     "languages": "Python"
+  },
+  {
+    "full_name": "WASasquatch/was-node-suite-comfyui",
+    "description": "An extensive node suite for ComfyUI with over 190 new nodes",
+    "starred_at": "2023-08-30T04:40:40Z",
+    "languages": "Python"
   }
 ]
