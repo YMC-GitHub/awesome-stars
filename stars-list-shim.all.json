@@ -7288,5 +7288,11 @@
     "description": "Multi- To Mono-repository merge",
     "starred_at": "2023-04-05T08:04:23Z",
     "languages": "CSS"
+  },
+  {
+    "full_name": "remy/nodemon",
+    "description": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development",
+    "starred_at": "2022-12-01T22:37:33Z",
+    "languages": "JavaScript"
   }
 ]

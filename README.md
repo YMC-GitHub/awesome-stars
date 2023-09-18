@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-09-17 09:25:03&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-09-18 09:20:16&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -711,6 +711,8 @@
 - 2022-12-04 [heroaku/TVboxo](https://github.com/heroaku/TVboxo) - 自用资源
 
 - 2022-12-02 [webtorrent/webtorrent-desktop](https://github.com/webtorrent/webtorrent-desktop) - ❤️ Streaming torrent app for Mac, Windows, and Linux
+
+- 2022-12-01 [remy/nodemon](https://github.com/remy/nodemon) - Monitor for any changes in your node.js application and automatically restart the server - perfect for development
 
 - 2022-12-01 [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
 
