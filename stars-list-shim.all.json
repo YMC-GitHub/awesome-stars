@@ -7294,5 +7294,11 @@
     "description": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development",
     "starred_at": "2022-12-01T22:37:33Z",
     "languages": "JavaScript"
+  },
+  {
+    "full_name": "Anjok07/ultimatevocalremovergui",
+    "description": " GUI for a Vocal Remover that uses Deep Neural Networks.",
+    "starred_at": "2023-05-10T05:38:05Z",
+    "languages": "Python"
   }
 ]
