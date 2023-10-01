@@ -7318,5 +7318,11 @@
     "description": "StreamFX is a plugin for OBS® Studio which adds many new effects, filters, sources, transitions and encoders! Be it 3D Transform, Blur, complex Masking, or even custom shaders, you'll find it all here.",
     "starred_at": "2023-06-27T04:10:11Z",
     "languages": "C++"
+  },
+  {
+    "full_name": "rvion/CushyStudio",
+    "description": "🛋 Next-Gen Generative Art Studio (+ typescript SDK) - based on ComfyUI",
+    "starred_at": "2023-08-29T00:59:15Z",
+    "languages": "TypeScript"
   }
 ]
