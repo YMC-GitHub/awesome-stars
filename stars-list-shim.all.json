@@ -7324,5 +7324,11 @@
     "description": "🛋 Next-Gen Generative Art Studio (+ typescript SDK) - based on ComfyUI",
     "starred_at": "2023-08-29T00:59:15Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "UX-Decoder/Segment-Everything-Everywhere-All-At-Once",
+    "description": "Official implementation of the paper \"Segment Everything Everywhere All at Once\"",
+    "starred_at": "2023-09-12T00:54:47Z",
+    "languages": "Python"
   }
 ]
