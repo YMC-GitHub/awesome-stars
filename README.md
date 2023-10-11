@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-10 09:20:41&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-11 09:20:24&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -89,6 +89,8 @@
 - 2023-05-24 [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN) - Workable implementation of "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold"
 
 - 2023-05-24 [OpenGVLab/DragGAN](https://github.com/OpenGVLab/DragGAN) - Unofficial Implementation of DragGAN - "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold" （DragGAN 全功能实现，在线Demo，本地部署试用，代码、模型已全部开源，支持Windows, macOS, Linux）
+
+- 2023-05-11 [ColinDuquesnoy/QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet) - A dark style sheet for QtWidgets application 
 
 - 2023-05-10 [flutydeer/audio-slicer](https://github.com/flutydeer/audio-slicer) - A simple GUI application that slices audio with silence detection
 

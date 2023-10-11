@@ -7342,5 +7342,11 @@
     "description": "Intel Wi-Fi Drivers for macOS",
     "starred_at": "2022-12-23T01:00:34Z",
     "languages": "C"
+  },
+  {
+    "full_name": "ColinDuquesnoy/QDarkStyleSheet",
+    "description": "A dark style sheet for QtWidgets application ",
+    "starred_at": "2023-05-11T08:35:05Z",
+    "languages": "Python"
   }
 ]
