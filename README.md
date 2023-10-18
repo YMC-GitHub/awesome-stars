@@ -10,17 +10,17 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-17 09:21:53&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-18 09:21:34&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
 
 ## table of content
 
+*  [Rust](#Rust)
 *  [TypeScript](#TypeScript)
 *  [Python](#Python)
 *  [Go](#Go)
-*  [Rust](#Rust)
 *  [C](#C)
 *  [QML](#QML)
 *  [C++](#C++)
@@ -55,6 +55,30 @@
 *  [Stylus](#Stylus)
 *  [Makefile](#Makefile)
 *  [Nginx](#Nginx)
+
+
+## Rust
+- 2023-10-17 [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
+
+- 2023-07-18 [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
+
+- 2023-07-18 [napi-rs/node-rs](https://github.com/napi-rs/node-rs) - Node.js bindings ❤️ Rust crates 
+
+- 2023-07-18 [rust-lang/rust-bindgen](https://github.com/rust-lang/rust-bindgen) - Automatically generates Rust FFI bindings to C (and some C++) libraries.
+
+- 2022-12-11 [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务
+
+- 2022-10-29 [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+
+- 2021-09-07 [cube-js/cube.js](https://github.com/cube-js/cube.js) - 📊  Cube — Headless Business Intelligence for Building Data Applications
+
+- 2021-09-07 [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
+
+- 2021-08-16 [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) -  A simple, cross-platform GUI automation module for Python and Rust.
+
+- 2019-04-29 [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
+
+
 
 
 ## TypeScript
@@ -591,28 +615,6 @@
 - 2019-06-19 [yeasy/docker_practice](https://github.com/yeasy/docker_practice) - Learn and understand Docker&Container technologies, with real DevOps practice!
 
 - 2018-09-11 [tianon/gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec
-
-
-
-
-## Rust
-- 2023-07-18 [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
-
-- 2023-07-18 [napi-rs/node-rs](https://github.com/napi-rs/node-rs) - Node.js bindings ❤️ Rust crates 
-
-- 2023-07-18 [rust-lang/rust-bindgen](https://github.com/rust-lang/rust-bindgen) - Automatically generates Rust FFI bindings to C (and some C++) libraries.
-
-- 2022-12-11 [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) - 阿里云盘 WebDAV 服务
-
-- 2022-10-29 [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
-
-- 2021-09-07 [cube-js/cube.js](https://github.com/cube-js/cube.js) - 📊  Cube — Headless Business Intelligence for Building Data Applications
-
-- 2021-09-07 [cube-js/cube](https://github.com/cube-js/cube) - 📊  Cube — The Semantic Layer for Building Data Applications
-
-- 2021-08-16 [autopilot-rs/autopy](https://github.com/autopilot-rs/autopy) -  A simple, cross-platform GUI automation module for Python and Rust.
-
-- 2019-04-29 [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
 
 
 

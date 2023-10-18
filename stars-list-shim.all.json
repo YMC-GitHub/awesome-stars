@@ -7360,5 +7360,11 @@
     "description": "@vitejs release scripts",
     "starred_at": "2023-10-12T13:46:59Z",
     "languages": "TypeScript"
+  },
+  {
+    "full_name": "vercel/turbo",
+    "description": "Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.",
+    "starred_at": "2023-10-17T10:27:41Z",
+    "languages": "Rust"
   }
 ]
