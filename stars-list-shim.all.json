@@ -7366,5 +7366,23 @@
     "description": "Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.",
     "starred_at": "2023-10-17T10:27:41Z",
     "languages": "Rust"
+  },
+  {
+    "full_name": "bevyengine/bevy",
+    "description": "A refreshingly simple data-driven game engine built in Rust",
+    "starred_at": "2023-10-18T15:17:59Z",
+    "languages": "Rust"
+  },
+  {
+    "full_name": "vercel/vercel",
+    "description": "Develop. Preview. Ship.",
+    "starred_at": "2023-10-17T10:26:23Z",
+    "languages": "TypeScript"
+  },
+  {
+    "full_name": "Doubleshotjs/doubleshot",
+    "description": "☕ A split node backend and electron main process.",
+    "starred_at": "2023-10-17T11:28:41Z",
+    "languages": "TypeScript"
   }
 ]

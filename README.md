@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-18 09:21:34&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-19 09:21:08&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -58,6 +58,8 @@
 
 
 ## Rust
+- 2023-10-18 [bevyengine/bevy](https://github.com/bevyengine/bevy) - A refreshingly simple data-driven game engine built in Rust
+
 - 2023-10-17 [vercel/turbo](https://github.com/vercel/turbo) - Incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust – including Turbopack and Turborepo.
 
 - 2023-07-18 [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) - A framework for building compiled Node.js add-ons in Rust via Node-API
@@ -82,6 +84,10 @@
 
 
 ## TypeScript
+- 2023-10-17 [Doubleshotjs/doubleshot](https://github.com/Doubleshotjs/doubleshot) - ☕ A split node backend and electron main process.
+
+- 2023-10-17 [vercel/vercel](https://github.com/vercel/vercel) - Develop. Preview. Ship.
+
 - 2023-10-12 [vitejs/release-scripts](https://github.com/vitejs/release-scripts) - @vitejs release scripts
 
 - 2023-08-29 [rvion/CushyStudio](https://github.com/rvion/CushyStudio) - 🛋 Next-Gen Generative Art Studio (+ typescript SDK) - based on ComfyUI
