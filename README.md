@@ -10,7 +10,7 @@
 <!-- colorful line:e -->
 
   <a href="https://github.com/YMC-GitHub">
-    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-20 09:20:59&color=ff69b4&style=flat-square" />
+    <img alt="update time" src="https://img.shields.io/static/v1?label=auto-update&message=2023-10-21 09:18:59&color=ff69b4&style=flat-square" />
   </a>
 </div><br>
 
@@ -85,6 +85,8 @@
 
 ## TypeScript
 - 2023-10-17 [Doubleshotjs/doubleshot](https://github.com/Doubleshotjs/doubleshot) - ☕ A split node backend and electron main process.
+
+- 2023-10-17 [ArcherGu/fast-vite-nestjs-electron](https://github.com/ArcherGu/fast-vite-nestjs-electron) - Vite + Electron + Nestjs with esbuild, crazy fast! ⚡
 
 - 2023-10-17 [vercel/vercel](https://github.com/vercel/vercel) - Develop. Preview. Ship.
 
